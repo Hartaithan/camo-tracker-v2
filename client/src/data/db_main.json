@@ -1,0 +1,816 @@
+[
+	{
+		"id": 1,
+		"name": "Assault Rifles",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "XM4",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/1_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "AK-47",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/1_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "Krig 6",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/1_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "QBZ-83",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/1_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 5,
+				"name": "FFAR 1",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/1_5.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 6,
+				"name": "Groza",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/1_6.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 7,
+				"name": "FARA 83",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/1_7.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 8,
+				"name": "C58",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/1_8.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Submachine Guns",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "MP5",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/2_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "Milano 821",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/2_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "AK-74u",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/2_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "KSP 45",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/2_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 5,
+				"name": "Bullfrog",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/2_5.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 6,
+				"name": "MAC-10",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/2_6.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 7,
+				"name": "LC10",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/2_7.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 8,
+				"name": "PPSH-41",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/2_8.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 9,
+				"name": "OTs 9",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/2_9.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Tactical Rifles",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "Type 63",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/3_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "M16",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/3_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "AUG",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/3_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "DMR 14",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/3_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 5,
+				"name": "CARV.2",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/3_5.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Light Machine Guns",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "Stoner 63",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/4_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "RPD",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/4_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "M60",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/4_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "MG 82",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/4_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Sniper Rifles",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "Pellington 703",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/5_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "LW3 - Tundra",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/5_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "M82",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/5_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "ZRG 20mm",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/5_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 5,
+				"name": "Swiss K31",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/5_5.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Pistols",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "1911",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/6_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "Magnum",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/6_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "Diamatti",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/6_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "AMP63",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/6_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Launchers",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "RPG",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/7_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "Cigma 2",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/7_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Shotguns",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "Hauer 77",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/8_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "Gallo SA12",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/8_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "Streetsweeper",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/8_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Melee",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "Knife",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/9_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "Sledgehammer",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/9_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "Wakizashi",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/9_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "E-Tool",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/9_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 5,
+				"name": "Machete",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/9_5.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 6,
+				"name": "Baseball Bat",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/9_6.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 7,
+				"name": "Mace",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/9_7.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Special",
+		"completed": {
+			"dm": false,
+			"da": false
+		},
+		"weapons": [
+			{
+				"id": 1,
+				"name": "M79",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": false,
+				"img": "../img/w/10_1.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 2,
+				"name": "R1 Shadowhunter",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/10_2.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 3,
+				"name": "Ballistic Knife",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/10_3.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			},
+			{
+				"id": 4,
+				"name": "Nail Gun",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/10_4.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+@import "variables";
+@import "colors";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	color: $color-text;
+	-ms-overflow-style: none;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	background: $color-bg;
+}
+
+.tracker {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	height: 100vh;
+	&_container {
+		height: 100%;
+		width: 100%;
+		margin-left: 300px;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+}
+
+.Collapsible {
+	height: fit-content;
+	line-height: 25px;
+	padding: none !important;
+	margin: none !important;
+}
+
+// MOBILE
+@media (min-width: 300px) and (max-width: 767.99px) {
+	.tracker {
+		&_container {
+			margin-left: 0px !important;
+			width: 100% !important;
+		}
+	}
+}
+
+// TABLETS PORTRAIT
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.chart-label {
+		font-size: 0.2vh !important;
+	}
+	.chart-number {
+		font-size: 0.8vh !important;
+	}
+	.tracker {
+		&_container {
+			margin-left: 0px !important;
+			width: 100% !important;
+		}
+	}
+}
+
+// TABLET LANDSCAPE
+@media (min-width: 992px) and (max-width: 1199.99px) {
+}
+
+// NOTEBOOKS
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+}
+
+// 4K
+@media (min-width: 1921px) {
+}
