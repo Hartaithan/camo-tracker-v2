@@ -2,97 +2,97 @@
 @import "colors";
 
 .tracker {
-    &_header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-direction: row;
-		height: 50px;
-		&_menu {
-			height: 50px;
-			width: 50px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			cursor: pointer;
-			svg {
-				height: 40%;
-				width: 40%;
-				fill: $color-text;
-			}
-		}
-		&_title {
-			display: flex;
-			flex-direction: row;
-			height: auto;
-			width: auto;
-			&_text {
-				white-space: nowrap;
-			}
-			&_check {
-				height: 19px;
-				-webkit-transition: all 0.3s ease-out;
-				-moz-transition: all 0.3s ease-out;
-				-o-transition: all 0.3s ease-out;
-				transition: all 0.3s ease-out;
-				svg {
-					cursor: pointer;
-					margin-left: 5px;
-					width: 19px;
-					fill: $color-text;
-				}
-			}
-		}
-		&_login {
-			position: absolute;
-			height: auto;
-			width: auto;
-			right: 60px;
-            p {
-                cursor: pointer;
-                text-decoration: underline;
-            }
-		}
-		&_settings {
-			height: 50px;
-			width: 50px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			cursor: pointer;
-			svg {
-				height: 40%;
-				width: 40%;
-				fill: $color-text;
-			}
-		}
-	}
+  &_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    &_menu {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      svg {
+        height: 40%;
+        width: 40%;
+        fill: $color-text;
+      }
+    }
+    &_title {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      width: auto;
+      &_text {
+        white-space: nowrap;
+      }
+      &_check {
+        height: 19px;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        svg {
+          cursor: pointer;
+          margin-left: 5px;
+          width: 19px;
+          fill: $color-text;
+        }
+      }
+    }
+    &_login {
+      position: absolute;
+      height: auto;
+      width: auto;
+      right: 60px;
+      p {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+    &_settings {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      svg {
+        height: 40%;
+        width: 40%;
+        fill: $color-text;
+      }
+    }
+  }
 }
 
 // MOBILE
 @media (min-width: 300px) and (max-width: 767.99px) {
-    .tracker {
-		&_header {
-			&_title {
-				&_check {
-					opacity: 1 !important;
-				}
-			}
-		}
+  .tracker {
+    &_header {
+      &_title {
+        &_check {
+          opacity: 1 !important;
+        }
+      }
     }
+  }
 }
 
 // TABLET PORTRAIT
 @media (min-width: 768px) and (max-width: 991.99px) {
-    .tracker {
-		&_header {
-			&_title {
-				&_check {
-					opacity: 1 !important;
-				}
-			}
-		}
+  .tracker {
+    &_header {
+      &_title {
+        &_check {
+          opacity: 1 !important;
+        }
+      }
     }
+  }
 }
 
 // TABLET LANDSCAPE

@@ -2,201 +2,201 @@
 @import "colors";
 
 .tracker {
-	&_master {
-		display: flex;
-		flex-direction: column;
-		padding: 0 1.2vh;
-		box-sizing: border-box;
-		height: calc(100% - 50px);
-		&_container {
-			height: auto;
-			&_progress {
-				height: auto;
-				padding-top: 1.2vh;
-				&_text {
-					cursor: pointer;
-					height: auto;
-					display: flex;
-					justify-content: space-between;
-					&_name {
-						width: auto;
-					}
-					&_percentage {
-						width: auto;
-					}
-				}
-				&_bar {
-					margin-top: 0.5vh;
-					height: 5px;
-					background: $color-noncompleted;
-					border: 1px solid $color-border;
-					&_yellow {
-						background: $color-completed;
-						-webkit-transition: all 0.3s ease-out;
-						-moz-transition: all 0.3s ease-out;
-						-o-transition: all 0.3s ease-out;
-						transition: all 0.3s ease-out;
-					}
-				}
-			}
-			&_weaponlist {
-				display: grid;
-				width: 100%;
-				padding-top: 1vh;
-				justify-content: flex-start;
-				grid-gap: 1vh;
-				&_weaponcontainer {
-					height: 100px;
-					width: 200px;
-					position: relative;
-					background: $color-el;
-					border: 1px solid $color-border;
-					box-sizing: border-box;
-					&_card {
-						z-index: 5;
-						display: flex;
-						justify-content: flex-start;
-						align-items: flex-end;
-						left: 5px;
-						bottom: 5px;
-						font-size: 14px;
-						position: absolute;
-					}
-					&_imgcontainer {
-						height: 100%;
-						width: 100%;
-						box-sizing: border-box;
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						position: absolute;
-						font-size: 6vh;
-						font-weight: 500;
-						img {
-							display: block;
-							max-width: 200px;
-							max-height: 100px;
-							width: auto;
-							height: auto;
-							padding: 20px;
-							opacity: 0.7;
-							box-sizing: border-box;
-						}
-					}
-					&_yellowbar {
-						height: 4px;
-						width: 0%;
-						box-sizing: border-box;
-						background: $color-completed;
-						border-top: 1px solid $color-border;
-						position: absolute;
-						z-index: 10;
-						bottom: 0;
-						-webkit-transition: all 0.3s ease-out;
-						-moz-transition: all 0.3s ease-out;
-						-o-transition: all 0.3s ease-out;
-						transition: all 0.3s ease-out;
-					}
-					&_greybar {
-						height: 4px;
-						width: 100%;
-						box-sizing: border-box;
-						background: $color-noncompleted;
-						border-top: 1px solid $color-border;
-						position: absolute;
-						bottom: 0;
-					}
-					&_dlc {
-						width: 0;
-						height: 0;
-						border-top: 20px solid $color-text;
-						border-bottom: 20px solid transparent;
-						border-left: 20px solid transparent;
-						border-right: 20px solid $color-text;
-						float: right;
-						&_text {
-							height: 100%;
-							color: $color-el;
-							font-weight: bold;
-							position: relative;
-							font-size: 10px;
-							top: -22px;
-							right: -9px;
-							transform: rotate(45deg);
-						}
-					}
-				}
-			}
-		}
-		&_container:last-child {
-			padding-bottom: 1.2vh;
-		}
-	}
+  &_master {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.2vh;
+    box-sizing: border-box;
+    height: calc(100% - 50px);
+    &_container {
+      height: auto;
+      &_progress {
+        height: auto;
+        padding-top: 1.2vh;
+        &_text {
+          cursor: pointer;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          &_name {
+            width: auto;
+          }
+          &_percentage {
+            width: auto;
+          }
+        }
+        &_bar {
+          margin-top: 0.5vh;
+          height: 5px;
+          background: $color-noncompleted;
+          border: 1px solid $color-border;
+          &_yellow {
+            background: $color-completed;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+          }
+        }
+      }
+      &_weaponlist {
+        display: grid;
+        width: 100%;
+        padding-top: 1vh;
+        justify-content: flex-start;
+        grid-gap: 1vh;
+        &_weaponcontainer {
+          height: 100px;
+          width: 200px;
+          position: relative;
+          background: $color-el;
+          border: 1px solid $color-border;
+          box-sizing: border-box;
+          &_card {
+            z-index: 5;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            left: 5px;
+            bottom: 5px;
+            font-size: 14px;
+            position: absolute;
+          }
+          &_imgcontainer {
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            font-size: 6vh;
+            font-weight: 500;
+            img {
+              display: block;
+              max-width: 200px;
+              max-height: 100px;
+              width: auto;
+              height: auto;
+              padding: 20px;
+              opacity: 0.7;
+              box-sizing: border-box;
+            }
+          }
+          &_yellowbar {
+            height: 4px;
+            width: 0%;
+            box-sizing: border-box;
+            background: $color-completed;
+            border-top: 1px solid $color-border;
+            position: absolute;
+            z-index: 10;
+            bottom: 0;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+          }
+          &_greybar {
+            height: 4px;
+            width: 100%;
+            box-sizing: border-box;
+            background: $color-noncompleted;
+            border-top: 1px solid $color-border;
+            position: absolute;
+            bottom: 0;
+          }
+          &_dlc {
+            width: 0;
+            height: 0;
+            border-top: 20px solid $color-text;
+            border-bottom: 20px solid transparent;
+            border-left: 20px solid transparent;
+            border-right: 20px solid $color-text;
+            float: right;
+            &_text {
+              height: 100%;
+              color: $color-el;
+              font-weight: bold;
+              position: relative;
+              font-size: 10px;
+              top: -22px;
+              right: -9px;
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+    }
+    &_container:last-child {
+      padding-bottom: 1.2vh;
+    }
+  }
 }
 
 // MOBILE
 @media (min-width: 300px) and (max-width: 767.99px) {
-    .tracker {
-		&_master {
-			&_container {
-				&_weaponlist {
-					display: grid;
-					grid-template-columns: 1fr !important;
-					width: 100%;
-					padding-top: 1vh;
-					justify-content: flex-start;
-					grid-gap: 1vh;
-					&_weaponcontainer {
-						width: 100%;
-						height: 80px;
-						&_card {
-							font-size: 2vh !important;
-						}
-						&_imgcontainer {
-							img {
-								max-width: 100%;
-								max-height: 80px;
-								padding: 15px;
-							}
-						}
-					}
-				}
-			}
-		}
+  .tracker {
+    &_master {
+      &_container {
+        &_weaponlist {
+          display: grid;
+          grid-template-columns: 1fr !important;
+          width: 100%;
+          padding-top: 1vh;
+          justify-content: flex-start;
+          grid-gap: 1vh;
+          &_weaponcontainer {
+            width: 100%;
+            height: 80px;
+            &_card {
+              font-size: 2vh !important;
+            }
+            &_imgcontainer {
+              img {
+                max-width: 100%;
+                max-height: 80px;
+                padding: 15px;
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }
 
 // TABLET PORTRAIT
 @media (min-width: 768px) and (max-width: 991.99px) {
-    .tracker {
-		&_master {
-			&_container {
-				&_weaponlist {
-					display: grid;
-					grid-template-columns: 1fr 1fr !important;
-					width: 100%;
-					padding-top: 1vh;
-					justify-content: flex-start;
-					grid-gap: 1vh;
-					&_weaponcontainer {
-						width: 100%;
-						height: 100px;
-						&_card {
-							font-size: 2vh !important;
-							bottom: 10px;
-						}
-						&_imgcontainer {
-							img {
-								max-width: 100%;
-								max-height: 100px;
-								padding: 15px;
-							}
-						}
-					}
-				}
-			}
-		}
+  .tracker {
+    &_master {
+      &_container {
+        &_weaponlist {
+          display: grid;
+          grid-template-columns: 1fr 1fr !important;
+          width: 100%;
+          padding-top: 1vh;
+          justify-content: flex-start;
+          grid-gap: 1vh;
+          &_weaponcontainer {
+            width: 100%;
+            height: 100px;
+            &_card {
+              font-size: 2vh !important;
+              bottom: 10px;
+            }
+            &_imgcontainer {
+              img {
+                max-width: 100%;
+                max-height: 100px;
+                padding: 15px;
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }
 
 // TABLET LANDSCAPE
