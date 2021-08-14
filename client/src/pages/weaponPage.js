@@ -29,9 +29,10 @@ function WeaponPage() {
 	};
 
 	function getMission(id_cat, id_weap, id_camo_cat, id_camo) {
-		const [first, second] = mission[id_cat - 1].weapons[id_weap - 1].camos[id_camo_cat - 1].mission.split("_");
 		const goal = mission[id_cat - 1].weapons[id_weap - 1].camos[id_camo_cat - 1].goals[id_camo];
-		return `${first}${goal}${second}`;
+		const name = mission[id_cat - 1].weapons[id_weap - 1].name;
+		const getMission = mission[id_cat - 1].weapons[id_weap - 1].camos[id_camo_cat - 1].mission.replace(/_goal/i, goal).replace(/_name/i, name);
+		return getMission;
 	}
 
 	function getMasteryMission(id_cat, id_weap, id_camo_cat, id_camo) {
