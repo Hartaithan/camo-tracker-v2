@@ -28,16 +28,17 @@ function WeaponPage() {
 		},
 	};
 
-	function getMission(id_cat, id_weap, id_camo_cat, id_camo) {
+	function getMission(id_camo_cat, id_camo) {
 		const goal = mission[id_cat - 1].weapons[id_weap - 1].camos[id_camo_cat - 1].goals[id_camo];
 		const name = mission[id_cat - 1].weapons[id_weap - 1].name;
 		const getMission = mission[id_cat - 1].weapons[id_weap - 1].camos[id_camo_cat - 1].mission.replace(/_goal/i, goal).replace(/_name/i, name);
 		return getMission;
 	}
 
-	function getMasteryMission(id_cat, id_weap, id_camo_cat, id_camo) {
-		const message = mission[id_cat - 1].weapons[id_weap - 1].camos[id_camo_cat - 1].mission[id_camo].split("_");
-		return message;
+	function getMasteryMission(id_camo_cat, id_camo) {
+		const name = mission[id_cat - 1].weapons[id_weap - 1].name;
+		const getMasteryMission = mission[id_cat - 1].weapons[id_weap - 1].camos[id_camo_cat - 1].mission[id_camo].replace(/_name/i, name);
+		return getMasteryMission;
 	}
 
 	function calcPerc(id_camocat) {
@@ -145,7 +146,7 @@ function WeaponPage() {
 								{item.camos.map((camo, index) => {
 									if (camo.id === 36 || camo.id === 37 || camo.id === 38) {
 										return (
-											<div className={`tracker_weapon_wrapper_container_camocontainer_camo tracker_weapon_wrapper_container_camocontainer_master`} data-title={getMasteryMission(id_cat, id_weap, item.id, index)} key={camo.id}>
+											<div className={`tracker_weapon_wrapper_container_camocontainer_camo tracker_weapon_wrapper_container_camocontainer_master`} data-title={getMasteryMission(item.id, index)} key={camo.id}>
 												<div className="tracker_weapon_wrapper_container_camocontainer_camo_lock" style={{ opacity: checkMastery(camo.id) }}>
 													<svg viewBox="-64 0 512 512" xmlns="http://www.w3.org/2000/svg">
 														<path d="m336 192h-16v-64c0-70.59375-57.40625-128-128-128s-128 57.40625-128 128v64h-16c-26.453125 0-48 21.523438-48 48v224c0 26.476562 21.546875 48 48 48h288c26.453125 0 48-21.523438 48-48v-224c0-26.476562-21.546875-48-48-48zm-229.332031-64c0-47.0625 38.269531-85.332031 85.332031-85.332031s85.332031 38.269531 85.332031 85.332031v64h-170.664062zm0 0" />
@@ -168,7 +169,7 @@ function WeaponPage() {
 													})
 												}
 												key={camo.id}
-												data-title={getMission(id_cat, id_weap, item.id, index)}
+												data-title={getMission(item.id, index)}
 											>
 												<div
 													className="tracker_weapon_wrapper_container_camocontainer_camo_lock"
