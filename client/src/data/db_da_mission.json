@@ -426,6 +426,59 @@
 						"mission": ["Unlock 35 Zombies Camos for the C58", "Unlock Gold Camo for 5 Assault Rifles in Zombies", "Unlock Diamond Camo for all Weapons Classes in Zombies"]
 					}
 				]
+			},
+			{
+				"id": 9,
+				"name": "EM2",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Grunge",
+						"mission": "Get _ kills with the EM2 in Zombies",
+						"goals": [50, 250, 750, 1500, 2500]
+					},
+					{
+						"id": 2,
+						"name": "Liquid",
+						"mission": "Get _ Critical Hit Kills with the EM2 in Zombies",
+						"goals": [50, 250, 750, 1500, 2500]
+					},
+					{
+						"id": 3,
+						"name": "Brushstroke",
+						"mission": "Get _ Kills with the EM2 when it's Pack-A-Punched in Zombies",
+						"goals": [50, 250, 750, 1500, 2500]
+					},
+					{
+						"id": 4,
+						"name": "Vintage",
+						"mission": "Get _ Special or Elite Eliminations with the EM2 in Zombies (Bosses count as 3 Eliminations)",
+						"goals": [3, 6, 9, 12, 15]
+					},
+					{
+						"id": 5,
+						"name": "Fauna",
+						"mission": "Get 10 kills rapidly _ with the EM2 in Zombies",
+						"goals": [2, 4, 6, 8, 10]
+					},
+					{
+						"id": 6,
+						"name": "Topography",
+						"mission": "Get 3 or more Critical Hit Kills rapidly with the EM2 _ times in Zombies",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 7,
+						"name": "Infection",
+						"mission": "Get 20 or more consecutive Kills with the EM2 without getting hit _ times in Zombies",
+						"goals": [2, 4, 6, 8, 10]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Zombies Camos for the EM2", "Unlock Gold Camo for 5 Assault Rifles in Zombies", "Unlock Diamond Camo for all Weapons Classes in Zombies"]
+					}
+				]
 			}
 		]
 	},
@@ -907,6 +960,59 @@
 						"id": 8,
 						"name": "Mastery",
 						"mission": ["Unlock 35 Zombies Camos for the OTs 9", "Unlock Gold Camo for 5 SMGs in Zombies", "Unlock Diamond Camo for all Weapons Classes in Zombies"]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"name": "TEC-9",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Grunge",
+						"mission": "Get _ kills with the TEC-9 in Zombies",
+						"goals": [50, 250, 750, 1500, 2500]
+					},
+					{
+						"id": 2,
+						"name": "Liquid",
+						"mission": "Get _ Critical Hit Kills with the TEC-9 in Zombies",
+						"goals": [50, 250, 750, 1500, 2500]
+					},
+					{
+						"id": 3,
+						"name": "Brushstroke",
+						"mission": "Get _ Kills with the TEC-9 when it's Pack-A-Punched in Zombies",
+						"goals": [50, 250, 750, 1500, 2500]
+					},
+					{
+						"id": 4,
+						"name": "Vintage",
+						"mission": "Get _ Special or Elite Eliminations with the TEC-9 in Zombies (Bosses count as 3 Eliminations)",
+						"goals": [3, 6, 9, 12, 15]
+					},
+					{
+						"id": 5,
+						"name": "Fauna",
+						"mission": "Get 10 kills rapidly _ with the TEC-9 in Zombies",
+						"goals": [2, 4, 6, 8, 10]
+					},
+					{
+						"id": 6,
+						"name": "Topography",
+						"mission": "Get 3 or more Critical Hit Kills rapidly with the TEC-9 _ times in Zombies",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 7,
+						"name": "Infection",
+						"mission": "Get 20 or more consecutive Kills with the TEC-9 without getting hit _ times in Zombies",
+						"goals": [2, 4, 6, 8, 10]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Zombies Camos for the TEC-9", "Unlock Gold Camo for 5 SMGs in Zombies", "Unlock Diamond Camo for all Weapons Classes in Zombies"]
 					}
 				]
 			}
@@ -2539,6 +2645,59 @@
 						"id": 8,
 						"name": "Mastery",
 						"mission": ["Unlock 35 Zombies Camos for the Mace", "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies", "Unlock Diamond Camo for all Weapons Classes in Zombies"]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"name": "Cane",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Grunge",
+						"mission": "Get _ kills with the Cane in Zombies",
+						"goals": [50, 125, 250, 500, 750]
+					},
+					{
+						"id": 2,
+						"name": "Liquid",
+						"mission": "Get _ Melee Kills with the Cane against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+						"goals": [10, 20, 30, 40, 50]
+					},
+					{
+						"id": 3,
+						"name": "Brushstroke",
+						"mission": "Get _ Kills with the Cane when it's Pack-A-Punched in Zombies",
+						"goals": [50, 125, 250, 500, 750]
+					},
+					{
+						"id": 4,
+						"name": "Vintage",
+						"mission": "Get _ Kills with the Cane against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+						"goals": [3, 6, 9, 12, 15]
+					},
+					{
+						"id": 5,
+						"name": "Fauna",
+						"mission": "Get _ Special or Elite Eliminations with the Cane in Zombies (Bosses count as 3 Eliminations)",
+						"goals": [2, 4, 6, 8, 10]
+					},
+					{
+						"id": 6,
+						"name": "Topography",
+						"mission": "Get 10 kills rapidly _ with the Cane in Zombies",
+						"goals": [2, 4, 6, 8, 10]
+					},
+					{
+						"id": 7,
+						"name": "Infection",
+						"mission": "Get 20 or more consecutive Kills with the Cane without getting hit _ times in Zombies",
+						"goals": [2, 4, 6, 8, 10]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Zombies Camos for the Cane", "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies", "Unlock Diamond Camo for all Weapons Classes in Zombies"]
 					}
 				]
 			}

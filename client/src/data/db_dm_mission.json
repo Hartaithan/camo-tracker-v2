@@ -426,6 +426,59 @@
 						"mission": ["Unlock 35 Multiplayer Camos for the C58", "Unlock Gold Camo for 5 Assault Rifles in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
 					}
 				]
+			},
+			{
+				"id": 9,
+				"name": "EM2",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Spray",
+						"mission": "Get _ eliminations with the EM2 in Multiplayer",
+						"goals": [25, 50, 100, 200, 300]
+					},
+					{
+						"id": 2,
+						"name": "Stripes",
+						"mission": "Get _ Headshot medals with the EM2 in Multiplayer",
+						"goals": [10, 25, 50, 75, 100]
+					},
+					{
+						"id": 3,
+						"name": "Classic",
+						"mission": "Get 5 kills without dying _ times with all kills coming from the EM2 in Multiplayer",
+						"goals": [3, 5, 10, 15, 20]
+					},
+					{
+						"id": 4,
+						"name": "Geometric",
+						"mission": "Get _ Longshot medals with the EM2 in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 5,
+						"name": "Flora",
+						"mission": "Kill _ enemies detected, stunned, or blinded, by your Scorestreaks, Equipment, or Field Upgrades in Multiplayer",
+						"goals": [5, 15, 30, 50, 75]
+					},
+					{
+						"id": 6,
+						"name": "Science",
+						"mission": "Shoot and kill _ enemies taking cover from you in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 7,
+						"name": "Psychedelic",
+						"mission": "Kill 2 or more enemies rapidly _ times in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Multiplayer Camos for the EM2", "Unlock Gold Camo for 5 Assault Rifles in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
+					}
+				]
 			}
 		]
 	},
@@ -907,6 +960,59 @@
 						"id": 8,
 						"name": "Mastery",
 						"mission": ["Unlock 35 Multiplayer Camos for the OTs 9", "Unlock Gold Camo for 5 SMGs in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"name": "TEC-9",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Spray",
+						"mission": "Get _ eliminations with the TEC-9 in Multiplayer",
+						"goals": [25, 50, 100, 200, 300]
+					},
+					{
+						"id": 2,
+						"name": "Stripes",
+						"mission": "Get _ Headshot medals with the TEC-9 in Multiplayer",
+						"goals": [10, 20, 30, 50, 75]
+					},
+					{
+						"id": 3,
+						"name": "Classic",
+						"mission": "Get 5 kills without dying _ times with all kills coming from the TEC-9 in Multiplayer",
+						"goals": [3, 5, 10, 15, 20]
+					},
+					{
+						"id": 4,
+						"name": "Geometric",
+						"mission": "Get _ Longshot medals with the TEC-9 in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 5,
+						"name": "Flora",
+						"mission": "Kill _ enemies detected, stunned, or blinded, by your Scorestreaks, Equipment, or Field Upgrades in Multiplayer",
+						"goals": [5, 15, 30, 50, 75]
+					},
+					{
+						"id": 6,
+						"name": "Science",
+						"mission": "Kill _ enemies at point blank range in Multiplayer",
+						"goals": [5, 15, 30, 50, 75]
+					},
+					{
+						"id": 7,
+						"name": "Psychedelic",
+						"mission": "Kill 2 or more enemies rapidly _ times in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Multiplayer Camos for the TEC-9", "Unlock Gold Camo for 5 SMGs in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
 					}
 				]
 			}
@@ -2539,6 +2645,59 @@
 						"id": 8,
 						"name": "Mastery",
 						"mission": ["Unlock 35 Multiplayer Camos for the Mace", "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"name": "Cane",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Spray",
+						"mission": "Kill _ enemies with the Cane in Multiplayer",
+						"goals": [5, 10, 25, 50, 75]
+					},
+					{
+						"id": 2,
+						"name": "Stripes",
+						"mission": "Get _ backstabber medals (kill from behind) in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 3,
+						"name": "Classic",
+						"mission": "Execute _ Finishing Moves in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 4,
+						"name": "Geometric",
+						"mission": "Kill _ enemies while injured in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 5,
+						"name": "Flora",
+						"mission": "Get _ kills while sliding in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 6,
+						"name": "Science",
+						"mission": "Get _ kills with the Cane against enemies disoriented by your smoke, flash or stun grenades in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 7,
+						"name": "Psychedelic",
+						"mission": "Kill 2 or more enemies rapidly _ times in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Multiplayer Camos for the Cane", "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
 					}
 				]
 			}
