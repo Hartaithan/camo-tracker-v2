@@ -41,6 +41,8 @@ const appReducer = (state = initialState, action) => {
 			};
 		case "TOGGLE_SETTINGS":
 			return { ...state, settings: !state.settings };
+		case "LOG_OUT":
+			return { ...state, isOpen: false };
 		default:
 			return state;
 	}
