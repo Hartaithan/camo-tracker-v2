@@ -104,19 +104,19 @@ function MasterPage() {
 						}}
 					>
 						{items.weapons.map((weapon) => (
-							<div className="tracker_master_container_weaponlist_weaponcontainer" key={weapon.id}>
-								{weapon.dlc && (
-									<div className="tracker_master_container_weaponlist_weaponcontainer_dlc">
-										<div className="tracker_master_container_weaponlist_weaponcontainer_dlc_text">DLC</div>
-									</div>
-								)}
-								<Link className="tracker_master_container_weaponlist_weaponcontainer_card" to={"/weapon/" + id_mast + "_" + items.id + "_" + weapon.id}>
-									{weapon.name.toUpperCase()}
-								</Link>
-								<div className="tracker_master_container_weaponlist_weaponcontainer_yellowbar" style={{ width: calcPercWeap(items.id, weapon.id) }}></div>
-								<div className="tracker_master_container_weaponlist_weaponcontainer_greybar"></div>
-								<div className="tracker_master_container_weaponlist_weaponcontainer_imgcontainer">{weapon.img !== null ? <img src={"camo-tracker/" + weapon.img} alt="weapon_img"></img> : "?"}</div>
-							</div>
+							<Link to={"/weapon/" + id_mast + "_" + items.id + "_" + weapon.id}>
+								<div className="tracker_master_container_weaponlist_weaponcontainer" key={weapon.id}>
+									{weapon.dlc && (
+										<div className="tracker_master_container_weaponlist_weaponcontainer_dlc">
+											<div className="tracker_master_container_weaponlist_weaponcontainer_dlc_text">DLC</div>
+										</div>
+									)}
+									<p className="tracker_master_container_weaponlist_weaponcontainer_card">{weapon.name.toUpperCase()}</p>
+									<div className="tracker_master_container_weaponlist_weaponcontainer_yellowbar" style={{ width: calcPercWeap(items.id, weapon.id) }}></div>
+									<div className="tracker_master_container_weaponlist_weaponcontainer_greybar"></div>
+									<div className="tracker_master_container_weaponlist_weaponcontainer_imgcontainer">{weapon.img !== null ? <img src={"camo-tracker/" + weapon.img} alt="weapon_img"></img> : "?"}</div>
+								</div>
+							</Link>
 						))}
 					</div>
 				</Collapsible>
