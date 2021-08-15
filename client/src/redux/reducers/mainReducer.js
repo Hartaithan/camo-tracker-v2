@@ -82,7 +82,7 @@ const mainReducer = (state = initialState, action) => {
 					Array.prototype.splice.apply(currentArray, [30, 5].concat(completed));
 					break;
 				default:
-					console.log("default");
+					console.info("TOGGLE_CAMO_CATEG default case");
 			}
 			// CHANGING WEAPON ON COMPLETE IF ALL CAMOS TRUE
 			if (currentArray.filter(Boolean).length === currentArray.length) {
@@ -116,7 +116,6 @@ const mainReducer = (state = initialState, action) => {
 				if (categ.weapons.length > state[index].weapons.length) {
 					const numOfNewWeapons = categ.weapons.length - state[index].weapons.length;
 					const newWeapons = categ.weapons.slice(-numOfNewWeapons);
-					console.log(`newWeapons ${index + 1}`, newWeapons);
 					state[index].weapons = state[index].weapons.concat(newWeapons);
 				}
 			});

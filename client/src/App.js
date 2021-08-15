@@ -37,9 +37,9 @@ function App() {
 				.catch(function (error) {
 					toast.error("Failed to retrieve progress from the database.");
 					if (error.response.data.message) {
-						console.log(error.response.data.message);
+						console.error("getData error with message", error.response.data.message);
 					} else {
-						console.log(error.response.data);
+						console.error("getData error", error.response.data);
 					}
 					if (error.response.data.isExpired) {
 						dispatch({ type: "LOG_OUT" });
@@ -48,7 +48,7 @@ function App() {
 					}
 				});
 		} catch (error) {
-			console.log(error);
+			console.error("getData catch (error)", error);
 		}
 	}, [token, dispatch, history]);
 
@@ -80,10 +80,10 @@ function App() {
 				if (error.response) {
 					if (error.response.data.message) {
 						toast.error(error.response.data.message || "Something went wrong...");
-						console.log(error.response.data);
+						console.error("syncData error.resonse.data", error.response.data);
 					}
 					toast.error("Unable synchronize progress with database... ");
-					console.log(error.response);
+					console.error("syncData error.resonse", error.response);
 				}
 			});
 	}, [request, token, main]);

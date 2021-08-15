@@ -36,14 +36,14 @@ function LoginPage() {
 				.catch(function (error) {
 					if (!error.response.data.message) {
 						toast.error("Something went wrong... ");
-						console.log(error.response.data);
+						console.error(error.response.data);
 					}
-					toast.error(error.response.data.message);
+					toast.error("/api/auth/login error", error.response.data.message);
 					setLoading(false);
 				});
 		} catch (error) {
 			toast.error("Something went wrong... ");
-			console.log(error);
+			console.error("/api/auth/login catch (error)", error);
 			setLoading(false);
 		}
 	};
@@ -56,7 +56,7 @@ function LoginPage() {
 		} else if (errors.password) {
 			toast.error(errors.password.message);
 		}
-		console.log(errors);
+		console.error(errors);
 	};
 
 	return (

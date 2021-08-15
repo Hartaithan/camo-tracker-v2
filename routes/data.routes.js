@@ -8,7 +8,7 @@ router.get("/get", auth, async (req, res) => {
 		const data = await User.find({ _id: req.user.userId });
 		return res.json(data[0].state);
 	} catch (e) {
-		console.log(e);
+		console.error("/get error", e);
 		return res.status(500).json({ message: "Something wrong... /api/get" });
 	}
 });
@@ -17,7 +17,7 @@ router.post("/sync", auth, async (req, res) => {
 	try {
 		await syncData(req, res);
 	} catch (e) {
-		console.log("Sync data error: ", e);
+		console.error("/sync error: ", e);
 		res.status(500).json({ message: "Sync data error" });
 	}
 });
@@ -32,8 +32,8 @@ async function syncData(req, res) {
 					.then(() => res.json("Progress is synchronized with the database."))
 					.catch((err) => res.status(400).json({ message: `Sync data error: ${err}` }));
 			})
-			.catch((err) => {
-				console.log("Sync data error: ", err);
+			.catch((e) => {
+				console.error("syncData error: ", e);
 				res.status(400).json({ message: "Sync data error... /api/get" });
 			});
 	}

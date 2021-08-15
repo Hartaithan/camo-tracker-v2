@@ -26,9 +26,9 @@ async function start() {
 			useCreateIndex: true,
 			useFindAndModify: true,
 		});
-		app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+		app.listen(PORT, () => console.info(`Server started on port ${PORT}`));
 	} catch (error) {
-		console.log("Server error", error.message);
+		console.error("Server error", error.message);
 		process.exit(1);
 	}
 }

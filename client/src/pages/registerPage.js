@@ -38,14 +38,14 @@ function RegisterPage() {
 				.catch(function (error) {
 					if (!error.response.data.message) {
 						toast.error("Something went wrong... ");
-						console.log(error.response.data);
+						console.error("/api/auth/register error", error.response.data);
 					}
 					toast.error(error.response.data.message);
 					setLoading(false);
 				});
 		} catch (error) {
 			toast.error("Something went wrong... ");
-			console.log(error);
+			console.error("/api/auth/register catch (error)", error);
 			setLoading(false);
 		}
 	};
@@ -58,7 +58,7 @@ function RegisterPage() {
 		} else if (errors.password) {
 			toast.error(errors.password.message);
 		}
-		console.log(errors);
+		console.error(errors);
 	};
 
 	return (

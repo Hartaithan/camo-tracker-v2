@@ -14,14 +14,14 @@ module.exports = (req, res, next) => {
 
 		jwt.verify(token, process.env.JWT_TOKEN, (error, decoded) => {
 			if (error) {
-				console.log("Authentication token expired");
+				console.error("Authentication token expired");
 				return res.status(403).json({ message: "Authentication token expired", isExpired: true });
 			}
 			req.user = decoded;
 			next();
 		});
 	} catch (e) {
-		console.log(e);
+		console.error("auth.middleware catch (error)", e);
 		res.status(401).json({ message: "Authentication failed" });
 	}
 };

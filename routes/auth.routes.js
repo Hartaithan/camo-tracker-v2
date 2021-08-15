@@ -40,7 +40,7 @@ router.post("/register", [check("email", "Invalid email. An email adress must co
 		await newUser.save();
 		res.status(201).json({ message: "New user created" });
 	} catch (error) {
-		console.log("Register error: ", error);
+		console.error("/register error: ", error);
 		res.status(500).json({ message: "Something wrong... /api/register" });
 	}
 });
@@ -73,7 +73,7 @@ router.post("/login", [check("email", "Invalid email. An email adress must conta
 		});
 		res.json({ token, userId: user.id, nick: user.nick });
 	} catch (error) {
-		console.log("Register error: ", error);
+		console.error("/login error: ", error);
 		res.status(500).json({ message: "Something wrong... /api/login" });
 	}
 });
