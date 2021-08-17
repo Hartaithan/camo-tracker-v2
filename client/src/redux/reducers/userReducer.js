@@ -1,6 +1,7 @@
 const initialState = {
   token: null,
   userId: null,
+  email: null,
   nick: null,
   isAuth: false,
 };
@@ -12,6 +13,7 @@ const userReducer = (state = initialState, action) => {
         ...state,
         token: action.token,
         userId: action.userId,
+        email: action.email,
         nick: action.nick,
         isAuth: true,
       };
@@ -20,6 +22,7 @@ const userReducer = (state = initialState, action) => {
         ...state,
         token: null,
         userId: null,
+        email: null,
         nick: null,
         isAuth: false,
       };

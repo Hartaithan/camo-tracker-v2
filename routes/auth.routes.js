@@ -71,7 +71,7 @@ router.post("/login", [check("email", "Invalid email. An email adress must conta
 		const token = jwt.sign({ userId: user.id }, process.env.JWT_TOKEN, {
 			expiresIn: "168h",
 		});
-		res.json({ token, userId: user.id, nick: user.nick });
+		res.json({ token, userId: user.id, email: user.email, nick: user.nick });
 	} catch (error) {
 		console.error("/login error: ", error);
 		res.status(500).json({ message: "Something wrong... /api/login" });
