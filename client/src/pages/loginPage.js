@@ -24,7 +24,6 @@ function LoginPage() {
           },
         })
         .then((response) => {
-          console.log(response);
           dispatch({
             type: "LOG_IN",
             token: response.data.token,
