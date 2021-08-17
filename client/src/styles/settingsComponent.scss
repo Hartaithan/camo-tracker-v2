@@ -17,7 +17,7 @@
 		-o-transition: all 0.3s ease-out;
 		transition: all 0.3s ease-out;
 		&_header {
-			height: 50px;
+			min-height: 50px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -47,34 +47,53 @@
 		}
 		&_container {
 			height: calc(100% - 20px);
-			padding: 10px 15px;
 			box-sizing: border-box;
-			&_item {
-				height: 50px;
+			&_user {
 				display: flex;
-				flex-direction: row;
 				align-items: center;
 				justify-content: space-between;
-				&_title {
-					height: auto;
-					width: calc(100% - 60px);
-					margin-right: 5px;
+				padding: 10px 15px;
+				border-bottom: 1px solid $color-header;
+				p {
+					font-size: 14px;
 				}
-				&_button {
+				p:first-child {
+					font-size: 16px;
+					font-weight: 500;
+					margin-bottom: 3px;
+				}
+				&_logout {
 					cursor: pointer;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					background: $color-danger;
-					border-radius: 5px;
-					height: 50%;
-					width: 60px;
+					height: 30px;
+					width: 30px;
+					svg {
+						height: 100%;
+						width: 100%;
+						fill: $color-text;
+					}
 				}
 			}
-			hr {
-				height: auto;
-				width: 98%;
-				margin: auto;
+			&_buttons {
+				display: flex;
+				flex-direction: column;
+				padding: 15px;
+				button {
+					height: 35px;
+					background: $color-header;
+					font-size: 14px;
+					border-radius: 10px;
+					border: none;
+					-webkit-transition: all 0.3s ease-in-out;
+					-moz-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+					&:hover {
+						background: $color-danger;
+					}
+				}
+				button:not(:last-child) {
+					margin-bottom: 10px;
+				}
 			}
 		}
 	}
