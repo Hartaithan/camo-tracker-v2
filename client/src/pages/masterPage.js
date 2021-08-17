@@ -50,10 +50,9 @@ function MasterPage() {
 		function calcPerc(id_cat) {
 			let n = 0;
 			let length = 0;
-			main[id_cat - 1].weapons.map((weapon) => {
+			main[id_cat - 1].weapons.forEach((weapon) => {
 				n = n + weapon.camos[id_mast].filter(Boolean).length;
 				length = length + weapon.camos[id_mast].length;
-				return n;
 			});
 			const percentage = (n / length) * 100;
 			return Math.round(percentage) + "%";
@@ -104,7 +103,7 @@ function MasterPage() {
 						}}
 					>
 						{items.weapons.map((weapon) => (
-							<Link to={"/weapon/" + id_mast + "_" + items.id + "_" + weapon.id}>
+							<Link to={"/weapon/" + id_mast + "_" + items.id + "_" + weapon.id} key={weapon.name}>
 								<div className="tracker_master_container_weaponlist_weaponcontainer" key={weapon.id}>
 									{weapon.dlc && (
 										<div className="tracker_master_container_weaponlist_weaponcontainer_dlc">
