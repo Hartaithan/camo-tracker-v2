@@ -140,19 +140,19 @@ function WeaponPage() {
   }
 
   function setCamo(id_camo, index, i) {
-		const type = {
-			type: "TOGGLE_CAMO",
-			id_cat: id_cat,
-			id_weap: id_weap,
-			id_camo: id_camo,
-			id_mast: id_mast,
-		}
-		// ПРОВЕРКА НА ТО ПЕРВЫЙ ЛИ ЭТО КАМО В КАТЕГОРИИ ИЛИ НЕТ
+    const type = {
+      type: "TOGGLE_CAMO",
+      id_cat: id_cat,
+      id_weap: id_weap,
+      id_camo: id_camo,
+      id_mast: id_mast,
+    };
+    // ПРОВЕРКА НА ТО ПЕРВЫЙ ЛИ ЭТО КАМО В КАТЕГОРИИ ИЛИ НЕТ
     if (index === 0) {
       dispatch(type);
       return;
     } else {
-			// РАЗДЕЛЕНИЕ САМО АРРЕЯ НА 7 ЧАСТЕЙ ПО 5 ЭЛЕМЕНТОВ
+      // РАЗДЕЛЕНИЕ САМО АРРЕЯ НА 7 ЧАСТЕЙ ПО 5 ЭЛЕМЕНТОВ
       const array = [...main[id_cat - 1].weapons[id_weap - 1].camos[id_mast]];
       let categories = [];
       while (array.length > 0) {
@@ -162,7 +162,9 @@ function WeaponPage() {
       if (getCategoryArray[index - 1]) {
         dispatch(type);
       } else {
-        toast.error("Previous camo is not unlocked.");
+        toast.error("Previous camo is not unlocked.", {
+          duration: 2000,
+        });
       }
     }
   }
