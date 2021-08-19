@@ -574,6 +574,20 @@
 					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
 					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
 				}
+			},
+			{
+				"id": 4,
+				"name": "Marshal",
+				"completed": {
+					"dm": false,
+					"da": false
+				},
+				"dlc": true,
+				"img": "../img/w/6_5.png",
+				"camos": {
+					"dm": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+					"da": [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+				}
 			}
 		]
 	},

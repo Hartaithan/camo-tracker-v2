@@ -1993,6 +1993,59 @@
 						"mission": ["Unlock 35 Multiplayer Camos for the _name", "Unlock Gold Camo for 3 Pistols in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
 					}
 				]
+			},
+			{
+				"id": 5,
+				"name": "Marshal",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Spray",
+						"mission": "Get _goal eliminations with the _name in Multiplayer",
+						"goals": [25, 50, 75, 100, 150]
+					},
+					{
+						"id": 2,
+						"name": "Stripes",
+						"mission": "Get _goal Headshot medals with the _name in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 3,
+						"name": "Classic",
+						"mission": "Get 5 kills without dying _goal times with all kills coming from the _name in Multiplayer",
+						"goals": [3, 5, 10, 15, 20]
+					},
+					{
+						"id": 4,
+						"name": "Geometric",
+						"mission": "Get _goal Longshot medals with the _name in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 5,
+						"name": "Flora",
+						"mission": "Kill _goal enemies detected, stunned, or blinded, by your Scorestreaks, Equipment, or Field Upgrades in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 6,
+						"name": "Science",
+						"mission": "Shoot and kill _goal enemies taking cover from you in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 7,
+						"name": "Psychedelic",
+						"mission": "Kill 2 or more enemies rapidly _goal times in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Multiplayer Camos for the _name", "Unlock Gold Camo for 3 Pistols in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
+					}
+				]
 			}
 		]
 	},
