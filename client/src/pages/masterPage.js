@@ -70,7 +70,7 @@ function MasterPage() {
 				{main.map((items, index) => (
 					<Accordion
 						defaultActiveKey={app.masterCollapsibleIsOpen[id_mast][index] && "0"}
-						key={items.name}
+						key={items.name + id_mast}
 						onClick={() =>
 							dispatch({
 								type: "TOGGLE_MASTER_COLLAPSIBLE",
