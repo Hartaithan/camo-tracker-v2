@@ -3,8 +3,8 @@ import "../styles/masterPage.scss";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import Collapsible from "react-collapsible";
 import Header from "../components/headerComponent";
+import { Accordion } from "react-bootstrap";
 
 function MasterPage() {
 	const paths = useLocation().pathname.split("/");
@@ -46,37 +46,31 @@ function MasterPage() {
 		},
 	};
 
-	function MasterWeaponList({ items, index }) {
-		function calcPerc(id_cat) {
-			let n = 0;
-			let length = 0;
-			main[id_cat - 1].weapons.forEach((weapon) => {
-				n = n + weapon.camos[id_mast].filter(Boolean).length;
-				length = length + weapon.camos[id_mast].length;
-			});
-			const percentage = (n / length) * 100;
-			return Math.round(percentage) + "%";
-		}
+	function calcPerc(id_cat) {
+		let n = 0;
+		let length = 0;
+		main[id_cat - 1].weapons.forEach((weapon) => {
+			n = n + weapon.camos[id_mast].filter(Boolean).length;
+			length = length + weapon.camos[id_mast].length;
+		});
+		const percentage = (n / length) * 100;
+		return Math.round(percentage) + "%";
+	}
 
-		function calcPercWeap(id_cat, id_weap) {
-			const array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast];
-			const percentage = (array.filter(Boolean).length / array.length) * 100;
-			return Math.round(percentage) + "%";
-		}
+	function calcPercWeap(id_cat, id_weap) {
+		const array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast];
+		const percentage = (array.filter(Boolean).length / array.length) * 100;
+		return Math.round(percentage) + "%";
+	}
 
-		function arrow(state) {
-			return (
-				<svg className="tracker_arrow" style={state ? { transform: "rotate(0deg)" } : { transform: "rotate(90deg)" }} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-					<path d="M21 12l-18 12v-24z" />
-				</svg>
-			);
-		}
-
-		return (
-			<div className="tracker_master_container" key={items.id}>
-				<div className="tracker_master_container_progress">
-					<div
-						className="tracker_master_container_progress_text"
+	return (
+		<div className="tracker_container" style={app.isOpen ? style.isOpen : style.isClosed}>
+			<Header />
+			<div className="tracker_master">
+				{main.map((items, index) => (
+					<Accordion
+						defaultActiveKey={app.masterCollapsibleIsOpen[id_mast][index] && "0"}
+						key={items.name}
 						onClick={() =>
 							dispatch({
 								type: "TOGGLE_MASTER_COLLAPSIBLE",
@@ -85,50 +79,42 @@ function MasterPage() {
 							})
 						}
 					>
-						<div className="tracker_master_container_progress_text_name">
-							{id_mast === "dm" ? (app.masterCollapsibleIsOpen.dm[index] ? arrow(false) : arrow(true)) : app.masterCollapsibleIsOpen.da[index] ? arrow(false) : arrow(true)} {items.name.toUpperCase()}
-						</div>
-						<div className="tracker_master_container_progress_text_percentage">{calcPerc(items.id)}</div>
-					</div>
-					<div className="tracker_master_container_progress_bar">
-						<div className="tracker_master_container_progress_bar_yellow" style={{ width: calcPerc(items.id) }} />
-					</div>
-				</div>
-
-				<Collapsible open={id_mast === "dm" ? (app.masterCollapsibleIsOpen.dm[index] ? true : false) : app.masterCollapsibleIsOpen.da[index] ? true : false} transitionTime={100}>
-					<div
-						className="tracker_master_container_weaponlist"
-						style={{
-							gridTemplateColumns: "repeat(" + (app.isOpen ? Math.floor((size - 300) / 210) : Math.floor(size / 210)) + ", 200px)",
-						}}
-					>
-						{items.weapons.map((weapon) => (
-							<Link to={"/weapon/" + id_mast + "_" + items.id + "_" + weapon.id} key={weapon.name}>
-								<div className="tracker_master_container_weaponlist_weaponcontainer" key={weapon.id}>
-									{weapon.dlc && (
-										<div className="tracker_master_container_weaponlist_weaponcontainer_dlc">
-											<div className="tracker_master_container_weaponlist_weaponcontainer_dlc_text">DLC</div>
-										</div>
-									)}
-									<p className="tracker_master_container_weaponlist_weaponcontainer_card">{weapon.name.toUpperCase()}</p>
-									<div className="tracker_master_container_weaponlist_weaponcontainer_yellowbar" style={{ width: calcPercWeap(items.id, weapon.id) }}></div>
-									<div className="tracker_master_container_weaponlist_weaponcontainer_greybar"></div>
-									<div className="tracker_master_container_weaponlist_weaponcontainer_imgcontainer">{weapon.img !== null ? <img src={"camo-tracker/" + weapon.img} alt="weapon_img"></img> : "?"}</div>
+						<Accordion.Item eventKey="0">
+							<Accordion.Header>
+								<div className="tracker_master_container_progress_text">
+									<div className="tracker_master_container_progress_text_name">{items.name.toUpperCase()}</div>
+									<div className="tracker_master_container_progress_text_percentage">{calcPerc(items.id)}</div>
 								</div>
-							</Link>
-						))}
-					</div>
-				</Collapsible>
-			</div>
-		);
-	}
-
-	return (
-		<div className="tracker_container" style={app.isOpen ? style.isOpen : style.isClosed}>
-			<Header />
-			<div className="tracker_master">
-				{main.map((items, index) => (
-					<MasterWeaponList items={items} index={index} key={items.id} />
+							</Accordion.Header>
+							<div className="tracker_master_container_progress_bar">
+								<div className="tracker_master_container_progress_bar_yellow" style={{ width: calcPerc(items.id) }} />
+							</div>
+							<Accordion.Body className="d-flex flex-column align-items-start">
+								<div
+									className="tracker_master_container_weaponlist"
+									style={{
+										gridTemplateColumns: "repeat(" + (app.isOpen ? Math.floor((size - 300) / 210) : Math.floor(size / 210)) + ", 200px)",
+									}}
+								>
+									{items.weapons.map((weapon) => (
+										<Link to={"/weapon/" + id_mast + "_" + items.id + "_" + weapon.id} key={weapon.name}>
+											<div className="tracker_master_container_weaponlist_weaponcontainer" key={weapon.id}>
+												{weapon.dlc && (
+													<div className="tracker_master_container_weaponlist_weaponcontainer_dlc">
+														<div className="tracker_master_container_weaponlist_weaponcontainer_dlc_text">DLC</div>
+													</div>
+												)}
+												<p className="tracker_master_container_weaponlist_weaponcontainer_card">{weapon.name.toUpperCase()}</p>
+												<div className="tracker_master_container_weaponlist_weaponcontainer_yellowbar" style={{ width: calcPercWeap(items.id, weapon.id) }}></div>
+												<div className="tracker_master_container_weaponlist_weaponcontainer_greybar"></div>
+												<div className="tracker_master_container_weaponlist_weaponcontainer_imgcontainer">{weapon.img !== null ? <img src={"camo-tracker/" + weapon.img} alt="weapon_img"></img> : "?"}</div>
+											</div>
+										</Link>
+									))}
+								</div>
+							</Accordion.Body>
+						</Accordion.Item>
+					</Accordion>
 				))}
 			</div>
 		</div>

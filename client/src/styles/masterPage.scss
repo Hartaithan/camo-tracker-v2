@@ -5,9 +5,53 @@
 	&_master {
 		display: flex;
 		flex-direction: column;
-		padding: 0 1.2vh;
+		padding: 10px;
 		box-sizing: border-box;
 		height: calc(100% - 50px);
+		.accordion {
+			&-body {
+				padding: 0px !important;
+			}
+			&-header {
+				flex-direction: row-reverse;
+			}
+			&-button {
+				border: none !important;
+				border-radius: 0 !important;
+				padding: 0 !important;
+				background-color: transparent !important;
+				color: #e4e4e4 !important;
+				box-shadow: none !important;
+				&::before {
+					flex-shrink: 0;
+					width: 1.25rem;
+					height: 1.25rem;
+					margin-left: 0;
+					margin-right: 5px;
+					content: "";
+					background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0idHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpOyI+PHBhdGggZD0iTTIxIDEybC0xOCAxMnYtMjR6IiBmaWxsPSIjZTRlNGU0Ij48L3BhdGg+PC9zdmc+);
+					background-repeat: no-repeat;
+					background-size: 1.25rem;
+					transition: transform 0.2s ease-in-out;
+					transform: rotate(-90deg) scale(0.6);
+				}
+				&::after {
+					display: none;
+				}
+				&:not(.collapsed)::before {
+					transform: rotate(0deg) scale(0.6);
+				}
+			}
+			&-item {
+				border: none !important;
+				border-radius: 0 !important;
+				background-color: transparent !important;
+				color: #e4e4e4;
+			}
+			&:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		}
 		&_container {
 			height: auto;
 			&_progress {
@@ -16,6 +60,7 @@
 				&_text {
 					cursor: pointer;
 					height: auto;
+					width: 100%;
 					display: flex;
 					justify-content: space-between;
 					&_name {
@@ -31,6 +76,7 @@
 					background: $color-noncompleted;
 					border: 1px solid $color-border;
 					&_yellow {
+						height: 100%;
 						background: $color-completed;
 						-webkit-transition: all 0.3s ease-out;
 						-moz-transition: all 0.3s ease-out;
@@ -42,7 +88,7 @@
 			&_weaponlist {
 				display: grid;
 				width: 100%;
-				padding-top: 1vh;
+				padding-top: 10px;
 				justify-content: flex-start;
 				grid-gap: 1vh;
 				&_weaponcontainer {
@@ -58,7 +104,7 @@
 						justify-content: flex-start;
 						align-items: flex-end;
 						left: 5px;
-						bottom: 5px;
+						bottom: 8px;
 						font-size: 14px;
 						position: absolute;
 					}
@@ -120,8 +166,8 @@
 							font-weight: bold;
 							position: relative;
 							font-size: 10px;
-							top: -22px;
-							right: -9px;
+							top: -18px;
+							right: -5px;
 							transform: rotate(45deg);
 						}
 					}
