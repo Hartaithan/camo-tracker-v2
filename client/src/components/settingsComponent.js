@@ -48,6 +48,7 @@ function SettingsComponent() {
 	function logOut() {
 		dispatch({ type: "LOG_OUT" });
 		dispatch({ type: "RESET_ALL" });
+		localStorage.removeItem("state");
 		history.push("/login");
 	}
 

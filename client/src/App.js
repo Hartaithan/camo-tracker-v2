@@ -44,6 +44,7 @@ function App() {
 					if (error.response.data.isExpired) {
 						dispatch({ type: "LOG_OUT" });
 						dispatch({ type: "RESET_ALL" });
+						localStorage.removeItem("state");
 						history.push("/login");
 					}
 				});
