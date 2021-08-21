@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+@import "~bootstrap/scss/bootstrap";
 
 @import "variables";
 @import "colors";
@@ -19,6 +20,22 @@
 
 body {
 	background: $color-bg;
+	line-height: inherit;
+}
+
+a {
+	color: inherit;
+	&:hover {
+		color: $color-text-hover;
+	}
+}
+
+p {
+	margin: 0;
+}
+
+img, svg {
+	vertical-align: inherit;
 }
 
 .tracker {
@@ -35,13 +52,6 @@ body {
 		-o-transition: all 0.3s ease-out;
 		transition: all 0.3s ease-out;
 	}
-}
-
-.Collapsible {
-	height: fit-content;
-	line-height: 25px;
-	padding: none !important;
-	margin: none !important;
 }
 
 // MOBILE

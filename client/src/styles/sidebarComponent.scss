@@ -2,16 +2,6 @@
 @import "colors";
 
 .tracker {
-	&_arrow {
-		fill: $color-text;
-		height: 1.2vh;
-		width: 1.2vh;
-		margin-right: 5px;
-		-webkit-transition: all 0.1s ease-out;
-		-moz-transition: all 0.1s ease-out;
-		-o-transition: all 0.1s ease-out;
-		transition: all 0.1s ease-out;
-	}
 	&_sidebar {
 		z-index: 99;
 		position: fixed;
@@ -24,54 +14,96 @@
 		-moz-transition: all 0.3s ease-out;
 		-o-transition: all 0.3s ease-out;
 		transition: all 0.3s ease-out;
-		&_tabview {
+		&_main {
 			height: 50px;
 			display: flex;
-			flex-direction: row;
-			&_tab {
-				position: relative;
-				cursor: pointer;
-				width: 50%;
-				&_line {
-					position: absolute;
-					height: 5px;
-					width: 100%;
-					background: $color-noncompleted;
-					bottom: 0;
-					opacity: 0;
+			flex-direction: column;
+			&_item {
+				sup {
+					font-size: 10px;
 				}
-				&_title {
+				&:not(:last-child) {
+					margin-bottom: 5px;
+				}
+			}
+			.nav {
+				&-tabs {
+					border-bottom: none !important;
+				}
+				&-item {
+					height: 50px;
+					width: 50%;
+				}
+				&-link {
+					width: 100%;
 					height: 100%;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					font-size: 2vh;
-					a {
-						height: auto;
-						width: auto;
-						display: flex;
-						justify-content: center;
-						align-items: center;
+					padding: 5px 5px 0 5px;
+					font-size: 18px;
+					color: #e4e4e4 !important;
+					background: transparent !important;
+					box-shadow: none !important;
+					border: none !important;
+					border-bottom: 5px solid transparent !important;
+					border-color: transparent;
+					&.active {
+						border-bottom: 5px solid #575757 !important;
 					}
 				}
 			}
-			&_tab:hover {
-				background: $color-border;
-				-webkit-transition: all 0.3s ease-out;
-				-moz-transition: all 0.3s ease-out;
-				-o-transition: all 0.3s ease-out;
-				transition: all 0.3s ease-out;
+			.nav-link:hover,
+			.nav-link:focus,
+			.nav-link:focus-visible {
+				border: none;
 			}
-		}
-		&_container {
-			&_collapse {
-				&_listitem {
-					height: auto;
+			.tab-content {
+				padding: 10px;
+			}
+			.fade {
+				transition: opacity 0.9s ease;
+			}
+
+			.accordion {
+				&-body {
+					padding: 5px 25px !important;
 				}
-				&_dlc {
-					line-height: 0;
-					font-size: 1vh;
-					text-decoration: none;
+				&-header {
+					flex-direction: row-reverse;
+				}
+				&-button {
+					border: none !important;
+					border-radius: 0 !important;
+					padding: 0 !important;
+					background-color: transparent !important;
+					color: #e4e4e4 !important;
+					box-shadow: none !important;
+					&::before {
+						flex-shrink: 0;
+						width: 1.25rem;
+						height: 1.25rem;
+						margin-left: 0;
+						margin-right: 5px;
+						content: "";
+						background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0idHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpOyI+PHBhdGggZD0iTTIxIDEybC0xOCAxMnYtMjR6IiBmaWxsPSIjZTRlNGU0Ij48L3BhdGg+PC9zdmc+);
+						background-repeat: no-repeat;
+						background-size: 1.25rem;
+						transition: transform 0.2s ease-in-out;
+						transform: rotate(-90deg) scale(0.6);
+					}
+					&::after {
+						display: none;
+					}
+					&:not(.collapsed)::before {
+						transform: rotate(0deg) scale(0.6);
+					}
+				}
+				&-item {
+					border: none !important;
+					border-radius: 0 !important;
+					background-color: #1f1f1f !important;
+					color: #e4e4e4;
+				}
+				&:not(:last-child) {
+					margin-bottom: 5px;
 				}
 			}
 		}
@@ -107,83 +139,5 @@
 				}
 			}
 		}
-		&_container {
-			box-sizing: border-box;
-			padding: 1.2vh;
-			height: calc(100% - 100px);
-			overflow: auto;
-			&_collapse {
-				padding: 0;
-				height: auto;
-			}
-		}
 	}
-}
-
-.Collapsible__trigger {
-	cursor: pointer;
-}
-
-// MOBILE
-@media (min-width: 300px) and (max-width: 767.99px) {
-	.tracker {
-		&_sidebar {
-			&_tabview {
-				&_tab {
-					&_title {
-						font-size: 2.5vh;
-					}
-				}
-			}
-		}
-	}
-}
-
-// TABLET PORTRAIT
-@media (min-width: 768px) and (max-width: 991.99px) {
-	.tracker {
-		&_sidebar {
-			&_tabview {
-				&_tab {
-					&_title {
-						font-size: 2vh;
-					}
-				}
-			}
-		}
-	}
-}
-
-// TABLET LANDSCAPE
-@media (min-width: 992px) and (max-width: 1199.99px) {
-	.tracker {
-		&_sidebar {
-			&_tabview {
-				&_tab {
-					&_title {
-						font-size: 2.5vh;
-					}
-				}
-			}
-		}
-	}
-}
-
-// NOTEBOOK
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-	.tracker {
-		&_sidebar {
-			&_tabview {
-				&_tab {
-					&_title {
-						font-size: 2.5vh;
-					}
-				}
-			}
-		}
-	}
-}
-
-// 4K
-@media (min-width: 1921px) {
 }
