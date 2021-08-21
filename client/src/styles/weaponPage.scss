@@ -18,7 +18,7 @@
 			&_container {
 				height: auto;
 				width: 550px;
-				margin: 1.5vh auto;
+				margin: 15px auto;
 				&_text {
 					height: auto;
 					display: flex;
@@ -45,7 +45,7 @@
 					}
 				}
 				&_bar {
-					margin-top: 0.5vh;
+					margin-top: 5px;
 					height: 7px;
 					background: $color-noncompleted;
 					border: 1px solid $color-border;
@@ -61,7 +61,7 @@
 					}
 				}
 				&_camocontainer {
-					margin-top: 1vh;
+					margin-top: 8px;
 					display: flex;
 					flex-direction: row;
 					justify-content: space-between;
@@ -89,7 +89,7 @@
 							height: fit-content;
 							background-color: $color-bg;
 							color: $color-text;
-							font-size: 1.4vh;
+							font-size: 14px;
 							position: absolute;
 							padding: 5px;
 							bottom: 110%;
@@ -146,106 +146,20 @@
 	}
 }
 
-// MOBILE
-@media (min-width: 300px) and (max-width: 767.99px) {
-	.tracker {
-		&_weapon {
-			justify-content: flex-start;
-			align-items: center;
-			&_wrapper {
-				grid-template-columns: 100%;
-				&_container {
-					width: 80vw;
-					&_camocontainer {
-						&_camo {
-							height: 55px;
-							width: 55px;
-							&[data-title]:after {
-								width: initial;
-								left: -20%;
-							}
-						}
-					}
-					&_text {
-						&_check {
-							opacity: 1 !important;
-						}
-					}
-				}
-				&_container:last-child {
-					margin-bottom: 5vh;
-				}
-			}
-		}
-	}
+@media (max-width: 576px) {
 }
 
-// TABLET PORTRAIT
-@media (min-width: 768px) and (max-width: 991.99px) {
-	.tracker {
-		&_weapon {
-			justify-content: flex-start;
-			align-items: center;
-			&_wrapper {
-				grid-template-columns: 100%;
-				&_container {
-					width: 80vw;
-					&_text {
-						&_check {
-							opacity: 1 !important;
-						}
-					}
-				}
-				&_container:last-child {
-					margin-bottom: 5vh;
-				}
-			}
-		}
-	}
+@media (max-width: 768px) {
 }
 
-// TABLET LANDSCAPE
-@media (min-width: 992px) and (max-width: 1199.99px) {
+@media (max-width: 992px) {
 }
 
-// NOTEBOOK
-@media (min-width: 1200px) and (max-width: 1399.99px) {
-	.tracker {
-		&_weapon {
-			&_wrapper {
-				&_container {
-					height: auto;
-					width: 400px;
-					margin: 1.5vh auto;
-					&_camocontainer {
-						&_camo {
-							height: 70px;
-							width: 70px;
-						}
-					}
-				}
-			}
-		}
-	}
+@media (max-width: 1200px) {
 }
 
-// 4K
+@media (max-width: 1400px) {
+}
+
 @media (min-width: 1921px) {
-	.tracker {
-		&_weapon {
-			&_wrapper {
-				&_container {
-					height: auto;
-					width: 800px;
-					margin: 1.5vh auto;
-					&_camocontainer {
-						&_camo {
-							height: 130px;
-							width: 130px;
-						}
-					}
-				}
-			}
-		}
-	}
 }
