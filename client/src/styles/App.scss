@@ -12,6 +12,7 @@
 	color: $color-text;
 	-ms-overflow-style: none;
 	box-sizing: border-box;
+	scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
@@ -62,6 +63,10 @@ svg {
 }
 
 @media (max-width: 1200px) {
+	.tracker_container {
+		margin-left: 0px !important;
+		width: 100% !important;
+	}
 }
 
 @media (max-width: 992px) {
