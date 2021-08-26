@@ -148,7 +148,7 @@
 			&_textcontainer {
 				&_dm,
 				&_da {
-					font-size: 18px;
+					font-size: 20px;
 				}
 			}
 		}
@@ -161,7 +161,7 @@
 				&_text {
 					&_percentage,
 					&_name {
-						font-size: 18px;
+						font-size: 24px;
 					}
 				}
 			}
@@ -169,13 +169,7 @@
 	}
 }
 
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 992px) {
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1200px) and (orientation: portrait) {
 	.tracker_main {
 		flex-direction: column;
 		&_left {
@@ -190,5 +184,58 @@
 	}
 }
 
+@media (max-width: 992px) {
+	.tracker_main {
+		&_right {
+			&_circlecontainer {
+				&_text {
+					&_percentage,
+					&_name {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+}
+
 @media (max-width: 576px) {
+	.tracker_main {
+		&_left {
+			flex: 70;
+			&_circle {
+				&_textcontainer {
+					&_perc,
+					&_text {
+						font-size: 32px;
+					}
+				}
+			}
+			&_textcontainer {
+				&_dm,
+				&_da {
+					font-size: 16px;
+				}
+			}
+		}
+		&_right {
+			flex: 30;
+			&_circlecontainer {
+				&_circle {
+					flex: 35;
+				}
+				&_text {
+					flex: 65;
+					padding-left: 10px;
+					&_percentage,
+					&_name {
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
 }
