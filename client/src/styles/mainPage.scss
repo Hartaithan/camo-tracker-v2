@@ -232,7 +232,7 @@
 					padding-left: 10px;
 					&_percentage,
 					&_name {
-						font-size: 12px;
+						font-size: 14px;
 					}
 				}
 			}
@@ -240,7 +240,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
 	.tracker_main {
 		&_left {
 			&_circle {

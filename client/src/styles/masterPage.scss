@@ -9,6 +9,9 @@
 		box-sizing: border-box;
 		height: calc(100% - 50px);
 		.accordion {
+			&-item {
+				margin-bottom: 10px;
+			}
 			&-body {
 				padding: 0px !important;
 			}
@@ -47,9 +50,6 @@
 				border-radius: 0 !important;
 				background-color: transparent !important;
 				color: #e4e4e4;
-			}
-			&:not(:last-child) {
-				margin-bottom: 10px;
 			}
 		}
 		&_container {
@@ -182,13 +182,46 @@
 }
 
 @media (max-width: 1200px) {
+	.tracker_master {
+		&_container {
+			&_weaponlist {
+				grid-template-columns: repeat(3, 1fr) !important;
+				&_weaponcontainer {
+					width: 100%;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 992px) {
+	.tracker_master {
+		&_container {
+			&_weaponlist {
+				grid-template-columns: repeat(2, 1fr) !important;
+			}
+		}
+	}
 }
 
 @media (max-width: 768px) {
 }
 
 @media (max-width: 576px) {
+	.tracker_master {
+		&_container {
+			&_weaponlist {
+				grid-template-columns: 1fr !important;
+				&_weaponcontainer {
+					height: 80px;
+					&_imgcontainer {
+						img {
+							max-height: 80px;
+							padding: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
 }
