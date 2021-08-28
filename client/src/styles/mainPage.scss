@@ -239,3 +239,35 @@
 		}
 	}
 }
+
+@media (max-width: 375px) {
+	.tracker_main {
+		&_left {
+			&_circle {
+				&_textcontainer {
+					&_perc,
+					&_text {
+						font-size: 24px;
+					}
+				}
+			}
+			&_textcontainer {
+				&_dm,
+				&_da {
+					font-size: 12px;
+				}
+			}
+		}
+		&_right {
+			&_circlecontainer {
+				&_text {
+					padding-left: 10px;
+					&_percentage,
+					&_name {
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}
