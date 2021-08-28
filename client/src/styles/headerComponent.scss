@@ -76,6 +76,13 @@
 }
 
 @media (max-width: 1200px) {
+	.tracker_header {
+		&_title {
+			&_check {
+				opacity: 1 !important;
+			}
+		}
+	}
 }
 
 @media (max-width: 992px) {

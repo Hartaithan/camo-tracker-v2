@@ -12,7 +12,6 @@
 		&_wrapper {
 			display: grid;
 			grid-template-columns: 50% 50%;
-			height: auto;
 			width: 100%;
 			box-sizing: border-box;
 			&_container {
@@ -149,10 +148,59 @@
 @media (min-width: 1921px) {
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
+	.tracker_weapon {
+		&_wrapper {
+			&_container {
+				width: 450px;
+				&_camocontainer {
+					&_camo {
+						height: 82px;
+						width: 82px;
+					}
+				}
+			}
+		}
+	}
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+	.tracker_weapon {
+		&_wrapper {
+			&_container {
+				width: 400px;
+				&_camocontainer {
+					&_camo {
+						height: 72px;
+						width: 72px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+	.tracker_weapon {
+		height: 100%;
+		&_wrapper {
+			grid-template-columns: 1fr;
+			&_container {
+				width: 60%;
+				&_text {
+					&_check {
+						opacity: 1 !important;
+					}
+				}
+				&_camocontainer {
+					&_camo {
+						height: 10vw;
+						width: 10vw;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 992px) {
@@ -162,4 +210,18 @@
 }
 
 @media (max-width: 576px) {
+	.tracker_weapon {
+		&_wrapper {
+			height: 100%;
+			&_container {
+				width: 80%;
+				&_camocontainer {
+					&_camo {
+						height: 14vw;
+						width: 14vw;
+					}
+				}
+			}
+		}
+	}
 }
