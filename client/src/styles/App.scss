@@ -40,11 +40,14 @@ svg {
 	vertical-align: inherit;
 }
 
+html, body, #root, .tracker {
+	height: 100%;
+}
+
 .tracker {
 	display: flex;
 	align-items: flex-start;
 	flex-direction: row;
-	height: 100vh;
 	&_container {
 		height: 100%;
 		width: 100%;
