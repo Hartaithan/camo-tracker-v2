@@ -74,4 +74,14 @@
 }
 
 @media (max-width: 576px) {
+	.tracker_login {
+		&_form {
+			width: 90%;
+			&_field {
+				input {
+					width: 100%;
+				}
+			}
+		}
+	}
 }
