@@ -48,6 +48,9 @@
 					&.active {
 						border-bottom: 5px solid #575757 !important;
 					}
+					&:hover {
+						background: #3b3b3b !important;
+					}
 				}
 			}
 			.nav-link:hover,
