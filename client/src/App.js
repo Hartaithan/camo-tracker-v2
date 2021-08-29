@@ -13,6 +13,7 @@ import RegisterPage from "./pages/registerPage";
 
 import Sidebar from "./components/sidebarComponent";
 import SettingsComponent from "./components/settingsComponent";
+import ConfirmModal from "./components/confirmModal";
 
 function App() {
 	const dispatch = useDispatch();
@@ -121,6 +122,7 @@ function App() {
 					</Route>
 					<Redirect to="/" />
 				</Switch>
+				<ConfirmModal />
 			</div>
 		);
 	}

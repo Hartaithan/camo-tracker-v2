@@ -10,6 +10,11 @@ const initialState = {
 		da: [false, false, false, false, false, false, false, false, false, false],
 	},
 	settings: false,
+	modals: {
+		isShow: false,
+		isLogOut: false,
+		isReset: false,
+	},
 };
 
 const appReducer = (state = initialState, action) => {
@@ -43,6 +48,14 @@ const appReducer = (state = initialState, action) => {
 			return { ...state, settings: !state.settings };
 		case "LOG_OUT":
 			return { ...state, isOpen: false, settings: false };
+		case "CONFIRM_LOGOUT_MODAL_OPEN":
+			return { ...state, modals: { ...state.modals, isShow: true, isLogOut: true } };
+		case "CONFIRM_RESET_MODAL_OPEN":
+			return { ...state, modals: { ...state.modals, isShow: true, isReset: true } };
+		case "CONFIRM_MODAL_CLOSE":
+			return { ...state, modals: { ...state.modals, isShow: false } };
+		case "CONFIRM_MODAL_RESET":
+			return { ...state, modals: { ...state.modals, isShow: false, isLogOut: false, isReset: false } };
 		default:
 			return state;
 	}

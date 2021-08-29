@@ -1,10 +1,9 @@
 import React from "react";
 import "../styles/settingsComponent.scss";
 import { useSelector, useDispatch } from "react-redux";
-import { useLocation, useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function SettingsComponent() {
-	const history = useHistory();
 	const paths = useLocation().pathname.split("/");
 	const main = useSelector((state) => state.main);
 	const app = useSelector((state) => state.app);
@@ -45,13 +44,6 @@ function SettingsComponent() {
 		}
 	}
 
-	function logOut() {
-		dispatch({ type: "LOG_OUT" });
-		dispatch({ type: "RESET_ALL" });
-		localStorage.removeItem("state");
-		history.push("/login");
-	}
-
 	return (
 		<div className="tracker_settings" style={{ right: app.settings ? "0px" : "-300px" }}>
 			<div className="tracker_settings_header">
@@ -68,7 +60,7 @@ function SettingsComponent() {
 						<p>@{nick}</p>
 						<p>{email}</p>
 					</div>
-					<div className="tracker_settings_container_user_logout" onClick={() => logOut()}>
+					<div className="tracker_settings_container_user_logout" onClick={() => dispatch({type: "CONFIRM_LOGOUT_MODAL_OPEN"})}>
 						<svg viewBox="0 0 512 512">
 							<polygon points="512,256 411.826,155.826 411.826,222.609 233.903,222.609 233.903,289.391 411.826,289.391 411.826,356.174" />
 							<polygon points="333.913,139.13 333.913,72.348 0,72.348 0,439.652 333.913,439.652 333.913,372.87 66.783,372.87 66.783,139.13" />
@@ -90,7 +82,7 @@ function SettingsComponent() {
 					<button
 						className="tracker_settings_container_buttons_reset"
 						onClick={() => {
-							dispatch({ type: "RESET_ALL" });
+							dispatch({ type: "CONFIRM_RESET_MODAL_OPEN" });
 							closeSidebar();
 						}}
 					>
