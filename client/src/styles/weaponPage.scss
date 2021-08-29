@@ -85,7 +85,7 @@
 						}
 						&[data-title]:after {
 							content: attr(data-title);
-							width: calc(100vw * 0.08);
+							width: calc(100% + 40px);
 							height: fit-content;
 							background-color: $color-bg;
 							color: $color-text;
@@ -93,7 +93,8 @@
 							position: absolute;
 							padding: 5px;
 							bottom: 110%;
-							left: -30%;
+							left: 50%;
+							transform: translateX(-50%);
 							word-wrap: break-word;
 							word-break: keep-all;
 							white-space: normal !important;
@@ -206,10 +207,29 @@
 				}
 			}
 		}
+		& > div > div:nth-child(1) > div.tracker_weapon_wrapper_container_camocontainer > div {
+			&[data-title]:after {
+				bottom: auto;
+				top: 110%
+			}
+		}
 	}
 }
 
 @media (max-width: 992px) {
+	.tracker_weapon {
+		&_wrapper {
+			&_container {
+				&_camocontainer {
+					&_camo {
+						&[data-title]:after {
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 768px) {
