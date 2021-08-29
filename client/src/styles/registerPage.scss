@@ -8,6 +8,7 @@
 		justify-content: center;
 		align-items: center;
 		height: calc(100% - 50px);
+		overflow: auto;
 		&_form {
 			width: 320px;
 			height: auto;

@@ -9,17 +9,18 @@
 		align-items: center;
 		box-sizing: border-box;
 		height: calc(100% - 50px);
+		overflow: auto;
 		&_wrapper {
 			display: grid;
 			grid-template-columns: 50% 50%;
 			width: 100%;
 			box-sizing: border-box;
 			&_container {
-				height: auto;
+				height: fit-content;
 				width: 550px;
 				margin: 15px auto;
 				&_text {
-					height: auto;
+					height: fit-content;
 					display: flex;
 					justify-content: space-between;
 					&_name {
@@ -182,11 +183,16 @@
 
 @media (max-width: 1200px) and (orientation: portrait) {
 	.tracker_weapon {
-		height: 100%;
 		&_wrapper {
+			height: 100%;
 			grid-template-columns: 1fr;
 			&_container {
 				width: 60%;
+				margin: 0 auto;
+				padding: 15px 0;
+				&:last-child {
+					padding-bottom: 30px;
+				}
 				&_text {
 					&_check {
 						opacity: 1 !important;
