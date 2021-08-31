@@ -14,6 +14,7 @@ import RegisterPage from "./pages/registerPage";
 import Sidebar from "./components/sidebarComponent";
 import SettingsComponent from "./components/settingsComponent";
 import ConfirmModal from "./components/confirmModal";
+import PublicPage from "./pages/publicPage";
 
 function App() {
 	const dispatch = useDispatch();
@@ -131,7 +132,7 @@ function App() {
 		<div className="tracker">
 			<Switch>
 				<Route exact path="/">
-					<LoginPage />
+					<PublicPage />
 				</Route>
 				<Route path="/login">
 					<LoginPage />
