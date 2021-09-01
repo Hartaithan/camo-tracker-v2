@@ -16,8 +16,7 @@ function publicPage() {
 			const second = getRandNum(1, 6);
 			const pretendent = `${type}/${first}_${second}`;
 			if (nums.includes(pretendent) === false) {
-				console.log(pretendent);
-				if ((pretendent !== "dm/8_4") && (pretendent !== "dm/8_5") && (pretendent !== "da/8_4") && (pretendent !== "da/8_5")) {
+				if (pretendent !== "dm/8_4" && pretendent !== "dm/8_5" && pretendent !== "da/8_4" && pretendent !== "da/8_5") {
 					nums.push(`${type}/${first}_${second}`);
 					items.push(<img src={`/img/${pretendent}.png`} alt="random img" />);
 				}
@@ -45,11 +44,13 @@ function publicPage() {
 				</Link>
 			</div>
 			<div className="tracker_public_background">
-				<div className="tracker_public_background_line">{randomImages()}</div>
-				<div className="tracker_public_background_line">{randomImages()}</div>
-				<div className="tracker_public_background_line">{randomImages()}</div>
-				<div className="tracker_public_background_line">{randomImages()}</div>
-				<div className="tracker_public_background_line">{randomImages()}</div>
+				<div className="tracker_public_background_wrapper">
+					<div className="tracker_public_background_line">{randomImages()}</div>
+					<div className="tracker_public_background_line">{randomImages()}</div>
+					<div className="tracker_public_background_line">{randomImages()}</div>
+					<div className="tracker_public_background_line">{randomImages()}</div>
+					<div className="tracker_public_background_line">{randomImages()}</div>
+				</div>
 			</div>
 		</div>
 	);

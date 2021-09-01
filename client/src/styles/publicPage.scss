@@ -71,9 +71,12 @@
       width: 100%;
       top: 0;
       left: 0;
+			&_wrapper {
+				transform: rotate(-45deg);
+			}
 			&_line {
 				height: 100px;
-				animation: loop 40s linear infinite;
+				animation: loop 30s linear infinite;
 				&:not(:last-child) {
 					margin-bottom: 5px;
 				}
@@ -89,14 +92,14 @@
 	}
 }
 
-// @keyframes loop {
-// 	0% {
-// 		transform: translateX(100%);
-// 	}
-// 	100% {
-// 		transform: translateX(-100%);
-// 	}
-// }
+@keyframes loop {
+	0% {
+		transform: translate(10%, 950px);
+	}
+	100% {
+		transform: translate(-100%, 950px);
+	}
+}
 
 @media (min-width: 1921px) {
 }
