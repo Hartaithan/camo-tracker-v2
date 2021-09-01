@@ -71,9 +71,32 @@
       width: 100%;
       top: 0;
       left: 0;
+			&_line {
+				height: 100px;
+				animation: loop 40s linear infinite;
+				&:not(:last-child) {
+					margin-bottom: 5px;
+				}
+				img {
+					height: 100%;
+					border: 1px solid $color-border;
+					&:not(:last-child) {
+						margin-right: 5px;
+					}
+				}
+			}
     }
 	}
 }
+
+// @keyframes loop {
+// 	0% {
+// 		transform: translateX(100%);
+// 	}
+// 	100% {
+// 		transform: translateX(-100%);
+// 	}
+// }
 
 @media (min-width: 1921px) {
 }
