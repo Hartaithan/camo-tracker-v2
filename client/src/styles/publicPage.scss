@@ -1,6 +1,26 @@
 @import "variables";
 @import "colors";
 
+
+.w1 {
+  transform: rotate(-60deg) translate(-220px, 720%);
+}
+.w2 {
+	transform: rotate(-60deg) translate(-220px, 772%);
+}
+.w3 {
+  transform: rotate(-60deg) translate(-220px, 824%);
+}
+.w4 {
+  transform: rotate(-60deg) translate(-220px, 876%);
+}
+.w5 {
+  transform: rotate(-60deg) translate(-220px, 928%);
+}
+.w6 {
+  transform: rotate(-60deg) translate(-220px, 980%);
+}
+
 .tracker {
 	&_public {
 		position: relative;
@@ -10,9 +30,9 @@
 		&_header {
 			width: 100%;
 			position: absolute;
-      top: 0;
-      left: 0;
-      padding: 50px;
+			top: 0;
+			left: 0;
+			padding: 50px;
 			display: flex;
 			justify-content: flex-end;
 			align-items: center;
@@ -35,20 +55,20 @@
 		}
 		&_body {
 			display: flex;
-      flex-direction: column;
+			flex-direction: column;
 			justify-content: center;
 			align-items: flex-start;
-      height: 100%;
-      &_title {
-        font-weight: 500;
-        font-size: 72px;
-      }
-      &_descr {
-        font-size: 24px;
-      }
-      &_button {
-        margin-top: 20px;
-        height: 50px;
+			height: 100%;
+			&_title {
+				font-weight: 500;
+				font-size: 72px;
+			}
+			&_descr {
+				font-size: 24px;
+			}
+			&_button {
+				margin-top: 20px;
+				height: 50px;
 				width: 300px;
 				background: #28a745;
 				border-radius: 10px;
@@ -62,21 +82,43 @@
 				&:hover {
 					background: #188331;
 				}
-      }
+			}
 		}
-    &_background {
-      position: absolute;
-      z-index: -1;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
+		&_background {
+			position: absolute;
+			z-index: -1;
+			height: 100%;
+			width: 100%;
+			top: 0;
+			left: 0;
+			overflow: hidden;
 			&_wrapper {
-				transform: rotate(-45deg);
+				height: 100px;
+				position: relative;
+				overflow: hidden;
+				max-width: 1920px;
+				&:not(:last-child) {
+					margin-bottom: 5px;
+				}
+				&:nth-child(even) {
+					div {
+						left: auto;
+						right: 0;
+						animation: slideRight 80s linear infinite;
+					}
+				}
 			}
 			&_line {
-				height: 100px;
-				animation: loop 30s linear infinite;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				width: calc(1920px * 2.5);
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				transform: translate3d(0, 0, 0);
+				animation: slideLeft 80s linear infinite;
 				&:not(:last-child) {
 					margin-bottom: 5px;
 				}
@@ -88,16 +130,19 @@
 					}
 				}
 			}
-    }
+		}
 	}
 }
 
-@keyframes loop {
-	0% {
-		transform: translate(10%, 950px);
-	}
+@keyframes slideLeft {
 	100% {
-		transform: translate(-100%, 950px);
+		transform: translateX(-50%);
+	}
+}
+
+@keyframes slideRight {
+	100% {
+		transform: translateX(50%);
 	}
 }
 

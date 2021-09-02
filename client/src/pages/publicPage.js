@@ -10,7 +10,7 @@ function publicPage() {
 	function randomImages() {
 		const items = [];
 		const nums = [];
-		while (items.length < 15) {
+		while (items.length < 23) {
 			const type = getRandNum(0, 100) & 1 ? "dm" : "da";
 			const first = getRandNum(1, 9);
 			const second = getRandNum(1, 6);
@@ -22,7 +22,7 @@ function publicPage() {
 				}
 			}
 		}
-		return items;
+		return items.concat(items);
 	}
 
 	return (
@@ -44,11 +44,22 @@ function publicPage() {
 				</Link>
 			</div>
 			<div className="tracker_public_background">
-				<div className="tracker_public_background_wrapper">
+				<div className="tracker_public_background_wrapper w1">
 					<div className="tracker_public_background_line">{randomImages()}</div>
+				</div>
+				<div className="tracker_public_background_wrapper w2">
 					<div className="tracker_public_background_line">{randomImages()}</div>
+				</div>
+				<div className="tracker_public_background_wrapper w3">
 					<div className="tracker_public_background_line">{randomImages()}</div>
+				</div>
+				<div className="tracker_public_background_wrapper w4">
 					<div className="tracker_public_background_line">{randomImages()}</div>
+				</div>
+				<div className="tracker_public_background_wrapper w5">
+					<div className="tracker_public_background_line">{randomImages()}</div>
+				</div>
+				<div className="tracker_public_background_wrapper w6">
 					<div className="tracker_public_background_line">{randomImages()}</div>
 				</div>
 			</div>
