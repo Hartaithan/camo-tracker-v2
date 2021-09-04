@@ -47,11 +47,13 @@
 			position: absolute;
 			height: auto;
 			width: auto;
-			right: 60px;
-			p {
-				cursor: pointer;
-				text-decoration: underline;
-			}
+			right: 30px;
+		}
+		&_home {
+			position: absolute;
+			height: auto;
+			width: auto;
+			left: 30px;
 		}
 		&_settings {
 			height: 50px;

@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 function Header() {
+	const pathname = useLocation().pathname;
 	const paths = useLocation().pathname.split("/");
 	const main = useSelector((state) => state.main);
 	const { isAuth } = useSelector((state) => state.user);
@@ -60,7 +61,14 @@ function Header() {
 					</div>
 				</>
 			)}
-			<div className="tracker_header_login">{!isAuth && <Link to={"/login"}>LOG IN</Link>}</div>
+			{!isAuth && (
+				<>
+					<div className="tracker_header_home">
+						<Link to={"/"}>HOME</Link>
+					</div>
+					<div className="tracker_header_login">{pathname === "/login" ? <Link to={"/register"}>SIGN UP</Link> : <Link to={"/login"}>LOG IN</Link>}</div>
+				</>
+			)}
 			{isAuth && (
 				<div className="tracker_header_settings" onClick={() => dispatch({ type: "TOGGLE_SETTINGS" })}>
 					<svg viewBox="0 0 270 270">
