@@ -126,7 +126,7 @@ function WeaponPage() {
 				categories.push(array.splice(0, 5));
 			}
 			const getCategoryArray = categories[i];
-			if (getCategoryArray[index - 1]) {
+			if (getCategoryArray[index - 1] || getCategoryArray[index]) {
 				dispatch(type);
 			} else {
 				toast.error("Previous camo is not unlocked.", {
