@@ -105,9 +105,6 @@ const mainReducer = (state = initialState, action) => {
 				state[action.id_cat - 1].completed[action.id_mast] = false;
 			}
 			return [...state];
-		case "RESET_ALL":
-			state = initialState;
-			return state;
 		case "SYNC_DATA":
 			state = action.state;
 			return state;

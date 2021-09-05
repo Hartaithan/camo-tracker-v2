@@ -49,7 +49,6 @@ function ConfirmModal() {
 	function onConfirm() {
 		if (modals.isLogOut) {
 			dispatch({ type: "LOG_OUT" });
-			dispatch({ type: "RESET_ALL" });
 			localStorage.removeItem("state");
 			history.push("/login");
 		} else if (modals.isReset) {
