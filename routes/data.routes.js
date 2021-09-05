@@ -46,13 +46,8 @@ async function resetData(req, res) {
 async function syncData(req, res) {
 	const state = req.body;
 	if (state) {
-		User.findById(req.user.userId)
-			.then((user) => {
-				user
-					.updateOne({ state: state })
-					.then(() => res.json("Progress is synchronized with the database."))
-					.catch((err) => res.status(400).json({ message: `Sync data error: ${err}` }));
-			})
+		User.findByIdAndUpdate(req.user.userId, { state: state })
+			.then(() => res.json("Progress is synchronized with the database."))
 			.catch((e) => {
 				console.error("syncData error: ", e);
 				res.status(400).json({ message: "Sync data error... /api/get" });
