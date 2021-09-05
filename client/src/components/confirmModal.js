@@ -8,7 +8,6 @@ function ConfirmModal() {
 	const history = useHistory();
 	const { modals } = useSelector((state) => state.app);
 	const dispatch = useDispatch();
-	console.log(modals);
 
 	function onClose() {
 		dispatch({ type: "CONFIRM_MODAL_CLOSE" });
