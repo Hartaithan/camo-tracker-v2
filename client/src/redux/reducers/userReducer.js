@@ -17,15 +17,6 @@ const userReducer = (state = initialState, action) => {
 				nick: action.nick,
 				isAuth: true,
 			};
-		case "LOG_OUT":
-			return {
-				...state,
-				token: null,
-				userId: null,
-				email: null,
-				nick: null,
-				isAuth: false,
-			};
 		default:
 			return state;
 	}

@@ -46,8 +46,6 @@ const appReducer = (state = initialState, action) => {
 			};
 		case "TOGGLE_SETTINGS":
 			return { ...state, settings: !state.settings };
-		case "LOG_OUT":
-			return { ...state, isOpen: false, settings: false };
 		case "CONFIRM_LOGOUT_MODAL_OPEN":
 			return { ...state, modals: { ...state.modals, isShow: true, isLogOut: true } };
 		case "CONFIRM_RESET_MODAL_OPEN":
