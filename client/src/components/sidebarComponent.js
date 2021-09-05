@@ -3,6 +3,7 @@ import "../styles/sidebarComponent.scss";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Accordion, Tabs, Tab } from "react-bootstrap";
+import { SidebarMenuIcon } from "./svg";
 
 function Sidebar() {
 	const items = useSelector((state) => state.main);
@@ -20,9 +21,7 @@ function Sidebar() {
 		<div className="tracker_sidebar" style={{ left: app.isOpen ? "0px" : "-300px" }}>
 			<div className="tracker_sidebar_header">
 				<div className="tracker_sidebar_header_menu" onClick={() => dispatch({ type: "TOGGLE_SIDEBAR" })}>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-						<path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
-					</svg>
+					<SidebarMenuIcon />
 				</div>
 				<div className="tracker_sidebar_header_link">
 					<Link to="/" onClick={closeSidebar}>

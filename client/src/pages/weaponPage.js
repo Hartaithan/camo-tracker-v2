@@ -8,6 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
 import Header from "../components/headerComponent";
 import { toast } from "react-hot-toast";
+import { CheckCamoIcon, LockIcon } from "../components/svg";
 
 function WeaponPage() {
 	const paths = useLocation().pathname.split("/");
@@ -147,7 +148,7 @@ function WeaponPage() {
 								<div className="tracker_weapon_wrapper_container_text_name">{item.name.toUpperCase()}</div>
 								{i !== 7 && (
 									<div className="tracker_weapon_wrapper_container_text_check" style={{ opacity: show[i] ? "1" : "0" }}>
-										<svg
+										<CheckCamoIcon
 											onClick={() =>
 												dispatch({
 													type: "TOGGLE_CAMO_CATEG",
@@ -157,15 +158,7 @@ function WeaponPage() {
 													id_mast: id_mast,
 												})
 											}
-											version="1.1"
-											xmlns="http://www.w3.org/2000/svg"
-											x="0px"
-											y="0px"
-											viewBox="0 0 448 448"
-										>
-											<polygon points="341.333,192.96 341.333,381.12 42.667,381.12 42.667,82.453 308.693,82.453 355.627,39.787 0,39.787 0,423.787 384,423.787 384,153.707" />
-											<polygon points="417.493,24.213 186.027,234.56 113.493,162.24 85.333,190.4 187.947,293.013 448,54.08" />
-										</svg>
+										/>
 									</div>
 								)}
 								<div className="tracker_weapon_wrapper_container_text_percentage">{calcPerc(item.id)}</div>
@@ -179,9 +172,7 @@ function WeaponPage() {
 										return (
 											<div className={`tracker_weapon_wrapper_container_camocontainer_camo tracker_weapon_wrapper_container_camocontainer_master`} data-title={getMasteryMission(item.id, index)} key={camo.id}>
 												<div className="tracker_weapon_wrapper_container_camocontainer_camo_lock" style={{ opacity: checkMastery(camo.id) }}>
-													<svg viewBox="-64 0 512 512" xmlns="http://www.w3.org/2000/svg">
-														<path d="m336 192h-16v-64c0-70.59375-57.40625-128-128-128s-128 57.40625-128 128v64h-16c-26.453125 0-48 21.523438-48 48v224c0 26.476562 21.546875 48 48 48h288c26.453125 0 48-21.523438 48-48v-224c0-26.476562-21.546875-48-48-48zm-229.332031-64c0-47.0625 38.269531-85.332031 85.332031-85.332031s85.332031 38.269531 85.332031 85.332031v64h-170.664062zm0 0" />
-													</svg>
+													<LockIcon />
 												</div>
 												<img className="tracker_weapon_wrapper_container_camocontainer_camo_img" src={camo.img} alt="camo_img" />
 											</div>
@@ -195,9 +186,7 @@ function WeaponPage() {
 														opacity: main[id_cat - 1].weapons[id_weap - 1].camos[id_mast][camo.id - 1] ? 0 : 1,
 													}}
 												>
-													<svg viewBox="-64 0 512 512" xmlns="http://www.w3.org/2000/svg">
-														<path d="m336 192h-16v-64c0-70.59375-57.40625-128-128-128s-128 57.40625-128 128v64h-16c-26.453125 0-48 21.523438-48 48v224c0 26.476562 21.546875 48 48 48h288c26.453125 0 48-21.523438 48-48v-224c0-26.476562-21.546875-48-48-48zm-229.332031-64c0-47.0625 38.269531-85.332031 85.332031-85.332031s85.332031 38.269531 85.332031 85.332031v64h-170.664062zm0 0" />
-													</svg>
+													<LockIcon />
 												</div>
 												<img className="tracker_weapon_wrapper_container_camocontainer_camo_img" src={camo.img} alt="camo_img" />
 											</div>
