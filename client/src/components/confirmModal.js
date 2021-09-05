@@ -22,7 +22,6 @@ function ConfirmModal() {
 				},
 			})
 			.then((response) => {
-				console.log("response", response);
 				dispatch({ type: "SYNC_DATA", state: response.data.state });
 				toast.success(response?.data.message);
 			})
