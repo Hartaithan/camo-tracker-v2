@@ -147,18 +147,20 @@ function WeaponPage() {
 							<div className="tracker_weapon_wrapper_container_text">
 								<div className="tracker_weapon_wrapper_container_text_name">{item.name.toUpperCase()}</div>
 								{i !== 7 && (
-									<div className="tracker_weapon_wrapper_container_text_check" style={{ opacity: show[i] ? "1" : "0" }}>
-										<CheckCamoIcon
-											onClick={() =>
-												dispatch({
-													type: "TOGGLE_CAMO_CATEG",
-													id_cat: id_cat,
-													id_weap: id_weap,
-													id_camo_cat: i + 1,
-													id_mast: id_mast,
-												})
-											}
-										/>
+									<div
+										className="tracker_weapon_wrapper_container_text_check"
+										onClick={() =>
+											dispatch({
+												type: "TOGGLE_CAMO_CATEG",
+												id_cat: id_cat,
+												id_weap: id_weap,
+												id_camo_cat: i + 1,
+												id_mast: id_mast,
+											})
+										}
+										style={{ opacity: show[i] ? "1" : "0" }}
+									>
+										<CheckCamoIcon />
 									</div>
 								)}
 								<div className="tracker_weapon_wrapper_container_text_percentage">{calcPerc(item.id)}</div>
