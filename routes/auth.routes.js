@@ -1,8 +1,10 @@
 const { Router } = require("express");
 const bcrypt = require("bcryptjs");
+const { v4: uuid } = require("uuid");
 const jwt = require("jsonwebtoken");
 const { check, validationResult } = require("express-validator");
 const User = require("../models/user");
+const Token = require("../models/token");
 const router = Router();
 
 router.post("/register", [check("email", "Invalid email. An email adress must contain single @").isEmail(), check("password", "Invalid password. Password must be at least 6 characters").isLength({ min: 6 })], async (req, res) => {
@@ -69,7 +71,22 @@ router.post("/login", [check("email", "Invalid email. An email adress must conta
 		}
 
 		const token = jwt.sign({ userId: user.id, type: "access" }, process.env.JWT_TOKEN, { expiresIn: "30s" });
-		const refresh_token = jwt.sign({ userId: user.id, type: "refresh" }, process.env.JWT_TOKEN, { expiresIn: "1m" });
+
+		const refresh_id = uuid();
+		const refresh_token = jwt.sign({ id: refresh_id, type: "refresh" }, process.env.JWT_TOKEN, { expiresIn: "1m" });
+
+		const userToken = await Token.findOne({ userId: user.id });
+
+		if (!userToken) {
+			const newToken = new Token({
+				tokenId: refresh_id,
+				userId: user.id,
+			});
+
+			await newToken.save();
+		} else {
+			await userToken.updateOne({ tokenId: refresh_id });
+		}
 
 		res.json({ token, refresh_token, userId: user.id, email: user.email, nick: user.nick });
 	} catch (error) {
