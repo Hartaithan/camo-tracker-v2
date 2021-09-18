@@ -68,10 +68,13 @@ router.post("/login", [check("email", "Invalid email. An email adress must conta
 			return res.status(400).json({ message: "Wrong password" });
 		}
 
-		const token = jwt.sign({ userId: user.id }, process.env.JWT_TOKEN, {
-			expiresIn: "168h",
+		const token = jwt.sign({ userId: user.id, type: "access" }, process.env.JWT_TOKEN, {
+			expiresIn: "30s",
 		});
-		res.json({ token, userId: user.id, email: user.email, nick: user.nick });
+		const refresh_token = jwt.sign({ userId: user.id, type: "refresh" }, process.env.JWT_TOKEN, {
+			expiresIn: "1m",
+		});
+		res.json({ token, refresh_token, userId: user.id, email: user.email, nick: user.nick });
 	} catch (error) {
 		console.error("/login error: ", error);
 		res.status(500).json({ message: "Something wrong... /api/login" });

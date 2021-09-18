@@ -1,5 +1,6 @@
 const initialState = {
 	token: null,
+	refresh_token: null,
 	userId: null,
 	email: null,
 	nick: null,
@@ -12,6 +13,7 @@ const userReducer = (state = initialState, action) => {
 			return {
 				...state,
 				token: action.token,
+				refresh_token: action.refresh_token,
 				userId: action.userId,
 				email: action.email,
 				nick: action.nick,

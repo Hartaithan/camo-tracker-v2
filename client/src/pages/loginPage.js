@@ -28,6 +28,7 @@ function LoginPage() {
 					dispatch({
 						type: "LOG_IN",
 						token: response.data.token,
+						refresh_token: response.data.refresh_token,
 						userId: response.data.userId,
 						email: response.data.email,
 						nick: response.data.nick,
