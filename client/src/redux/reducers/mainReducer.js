@@ -114,9 +114,10 @@ const mainReducer = (state = initialState, action) => {
 					const numOfNewWeapons = categ.weapons.length - state[index].weapons.length;
 					const newWeapons = categ.weapons.slice(-numOfNewWeapons);
 					state[index].weapons = state[index].weapons.concat(newWeapons);
+					return [...state];
 				}
 			});
-			return [...state];
+			return state;
 		default:
 			return state;
 	}
