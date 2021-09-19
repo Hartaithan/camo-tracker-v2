@@ -20,7 +20,7 @@ function App() {
 	const dispatch = useDispatch();
 	const history = useHistory();
 	const main = useSelector((state) => state.main);
-	const { isAuth, token } = useSelector((state) => state.user);
+	const { isAuth, token, refresh_token } = useSelector((state) => state.user);
 	const [request, setRequest] = React.useState(null);
 
 	const getData = React.useCallback(async () => {
@@ -44,15 +44,28 @@ function App() {
 						console.error("getData error", error.response.data);
 					}
 					if (error.response.data.isExpired) {
-						dispatch({ type: "LOG_OUT" });
-						localStorage.removeItem("state");
-						history.push("/login");
+						axios
+							.post("/api/refresh", { refresh_token })
+							.then((response) => {
+								console.log("refresh response", response);
+								dispatch({
+									type: "UPDATE_TOKENS",
+									token: response.data.token,
+									refresh_token: response.data.refresh_token,
+								});
+							})
+							.catch(function (error) {
+								console.error("refresh error", error.response.data);
+								dispatch({ type: "LOG_OUT" });
+								localStorage.removeItem("state");
+								history.push("/login");
+							});
 					}
 				});
 		} catch (error) {
 			console.error("getData catch (error)", error);
 		}
-	}, [token, dispatch, history]);
+	}, [token, refresh_token, dispatch, history]);
 
 	React.useEffect(() => {
 		if (isAuth) {

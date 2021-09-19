@@ -19,6 +19,12 @@ const userReducer = (state = initialState, action) => {
 				nick: action.nick,
 				isAuth: true,
 			};
+		case "UPDATE_TOKENS":
+			return {
+				...state,
+				token: action.token,
+				refresh_token: action.refresh_token,
+			};
 		default:
 			return state;
 	}
