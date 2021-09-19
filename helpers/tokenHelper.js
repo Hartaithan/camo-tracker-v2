@@ -3,14 +3,14 @@ const jwt = require("jsonwebtoken");
 const Token = require("../models/token");
 
 function generateAccessToken(userId) {
-	return jwt.sign({ userId, type: "access" }, process.env.JWT_TOKEN, { expiresIn: "1h" });
+	return jwt.sign({ userId, type: "access" }, process.env.JWT_TOKEN, { expiresIn: "20s" });
 }
 
 function generateRefreshToken() {
 	const id = uuid();
 	return {
 		id,
-		token: jwt.sign({ id, type: "refresh" }, process.env.JWT_TOKEN, { expiresIn: "30d" }),
+		token: jwt.sign({ id, type: "refresh" }, process.env.JWT_TOKEN, { expiresIn: "40s" }),
 	};
 }
 

@@ -25,6 +25,24 @@ function App() {
 	const isFirstRun = React.useRef(true);
 	const [isFirstUpdate, setFirstUpdate] = React.useState(true);
 
+	const getDataAfterRefresh = React.useCallback(
+		async (token) => {
+			axios
+				.get("/api/data/get", {
+					headers: {
+						Authorization: `Bearer ${token}`,
+					},
+				})
+				.then((response) => {
+					dispatch({ type: "SYNC_DATA", state: response.data });
+					toast.success("Progress from the database is received.");
+					dispatch({ type: "STATE_UPDATE" });
+					setFirstUpdate(false);
+				});
+		},
+		[dispatch]
+	);
+
 	const getData = React.useCallback(async () => {
 		try {
 			await axios
@@ -55,22 +73,22 @@ function App() {
 									token: response.data.token,
 									refresh_token: response.data.refresh_token,
 								});
+								getDataAfterRefresh(response.data.token);
 							})
 							.catch(function (error) {
-								toast.error(error.response.data.message || "Refresh token error...");
+								toast.error("Failed to retrieve progress from the database.");
 								console.error("refresh error", error.response.data);
 								dispatch({ type: "LOG_OUT" });
 								localStorage.removeItem("state");
 								history.push("/login");
 							});
 					}
-					toast.error("Failed to retrieve progress from the database.");
 				});
 		} catch (error) {
 			console.error("getData catch (error)", error);
 			toast.error("Failed to retrieve progress from the database.");
 		}
-	}, [token, refresh_token, dispatch, history]);
+	}, [token, refresh_token, dispatch, getDataAfterRefresh, history]);
 
 	React.useEffect(() => {
 		if (isAuth) {
