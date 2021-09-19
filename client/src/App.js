@@ -34,12 +34,12 @@ function App() {
 					},
 				})
 				.then((response) => {
-					setFirstUpdate(false);
-					dispatch({ taype: "SYNC_DATA", state: response.data });
+					dispatch({ type: "SYNC_DATA", state: response.data });
 					toast.success("Progress from the database is received.");
 					dispatch({ type: "STATE_UPDATE" });
+					setFirstUpdate(false);
 				})
-				.catch(function (error) {
+				.catch((error) => {
 					if (error.response.data.message) {
 						console.error("getData error with message", error.response.data.message);
 					} else {
@@ -68,6 +68,7 @@ function App() {
 				});
 		} catch (error) {
 			console.error("getData catch (error)", error);
+			toast.error("Failed to retrieve progress from the database.");
 		}
 	}, [token, refresh_token, dispatch, history]);
 
@@ -75,7 +76,7 @@ function App() {
 		if (isAuth) {
 			getData();
 		}
-	}, []); // eslint-disable-line
+	}, [isAuth]); // eslint-disable-line
 
 	const syncData = React.useCallback(async () => {
 		const source = axios.CancelToken.source();
@@ -112,8 +113,8 @@ function App() {
 		if (isFirstRun.current) {
 			isFirstRun.current = false;
 		} else {
-			if (!isFirstUpdate) {
-				if (isAuth) {
+			if (isAuth) {
+				if (!isFirstUpdate) {
 					syncData();
 				}
 			}
