@@ -22,6 +22,8 @@ function App() {
 	const main = useSelector((state) => state.main);
 	const { isAuth, token, refresh_token } = useSelector((state) => state.user);
 	const [request, setRequest] = React.useState(null);
+	const isFirstRun = React.useRef(true);
+	const [isFirstUpdate, setFirstUpdate] = React.useState(true);
 
 	const getData = React.useCallback(async () => {
 		try {
@@ -32,12 +34,12 @@ function App() {
 					},
 				})
 				.then((response) => {
-					dispatch({ type: "SYNC_DATA", state: response.data });
+					setFirstUpdate(false);
+					dispatch({ taype: "SYNC_DATA", state: response.data });
 					toast.success("Progress from the database is received.");
 					dispatch({ type: "STATE_UPDATE" });
 				})
 				.catch(function (error) {
-					toast.error("Failed to retrieve progress from the database.");
 					if (error.response.data.message) {
 						console.error("getData error with message", error.response.data.message);
 					} else {
@@ -55,12 +57,14 @@ function App() {
 								});
 							})
 							.catch(function (error) {
+								toast.error(error.response.data.message || "Refresh token error...");
 								console.error("refresh error", error.response.data);
 								dispatch({ type: "LOG_OUT" });
 								localStorage.removeItem("state");
 								history.push("/login");
 							});
 					}
+					toast.error("Failed to retrieve progress from the database.");
 				});
 		} catch (error) {
 			console.error("getData catch (error)", error);
@@ -71,7 +75,7 @@ function App() {
 		if (isAuth) {
 			getData();
 		}
-	}, [isAuth]); // eslint-disable-line
+	}, []); // eslint-disable-line
 
 	const syncData = React.useCallback(async () => {
 		const source = axios.CancelToken.source();
@@ -96,6 +100,7 @@ function App() {
 					if (error.response.data.message) {
 						toast.error(error.response.data.message || "Something went wrong...");
 						console.error("syncData error.resonse.data", error.response.data);
+						return;
 					}
 					toast.error("Unable synchronize progress with database... ");
 					console.error("syncData error.resonse", error.response);
@@ -104,8 +109,14 @@ function App() {
 	}, [request, token, main]);
 
 	React.useEffect(() => {
-		if (isAuth) {
-			syncData();
+		if (isFirstRun.current) {
+			isFirstRun.current = false;
+		} else {
+			if (!isFirstUpdate) {
+				if (isAuth) {
+					syncData();
+				}
+			}
 		}
 	}, [main]); // eslint-disable-line
 
