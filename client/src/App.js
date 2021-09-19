@@ -75,7 +75,7 @@ function App() {
 								getDataAfterRefresh(response.data.token);
 							})
 							.catch(function (error) {
-								toast.error("Failed to retrieve progress from the database.");
+								toast.error(error.response.data.message || "Authorization error");
 								console.error("refresh error", error.response.data);
 								dispatch({ type: "LOG_OUT" });
 								localStorage.removeItem("state");
