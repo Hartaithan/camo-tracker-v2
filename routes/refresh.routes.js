@@ -7,7 +7,6 @@ const router = Router();
 router.post("/", async (req, res) => {
 	try {
 		const { refresh_token } = req.body;
-		console.log(refresh_token, req.body);
 
 		if (!refresh_token) {
 			return res.status(400).json({ message: "Token not provided" });

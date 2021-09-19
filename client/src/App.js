@@ -67,7 +67,6 @@ function App() {
 						axios
 							.post("/api/refresh", { refresh_token })
 							.then((response) => {
-								console.log("refresh response", response);
 								dispatch({
 									type: "UPDATE_TOKENS",
 									token: response.data.token,
