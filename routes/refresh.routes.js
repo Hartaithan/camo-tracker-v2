@@ -15,8 +15,7 @@ router.post("/", async (req, res) => {
 		jwt.verify(refresh_token, process.env.JWT_TOKEN, async (error, decoded) => {
 			if (error instanceof jwt.TokenExpiredError) {
 				console.error("Refresh token expired");
-				// COMPLETE LOGOUT TODO
-				return res.status(403).json({ message: "Refresh token expired" });
+				return res.status(403).json({ message: "Your session has expired. Please log in" });
 			}
 
 			if (decoded.type !== "refresh") {
