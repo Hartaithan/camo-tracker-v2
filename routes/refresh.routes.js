@@ -12,7 +12,7 @@ router.post("/", async (req, res) => {
 			return res.status(400).json({ message: "Token not provided" });
 		}
 
-		jwt.verify(refresh_token, process.env.JWT_TOKEN, (error, decoded) => {
+		jwt.verify(refresh_token, process.env.JWT_TOKEN, async (error, decoded) => {
 			if (error instanceof jwt.TokenExpiredError) {
 				console.error("Refresh token expired");
 				// COMPLETE LOGOUT TODO
@@ -23,19 +23,16 @@ router.post("/", async (req, res) => {
 				return res.status(400).json({ message: "Invalid token" });
 			}
 
-			Token.findOne({ tokenId: decoded.id })
-				.exec()
-				.then((token) => {
-					if (!token) {
-						return res.status(400).json({ message: "Token not provided" });
-					}
-					return generateTokens(token.userId);
-				})
-				.then(({ token, refresh_token }) => res.json({ token, refresh_token }))
-				.catch((error) => {
-					console.error("Refresh token findOne error", error.message);
-					res.status(400).json({ message: "Refresh token findOne error" });
-				});
+			try {
+				const token = await Token.findOne({ tokenId: decoded.id });
+				if (!token) {
+					return res.status(400).json({ message: "Token not provided" });
+				}
+				return generateTokens(token.userId).then(({ token, refresh_token }) => res.json({ token, refresh_token }));
+			} catch (error) {
+				console.error("Refresh token findOne error", error.message);
+				res.status(400).json({ message: "Refresh token findOne error" });
+			}
 		});
 	} catch (e) {
 		console.error("/refresh error: ", e);
