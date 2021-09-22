@@ -156,12 +156,6 @@ function App() {
 					<Route path="/weapon">
 						<WeaponPage />
 					</Route>
-					<Route path="/login">
-						<LoginPage />
-					</Route>
-					<Route path="/register">
-						<RegisterPage />
-					</Route>
 					<Redirect to="/" />
 				</Switch>
 				<ConfirmModal />
