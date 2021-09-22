@@ -2753,6 +2753,59 @@
 						"mission": ["Unlock 35 Multiplayer Camos for the _name", "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
 					}
 				]
+			},
+			{
+				"id": 9,
+				"name": "Sai",
+				"camos": [
+					{
+						"id": 1,
+						"name": "Spray",
+						"mission": "Kill _goal enemies with the _name in Multiplayer",
+						"goals": [5, 10, 25, 50, 75]
+					},
+					{
+						"id": 2,
+						"name": "Stripes",
+						"mission": "Get _goal backstabber medals (kill from behind) in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 3,
+						"name": "Classic",
+						"mission": "Execute _goal Finishing Moves in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 4,
+						"name": "Geometric",
+						"mission": "Kill _goal enemies while injured in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 5,
+						"name": "Flora",
+						"mission": "Get _goal kills while sliding in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 6,
+						"name": "Science",
+						"mission": "Get _goal kills with the _name against enemies disoriented by your smoke, flash or stun grenades in Multiplayer",
+						"goals": [5, 10, 15, 25, 50]
+					},
+					{
+						"id": 7,
+						"name": "Psychedelic",
+						"mission": "Kill 2 or more enemies rapidly _goal times in Multiplayer",
+						"goals": [5, 10, 15, 20, 25]
+					},
+					{
+						"id": 8,
+						"name": "Mastery",
+						"mission": ["Unlock 35 Multiplayer Camos for the _name", "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Multiplayer", "Unlock Diamond Camo for all Weapons Classes in Multiplayer"]
+					}
+				]
 			}
 		]
 	},
