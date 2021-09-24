@@ -23,7 +23,9 @@ router.post("/", async (req, res) => {
 			}
 
 			try {
+				console.log("decoded", decoded);
 				const token = await Token.findOne({ tokenId: decoded.id });
+				console.info("token", token);
 				if (!token) {
 					return res.status(400).json({ message: "Token not provided" });
 				}
