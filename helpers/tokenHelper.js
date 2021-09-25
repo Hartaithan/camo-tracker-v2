@@ -6,11 +6,11 @@ function generateAccessToken(userId) {
 	return jwt.sign({ userId, type: "access" }, process.env.JWT_TOKEN, { expiresIn: "15m" });
 }
 
-function generateRefreshToken() {
+function generateRefreshToken(userId) {
 	const id = uuid();
 	return {
 		id,
-		token: jwt.sign({ id, type: "refresh" }, process.env.JWT_TOKEN, { expiresIn: "30d" }),
+		token: jwt.sign({ id, userId, type: "refresh" }, process.env.JWT_TOKEN, { expiresIn: "30d" }),
 	};
 }
 

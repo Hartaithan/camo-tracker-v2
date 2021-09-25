@@ -23,13 +23,12 @@ router.post("/", async (req, res) => {
 			}
 
 			try {
-				console.log("decoded", decoded);
-				const token = await Token.findOne({ tokenId: decoded.id });
-				console.info("token", token);
-				if (!token) {
-					return res.status(400).json({ message: "Token not provided" });
+				const user = await Token.findOne({ userId: decoded.userId });
+				if (!user) {
+					console.error("User not found in token collection");
+					return res.status(400).json({ message: "User not found" });
 				}
-				return generateTokens(token.userId).then(({ token, refresh_token }) => res.json({ token, refresh_token }));
+				return generateTokens(decoded.userId).then(({ token, refresh_token }) => res.json({ token, refresh_token }));
 			} catch (error) {
 				console.error("Refresh token findOne error", error.message);
 				res.status(400).json({ message: "Refresh token findOne error" });
