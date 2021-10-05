@@ -5,6 +5,7 @@ const initialState = {
 	email: null,
 	nick: null,
 	isAuth: false,
+	isDemo: false,
 };
 
 const userReducer = (state = initialState, action) => {
@@ -18,6 +19,14 @@ const userReducer = (state = initialState, action) => {
 				email: action.email,
 				nick: action.nick,
 				isAuth: true,
+			};
+		case "DEMO_IN":
+			return {
+				...state,
+				email: "demo@demo.com",
+				nick: "demo",
+				isAuth: true,
+				isDemo: true,
 			};
 		case "UPDATE_TOKENS":
 			return {
