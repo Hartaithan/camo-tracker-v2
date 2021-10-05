@@ -1,8 +1,11 @@
 import React from "react";
 import "../styles/publicPage.scss";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
-function publicPage() {
+function PublicPage() {
+	const dispatch = useDispatch();
+
 	function getRandNum(min, max) {
 		return Math.floor(Math.random() * (max - min) + min);
 	}
@@ -39,9 +42,14 @@ function publicPage() {
 					<br />
 					Track your camo progression in Multiplayer and Zombies!
 				</p>
-				<Link to="/register">
-					<button className="tracker_public_body_button">CLICK HERE TO REGISTER!</button>
-				</Link>
+				<div className="tracker_public_body_buttons">
+					<Link to="/register">
+						<button className="tracker_public_body_button">CLICK HERE TO REGISTER!</button>
+					</Link>
+					<button className="tracker_public_body_button demo" onClick={() => dispatch({ type: "DEMO_IN" })}>
+						DEMO
+					</button>
+				</div>
 			</div>
 			<div className="tracker_public_background">
 				<div className="tracker_public_background_wrapper w1">
@@ -67,4 +75,4 @@ function publicPage() {
 	);
 }
 
-export default publicPage;
+export default PublicPage;
