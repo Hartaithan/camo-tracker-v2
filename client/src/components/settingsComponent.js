@@ -8,7 +8,7 @@ function SettingsComponent() {
 	const paths = useLocation().pathname.split("/");
 	const main = useSelector((state) => state.main);
 	const app = useSelector((state) => state.app);
-	const { nick, email } = useSelector((state) => state.user);
+	const { nick, email, isDemo } = useSelector((state) => state.user);
 	const dispatch = useDispatch();
 
 	function getName() {
@@ -59,7 +59,7 @@ function SettingsComponent() {
 						<p>@{nick}</p>
 						<p>{email}</p>
 					</div>
-					<div className="tracker_settings_container_user_logout" onClick={() => dispatch({type: "CONFIRM_LOGOUT_MODAL_OPEN"})}>
+					<div className="tracker_settings_container_user_logout" onClick={() => dispatch({ type: "CONFIRM_LOGOUT_MODAL_OPEN" })}>
 						<LogOutIcon />
 					</div>
 				</div>
@@ -76,7 +76,8 @@ function SettingsComponent() {
 						</button>
 					)}
 					<button
-						className="tracker_settings_container_buttons_reset"
+						className={isDemo ? "tracker_settings_container_buttons_reset disabled" : "tracker_settings_container_buttons_reset"}
+						disabled={isDemo && true}
 						onClick={() => {
 							dispatch({ type: "CONFIRM_RESET_MODAL_OPEN" });
 							closeSidebar();

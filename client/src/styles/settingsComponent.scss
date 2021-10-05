@@ -77,6 +77,12 @@
 				display: flex;
 				flex-direction: column;
 				padding: 15px;
+				&_reset {
+					&.disabled {
+						opacity: 0.5;
+						background: $color-header !important;
+					}
+				}
 				button {
 					height: 35px;
 					background: $color-header;

@@ -15,12 +15,13 @@ import Sidebar from "./components/sidebarComponent";
 import SettingsComponent from "./components/settingsComponent";
 import ConfirmModal from "./components/confirmModal";
 import PublicPage from "./pages/publicPage";
+import DemoBadge from "./components/demoBadge";
 
 function App() {
 	const dispatch = useDispatch();
 	const history = useHistory();
 	const main = useSelector((state) => state.main);
-	const { isAuth, token, refresh_token } = useSelector((state) => state.user);
+	const { isAuth, isDemo, token, refresh_token } = useSelector((state) => state.user);
 	const [request, setRequest] = React.useState(null);
 	const isFirstRun = React.useRef(true);
 	const [isFirstUpdate, setFirstUpdate] = React.useState(true);
@@ -90,7 +91,7 @@ function App() {
 	}, [token, refresh_token, dispatch, getDataAfterRefresh, history]);
 
 	React.useEffect(() => {
-		if (isAuth) {
+		if (isAuth && !isDemo) {
 			getData();
 		}
 	}, [isAuth]); // eslint-disable-line
@@ -130,7 +131,7 @@ function App() {
 		if (isFirstRun.current) {
 			isFirstRun.current = false;
 		} else {
-			if (isAuth) {
+			if (isAuth && !isDemo) {
 				if (!isFirstUpdate) {
 					syncData();
 				}
@@ -159,6 +160,7 @@ function App() {
 					<Redirect to="/" />
 				</Switch>
 				<ConfirmModal />
+				{isDemo && <DemoBadge />}
 			</div>
 		);
 	}
