@@ -2,60 +2,60 @@
 @import "colors";
 
 .tracker {
-	&_register {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		height: calc(100% - 50px);
-		overflow: auto;
-		&_form {
-			width: 320px;
-			height: auto;
-			font-size: 14px;
-			&_field {
-				display: flex;
-				flex-direction: row;
-				height: 50px;
-				margin-bottom: 15px;
-				label {
-					width: 50px;
-					height: 50px;
-					padding: 15px;
-					background: $color-header;
-					svg {
-						fill: $color-text;
-						opacity: 0.5;
-					}
-				}
-				input {
-					width: 270px;
-					background: $color-el;
-					padding-left: 15px;
-					border: none;
-					color: $color-text;
-				}
-			}
-			&_submit {
-				height: 50px;
-				input {
-					height: 100%;
-					width: 100%;
-					background: $color-completed;
-					border: none;
-					color: black;
-					text-transform: uppercase;
-					font-weight: 600;
-				}
-			}
-		}
-		&_bottom {
-			height: auto;
-			width: auto;
-			margin-top: 15px;
-			font-size: 14px;
-		}
-	}
+  &_register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 50px);
+    overflow: auto;
+    &_form {
+      width: 320px;
+      height: auto;
+      font-size: 14px;
+      &_field {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        margin-bottom: 15px;
+        label {
+          width: 50px;
+          height: 50px;
+          padding: 15px;
+          background: $color-header;
+          svg {
+            fill: $color-text;
+            opacity: 0.5;
+          }
+        }
+        input {
+          width: 270px;
+          background: $color-el;
+          padding-left: 15px;
+          border: none;
+          color: $color-text;
+        }
+      }
+      &_submit {
+        height: 50px;
+        input {
+          height: 100%;
+          width: 100%;
+          background: $color-completed;
+          border: none;
+          color: black;
+          text-transform: uppercase;
+          font-weight: 600;
+        }
+      }
+    }
+    &_bottom {
+      height: auto;
+      width: auto;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+  }
 }
 
 @media (min-width: 1921px) {
@@ -74,14 +74,14 @@
 }
 
 @media (max-width: 576px) {
-	.tracker_register {
-		&_form {
-			width: 90%;
-			&_field {
-				input {
-					width: 100%;
-				}
-			}
-		}
-	}
+  .tracker_register {
+    &_form {
+      width: 90%;
+      &_field {
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
 }

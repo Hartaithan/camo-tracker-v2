@@ -90,9 +90,9 @@ function MainPage() {
     return parseFloat(percentage.toFixed(2));
   }
 
-	function calcRightStats() {
-		return "PLACEHOLDER"
-	}
+  function calcRightStats() {
+    return "PLACEHOLDER";
+  }
 
   function SmallProgressComponent(props) {
     return (

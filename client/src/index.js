@@ -7,21 +7,21 @@ import { Toaster } from "react-hot-toast";
 import store from "./redux";
 
 ReactDOM.render(
-	<Provider store={store}>
-		<Router basename={process.env.PUBLIC_URL}>
-			<React.StrictMode>
-				<Toaster
-					position="bottom-right"
-					toastOptions={{
-						style: {
-							background: "#1f1f1f",
-							color: "#e4e4e4",
-						},
-					}}
-				/>
-				<App />
-			</React.StrictMode>
-		</Router>
-	</Provider>,
-	document.getElementById("root")
+  <Provider store={store}>
+    <Router basename={process.env.PUBLIC_URL}>
+      <React.StrictMode>
+        <Toaster
+          position="bottom-right"
+          toastOptions={{
+            style: {
+              background: "#1f1f1f",
+              color: "#e4e4e4",
+            },
+          }}
+        />
+        <App />
+      </React.StrictMode>
+    </Router>
+  </Provider>,
+  document.getElementById("root")
 );

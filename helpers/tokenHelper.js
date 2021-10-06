@@ -3,41 +3,45 @@ const jwt = require("jsonwebtoken");
 const Token = require("../models/token");
 
 function generateAccessToken(userId) {
-	return jwt.sign({ userId, type: "access" }, process.env.JWT_TOKEN, { expiresIn: "15m" });
+  return jwt.sign({ userId, type: "access" }, process.env.JWT_TOKEN, {
+    expiresIn: "15m",
+  });
 }
 
 function generateRefreshToken(userId) {
-	const id = uuid();
-	return {
-		id,
-		token: jwt.sign({ id, userId, type: "refresh" }, process.env.JWT_TOKEN, { expiresIn: "30d" }),
-	};
+  const id = uuid();
+  return {
+    id,
+    token: jwt.sign({ id, userId, type: "refresh" }, process.env.JWT_TOKEN, {
+      expiresIn: "30d",
+    }),
+  };
 }
 
 async function updateToken(tokenId, userId) {
-	const userToken = await Token.findOne({ userId });
+  const userToken = await Token.findOne({ userId });
 
-	if (!userToken) {
-		const newToken = new Token({ tokenId, userId });
-		await newToken.save();
-	} else {
-		await userToken.updateOne({ tokenId });
-	}
+  if (!userToken) {
+    const newToken = new Token({ tokenId, userId });
+    await newToken.save();
+  } else {
+    await userToken.updateOne({ tokenId });
+  }
 }
 
 function generateTokens(userId) {
-	const access = generateAccessToken(userId);
-	const refresh = generateRefreshToken(userId);
+  const access = generateAccessToken(userId);
+  const refresh = generateRefreshToken(userId);
 
-	return updateToken(refresh.id, userId).then(() => ({
-		token: access,
-		refresh_token: refresh.token,
-	}));
+  return updateToken(refresh.id, userId).then(() => ({
+    token: access,
+    refresh_token: refresh.token,
+  }));
 }
 
 module.exports = {
-	generateAccessToken,
-	generateRefreshToken,
-	updateToken,
-	generateTokens,
+  generateAccessToken,
+  generateRefreshToken,
+  updateToken,
+  generateTokens,
 };
