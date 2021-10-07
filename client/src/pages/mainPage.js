@@ -9,73 +9,82 @@ function MainPage() {
   const main = useSelector((state) => state.main);
   const app = useSelector((state) => state.app);
 
-  function calcBase(id_mast) {
-    let n = 0;
-    let length = 0;
-    main.forEach((categ) => {
-      categ.weapons.forEach((weapon) => {
-        if (!weapon.dlc) {
+  const calcBase = React.useCallback(
+    (id_mast) => {
+      let n = 0;
+      let length = 0;
+      main.forEach((categ) => {
+        categ.weapons.forEach((weapon) => {
+          if (!weapon.dlc) {
+            n = n + weapon.camos[id_mast].filter(Boolean).length;
+            length = length + weapon.camos[id_mast].length;
+          }
+        });
+      });
+      const percentage = (n / length) * 100;
+      return parseFloat(percentage.toFixed(2));
+    },
+    [main]
+  );
+
+  const calcBaseDlc = React.useCallback(
+    (id_mast) => {
+      let n = 0;
+      let length = 0;
+      main.forEach((categ) => {
+        categ.weapons.forEach((weapon) => {
           n = n + weapon.camos[id_mast].filter(Boolean).length;
           length = length + weapon.camos[id_mast].length;
-        }
+        });
       });
-    });
-    const percentage = (n / length) * 100;
-    return parseFloat(percentage.toFixed(2));
-  }
+      const percentage = (n / length) * 100;
+      return parseFloat(percentage.toFixed(2));
+    },
+    [main]
+  );
 
-  function calcBaseDlc(id_mast) {
-    let n = 0;
-    let length = 0;
-    main.forEach((categ) => {
-      categ.weapons.forEach((weapon) => {
-        n = n + weapon.camos[id_mast].filter(Boolean).length;
-        length = length + weapon.camos[id_mast].length;
+  const calcStats = React.useCallback(
+    (id_mast) => {
+      let numWeapons = 0;
+      main.forEach((categ) => {
+        categ.weapons.forEach(() => {
+          ++numWeapons;
+        });
       });
-    });
-    const percentage = (n / length) * 100;
-    return parseFloat(percentage.toFixed(2));
-  }
 
-  function calcStats(id_mast) {
-    let numWeapons = 0;
-    main.forEach((categ) => {
-      categ.weapons.forEach(() => {
-        ++numWeapons;
+      let completedWeapons = 0;
+      main.forEach((categ) => {
+        categ.weapons.forEach((weapon) => {
+          if (weapon.completed[id_mast]) {
+            ++completedWeapons;
+          }
+        });
       });
-    });
 
-    let completedWeapons = 0;
-    main.forEach((categ) => {
-      categ.weapons.forEach((weapon) => {
-        if (weapon.completed[id_mast]) {
-          ++completedWeapons;
-        }
-      });
-    });
+      let leftWeapons = 0;
+      leftWeapons = numWeapons - completedWeapons;
 
-    let leftWeapons = 0;
-    leftWeapons = numWeapons - completedWeapons;
+      switch (id_mast) {
+        case "dm":
+          return {
+            weapons: numWeapons,
+            completed: completedWeapons,
+            left: leftWeapons,
+          };
+        case "da":
+          return {
+            weapons: numWeapons,
+            completed: completedWeapons,
+            left: leftWeapons,
+          };
+        default:
+          return "Something wrong...";
+      }
+    },
+    [main]
+  );
 
-    switch (id_mast) {
-      case "dm":
-        return {
-          weapons: numWeapons,
-          completed: completedWeapons,
-          left: leftWeapons,
-        };
-      case "da":
-        return {
-          weapons: numWeapons,
-          completed: completedWeapons,
-          left: leftWeapons,
-        };
-      default:
-        return "Something wrong...";
-    }
-  }
-
-  function calcTotal() {
+  const calcTotal = React.useCallback(() => {
     let numOfCamos = 0;
     let lengthOfCamos = 0;
     main.forEach((categ) => {
@@ -88,11 +97,11 @@ function MainPage() {
     });
     const percentage = (numOfCamos / lengthOfCamos) * 100;
     return parseFloat(percentage.toFixed(2));
-  }
+  }, [main]);
 
-  function calcRightStats() {
+  const calcRightStats = React.useCallback(() => {
     return "PLACEHOLDER";
-  }
+  }, []);
 
   function SmallProgressComponent(props) {
     return (
