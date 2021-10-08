@@ -99,11 +99,9 @@ function MainPage() {
       let numOfDlc = 0;
       let numOfCompletedBase = 0;
       let numOfCompletedDlc = 0;
-      console.log(id_mast);
       main.forEach((categ) => {
         categ.weapons.forEach((weapon) => {
           if (weapon.completed[id_mast]) {
-            console.log("sss");
             if (!weapon.dlc) {
               ++numOfCompletedBase;
             }
