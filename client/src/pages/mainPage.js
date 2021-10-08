@@ -46,22 +46,16 @@ function MainPage() {
   const calcStats = React.useCallback(
     (id_mast) => {
       let numWeapons = 0;
-      main.forEach((categ) => {
-        categ.weapons.forEach(() => {
-          ++numWeapons;
-        });
-      });
-
       let completedWeapons = 0;
+      let leftWeapons = 0;
       main.forEach((categ) => {
         categ.weapons.forEach((weapon) => {
           if (weapon.completed[id_mast]) {
             ++completedWeapons;
           }
+          ++numWeapons;
         });
       });
-
-      let leftWeapons = 0;
       leftWeapons = numWeapons - completedWeapons;
 
       switch (id_mast) {
@@ -99,9 +93,35 @@ function MainPage() {
     return parseFloat(percentage.toFixed(2));
   }, [main]);
 
-  const calcRightStats = React.useCallback(() => {
-    return "PLACEHOLDER";
-  }, []);
+  const calcRightStats = React.useCallback(
+    (id_mast, dlc) => {
+      let numOfBase = 0;
+      let numOfDlc = 0;
+      let numOfCompletedBase = 0;
+      let numOfCompletedDlc = 0;
+      console.log(id_mast);
+      main.forEach((categ) => {
+        categ.weapons.forEach((weapon) => {
+          if (weapon.completed[id_mast]) {
+            console.log("sss");
+            if (!weapon.dlc) {
+              ++numOfCompletedBase;
+            }
+            ++numOfCompletedDlc;
+          }
+          if (!weapon.dlc) {
+            ++numOfBase;
+          }
+          ++numOfDlc;
+        });
+      });
+      if (dlc) {
+        return `${numOfCompletedDlc} / ${numOfDlc}`;
+      }
+      return `${numOfCompletedBase} / ${numOfBase}`;
+    },
+    [main]
+  );
 
   function SmallProgressComponent(props) {
     return (
@@ -121,7 +141,7 @@ function MainPage() {
         </div>
         <div className="tracker_main_right_circlecontainer_text">
           <div className="tracker_main_right_circlecontainer_text_total">
-            {calcRightStats(props.mast)}
+            {calcRightStats(props.mast === "DM ULTRA" ? "dm" : "da", props.dlc)}
           </div>
           <div className="tracker_main_right_circlecontainer_text_name">
             {props.mast}
@@ -216,24 +236,28 @@ function MainPage() {
             value={calcBase("dm")}
             mast="DM ULTRA"
             categ="BASE"
+            dlc={false}
           />
           <SmallProgressComponent
             color="#14A76C"
             value={calcBaseDlc("dm")}
             mast="DM ULTRA"
             categ="BASE + DLC"
+            dlc={true}
           />
           <SmallProgressComponent
             color="#00BBF9"
             value={calcBase("da")}
             mast="DARK AETHER"
             categ="BASE"
+            dlc={false}
           />
           <SmallProgressComponent
             color="#FFC400"
             value={calcBaseDlc("da")}
             mast="DARK AETHER"
             categ="BASE + DLC"
+            dlc={true}
           />
         </div>
       </div>
