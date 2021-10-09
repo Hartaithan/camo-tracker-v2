@@ -148,6 +148,14 @@ function App() {
     }
   }, [main]); // eslint-disable-line
 
+  window.addEventListener("beforeunload", (ev) => {
+    ev.preventDefault();
+    if (isDemo) {
+      dispatch({ type: "LOG_OUT" });
+      localStorage.removeItem("state");
+    }
+  });
+
   if (isAuth) {
     return (
       <div className="tracker">
