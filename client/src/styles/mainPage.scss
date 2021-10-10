@@ -174,9 +174,13 @@
         }
         &_text {
           &_percentage,
-          &_name {
+          &_name,
+          &_total {
             font-size: 24px;
           }
+        }
+        &_perc {
+          font-size: 28px;
         }
       }
     }
@@ -204,7 +208,8 @@
       &_circlecontainer {
         &_text {
           &_percentage,
-          &_name {
+          &_name,
+          &_total {
             font-size: 20px;
           }
         }
@@ -243,11 +248,15 @@
         }
         &_text {
           flex: 65;
-          padding-left: 10px;
+          padding-left: 5px;
           &_percentage,
-          &_name {
-            font-size: 14px;
+          &_name,
+          &_total {
+            font-size: 13px;
           }
+        }
+        &_perc {
+          font-size: 14px;
         }
       }
     }
@@ -280,6 +289,9 @@
           &_name {
             font-size: 12px;
           }
+        }
+        &_perc {
+          font-size: 10px;
         }
       }
     }
