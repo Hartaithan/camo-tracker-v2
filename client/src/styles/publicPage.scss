@@ -132,6 +132,7 @@
         }
         img {
           height: 100%;
+          width: 100%;
           border: 1px solid $color-border;
           &:not(:last-child) {
             margin-right: 5px;
@@ -283,8 +284,9 @@
       }
       &_button {
         font-size: 14px;
-        height: 40px;
-        width: 250px;
+        height: 35px;
+        width: 220px;
+        margin-top: 10px;
         &.demo {
           margin-left: 0;
           margin-top: 10px;
