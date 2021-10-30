@@ -36,12 +36,13 @@ function WeaponPage() {
         id_camo
       ];
     const name = mission[id_cat - 1].weapons[id_weap - 1].name;
+    const camo_name = camos[id_camo_cat - 1].camos[id_camo].name;
     const getMission = mission[id_cat - 1].weapons[id_weap - 1].camos[
       id_camo_cat - 1
     ].mission
       .replace(/_goal/i, goal)
       .replace(/_name/i, name);
-    return getMission;
+    return `${camo_name}:\n${getMission}`;
   }
 
   function getMasteryMission(id_camo_cat, id_camo) {
@@ -49,7 +50,8 @@ function WeaponPage() {
     const getMasteryMission = mission[id_cat - 1].weapons[id_weap - 1].camos[
       id_camo_cat - 1
     ].mission[id_camo].replace(/_name/i, name);
-    return getMasteryMission;
+    const camo_name = camos[id_camo_cat - 1].camos[id_camo].name;
+    return `${camo_name}:\n${getMasteryMission}`;
   }
 
   function calcPerc(id_camocat) {

@@ -98,7 +98,7 @@
               transform: translateX(-50%);
               word-wrap: break-word;
               word-break: keep-all;
-              white-space: normal !important;
+              white-space: pre-wrap !important;
               box-shadow: 1px 1px 3px $color-bg;
               opacity: 0;
               border: 1px solid $color-border;
