@@ -13,12 +13,12 @@ app.use("/api/data", require("./routes/data.routes"));
 app.use("/api/refresh", require("./routes/refresh.routes"));
 
 if (process.env.NODE_ENV === "production") {
-  app.use("coldwar", express.static("coldwar/build"));
-  app.use("vanguard", express.static("vanguard/build"));
-  app.get("coldwar/*", (req, res) => {
+  app.use("/coldwar", express.static("coldwar/build"));
+  app.use("/vanguard", express.static("vanguard/build"));
+  app.get("/coldwar/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "coldwar", "build", "index.html"));
   });
-  app.get("vanguard/*", (req, res) => {
+  app.get("/vanguard/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "vanguard", "build", "index.html"));
   });
 }
