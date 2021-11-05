@@ -1,0 +1,228 @@
+@import "variables";
+@import "colors";
+
+.tracker {
+  &_master {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    height: calc(100% - 50px);
+    overflow: auto;
+    .accordion {
+      &-item {
+        margin-bottom: 10px;
+      }
+      &-body {
+        padding: 0px !important;
+      }
+      &-header {
+        flex-direction: row-reverse;
+      }
+      &-button {
+        border: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        background-color: transparent !important;
+        color: #e4e4e4 !important;
+        box-shadow: none !important;
+        &::before {
+          flex-shrink: 0;
+          width: 1.25rem;
+          height: 1.25rem;
+          margin-left: 0;
+          margin-right: 5px;
+          content: "";
+          background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0idHJhbnNmb3JtOiByb3RhdGUoOTBkZWcpOyI+PHBhdGggZD0iTTIxIDEybC0xOCAxMnYtMjR6IiBmaWxsPSIjZTRlNGU0Ij48L3BhdGg+PC9zdmc+);
+          background-repeat: no-repeat;
+          background-size: 1.25rem;
+          transition: transform 0.2s ease-in-out;
+          transform: rotate(-90deg) scale(0.6);
+        }
+        &::after {
+          display: none;
+        }
+        &:not(.collapsed)::before {
+          transform: rotate(0deg) scale(0.6);
+        }
+      }
+      &-item {
+        border: none !important;
+        border-radius: 0 !important;
+        background-color: transparent !important;
+        color: #e4e4e4;
+      }
+    }
+    &_container {
+      height: auto;
+      &_progress {
+        &_text {
+          cursor: pointer;
+          height: auto;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          &_name {
+            width: auto;
+          }
+          &_percentage {
+            width: auto;
+          }
+        }
+        &_bar {
+          margin-top: 5px;
+          height: 5px;
+          background: $color-noncompleted;
+          border: 1px solid $color-border;
+          &_yellow {
+            height: 100%;
+            background: $color-completed;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+          }
+        }
+      }
+      &_weaponlist {
+        display: grid;
+        width: 100%;
+        padding-top: 10px;
+        justify-content: flex-start;
+        grid-gap: 10px;
+        &_weaponcontainer {
+          height: 100px;
+          width: 200px;
+          position: relative;
+          background: $color-el;
+          border: 1px solid $color-border;
+          box-sizing: border-box;
+          &_card {
+            z-index: 5;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            left: 5px;
+            bottom: 8px;
+            font-size: 14px;
+            position: absolute;
+          }
+          &_imgcontainer {
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            font-size: 56px;
+            font-weight: 500;
+            img {
+              display: block;
+              max-width: 200px;
+              max-height: 100px;
+              width: auto;
+              height: auto;
+              padding: 20px;
+              opacity: 0.7;
+              box-sizing: border-box;
+            }
+          }
+          &_yellowbar {
+            height: 4px;
+            width: 0%;
+            box-sizing: border-box;
+            background: $color-completed;
+            border-top: 1px solid $color-border;
+            position: absolute;
+            z-index: 10;
+            bottom: 0;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+          }
+          &_greybar {
+            height: 4px;
+            width: 100%;
+            box-sizing: border-box;
+            background: $color-noncompleted;
+            border-top: 1px solid $color-border;
+            position: absolute;
+            bottom: 0;
+          }
+          &_dlc {
+            width: 0;
+            height: 0;
+            border-top: 20px solid $color-text;
+            border-bottom: 20px solid transparent;
+            border-left: 20px solid transparent;
+            border-right: 20px solid $color-text;
+            float: right;
+            &_text {
+              height: 100%;
+              color: $color-el;
+              font-weight: 700;
+              position: relative;
+              font-size: 10px;
+              top: -18px;
+              right: -5px;
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .tracker_master {
+    &_container {
+      &_weaponlist {
+        grid-template-columns: repeat(3, 1fr) !important;
+        &_weaponcontainer {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .tracker_master {
+    &_container {
+      &_weaponlist {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .tracker_master {
+    &_container {
+      &_weaponlist {
+        grid-template-columns: 1fr !important;
+        &_weaponcontainer {
+          height: 80px;
+          &_imgcontainer {
+            img {
+              max-height: 80px;
+              padding: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

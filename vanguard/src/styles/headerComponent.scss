@@ -1,0 +1,97 @@
+@import "variables";
+@import "colors";
+
+.tracker {
+  &_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    &_menu {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      svg {
+        height: 40%;
+        width: 40%;
+        fill: $color-text;
+      }
+    }
+    &_title {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      width: auto;
+      &_text {
+        white-space: nowrap;
+      }
+      &_check {
+        height: 19px;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        svg {
+          cursor: pointer;
+          margin-left: 5px;
+          width: 19px;
+          fill: $color-text;
+        }
+      }
+    }
+    &_login {
+      position: absolute;
+      height: auto;
+      width: auto;
+      right: 30px;
+    }
+    &_home {
+      position: absolute;
+      height: auto;
+      width: auto;
+      left: 30px;
+    }
+    &_settings {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      svg {
+        height: 40%;
+        width: 40%;
+        fill: $color-text;
+      }
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .tracker_header {
+    &_title {
+      &_check {
+        opacity: 1 !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}

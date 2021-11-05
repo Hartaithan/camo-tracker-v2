@@ -1,0 +1,64 @@
+@import "variables";
+@import "colors";
+
+.tracker {
+  &_demo {
+    height: fit-content;
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #1f1f1f;
+    padding: 10px 15px;
+    border: 1px solid $color-danger;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: default;
+    &:hover {
+      opacity: 1;
+    }
+    &_title {
+      margin-bottom: 5px;
+    }
+    &_descr {
+      margin-bottom: 10px;
+    }
+    &_button {
+      width: 100%;
+      padding: 5px 10px;
+      font-size: 12px;
+      background: #188331;
+      font-size: 14px;
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .tracker_demo {
+    width: 200px;
+    font-size: 12px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,86 @@
+.confirmModal {
+  .modal {
+    &-dialog {
+      width: 400px;
+    }
+    &-content {
+      background: #1f1f1f;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    &-header,
+    &-footer {
+      height: 60px;
+      background: #2b2b2b;
+    }
+    &-header {
+      justify-content: center;
+      border-bottom: none;
+    }
+    &-body {
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      text-align: center;
+    }
+    &-footer {
+      border-top: none;
+      padding: 0;
+      button {
+        margin: 0;
+        border: 0;
+        height: 100%;
+        width: 50%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      button:first-child {
+        background: #2b2b2b;
+        &:hover {
+          background: #3b3b3b;
+        }
+      }
+      button:last-child {
+        background: #dc3545;
+        &:hover {
+          background: #a92431;
+        }
+      }
+    }
+    &-title {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .confirmModal {
+    .modal {
+      &-dialog {
+        width: 80%;
+        margin: 0.5rem auto;
+      }
+      &-body {
+        padding: 30px 20px;
+      }
+    }
+  }
+}

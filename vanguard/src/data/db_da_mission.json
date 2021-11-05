@@ -1,0 +1,3539 @@
+[
+  {
+    "id": 1,
+    "name": "Assault Rifles",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "XM4",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "AK-47",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Krig 6",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "QBZ-83",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "FFAR 1",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Groza",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "FARA 83",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "C58",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "EM2",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Grav",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Submachine Guns",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "MP5",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Milano 821",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "AK-74u",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "KSP 45",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Bullfrog",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "MAC-10",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "LC10",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "PPSH-41",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "OTs 9",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "TEC-9",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "LAPA",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 5 SMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tactical Rifles",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Type 63",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 4 Tactical Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "M16",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 4 Tactical Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "AUG",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 4 Tactical Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "DMR 14",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 4 Tactical Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "CARV.2",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 4 Tactical Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Light Machine Guns",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Stoner 63",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 LMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "RPD",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 LMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "M60",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 LMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "MG 82",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 LMGs in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sniper Rifles",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Pellington 703",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Sniper Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "LW3 - Tundra",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Sniper Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "M82",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Sniper Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "ZRG 20mm",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Sniper Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Swiss K31",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Sniper Rifles in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pistols",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "1911",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Pistols in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Magnum",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Pistols in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Diamatti",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Pistols in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "AMP63",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Pistols in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Marshal",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 3 Pistols in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Launchers",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "RPG",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 500, 1000, 1500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Kill 2 or more enemies rapidly _goal times with the _name in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Kill 5 or more enemies with a single shot _goal times with the _name in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies)",
+            "goals": [50, 250, 500, 100, 1500]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal times with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 2 Launchers in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cigma 2",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 500, 1000, 1500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Kill 2 or more enemies rapidly _goal times with the _name in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Kill 5 or more enemies with a single shot _goal times with the _name in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies)",
+            "goals": [50, 250, 500, 100, 1500]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal times with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 2 Launchers in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Shotguns",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Hauer 77",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 2 Shotguns in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Gallo SA12",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 2 Shotguns in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Streetsweeper",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 2 Shotguns in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": ".410 Ironhide",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 2 Shotguns in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Melee",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "Knife",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Sledgehammer",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Wakizashi",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "E-Tool",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Machete",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Baseball Bat",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Mace",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Cane",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Sai",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Battle Axe",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Hammer & Sickle",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Special",
+    "weapons": [
+      {
+        "id": 1,
+        "name": "M79",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 500, 1000, 1500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Kill 2 or more enemies rapidly _goal times with the _name in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Kill 5 or more enemies with a single shot _goal times with the _name in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 500, 1000, 1500]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "R1 Shadowhunter",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 500, 1000, 1500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Kill 3 or more enemies with a single shot _goal times with the _name in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 500, 1000, 1500]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Ballistic Knife",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 500, 1000, 1500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Melee Kills with the _name against enemies who are disoriented by a Stun Grenade, Monkey Bomb or Decoy in Zombies",
+            "goals": [10, 20, 30, 40, 50]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 125, 250, 500, 750]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Kills with the _name against enemies who are affected by Frost Blast or Ring of Fire or while you have Aether Shroud active in Zombies",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Kill 2 or more enemies rapidly _goal times with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Nail Gun",
+        "camos": [
+          {
+            "id": 1,
+            "name": "Grunge",
+            "mission": "Get _goal kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 2,
+            "name": "Liquid",
+            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 3,
+            "name": "Brushstroke",
+            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
+            "goals": [50, 250, 750, 1500, 2500]
+          },
+          {
+            "id": 4,
+            "name": "Vintage",
+            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
+            "goals": [3, 6, 9, 12, 15]
+          },
+          {
+            "id": 5,
+            "name": "Fauna",
+            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 6,
+            "name": "Topography",
+            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
+            "goals": [5, 10, 15, 20, 25]
+          },
+          {
+            "id": 7,
+            "name": "Infection",
+            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
+            "goals": [2, 4, 6, 8, 10]
+          },
+          {
+            "id": 8,
+            "name": "Mastery",
+            "mission": [
+              "Unlock 35 Zombies Camos for the _name",
+              "Unlock Gold Camo for 1 Melee Weapon and 1 Special Weapon in Zombies",
+              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+@import "variables";
+@import "colors";
+
+.tracker {
+  &_settings {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    right: 0;
+    z-index: 20;
+    height: 300px;
+    width: 300px;
+    background: $color-el;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    &_header {
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      background: $color-header;
+      box-sizing: border-box;
+      &_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &_button {
+        position: absolute;
+        right: 0;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        svg {
+          height: 40%;
+          width: 40%;
+          fill: $color-text;
+        }
+      }
+    }
+    &_container {
+      height: calc(100% - 20px);
+      box-sizing: border-box;
+      &_user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        border-bottom: 1px solid $color-header;
+        p {
+          font-size: 14px;
+        }
+        p:first-child {
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 3px;
+        }
+        &_logout {
+          cursor: pointer;
+          height: 30px;
+          width: 30px;
+          svg {
+            height: 100%;
+            width: 100%;
+            fill: $color-text;
+          }
+        }
+      }
+      &_buttons {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        &_reset {
+          &.disabled {
+            opacity: 0.5;
+            background: $color-header !important;
+          }
+        }
+        button {
+          height: 35px;
+          background: $color-header;
+          font-size: 14px;
+          border-radius: 10px;
+          border: none;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            background: $color-danger;
+          }
+        }
+        button:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
