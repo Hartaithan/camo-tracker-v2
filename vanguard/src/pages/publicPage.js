@@ -26,7 +26,7 @@ function PublicPage() {
           pretendent !== "da/8_5"
         ) {
           nums.push(`${type}/${first}_${second}`);
-          items.push(<img src={`/img/${pretendent}.png`} alt="random img" />);
+          items.push(<img src={`img/${pretendent}.png`} alt="random img" />);
         }
       }
     }
