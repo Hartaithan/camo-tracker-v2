@@ -17,7 +17,7 @@ import SettingsComponent from "./components/settingsComponent";
 import ConfirmModal from "./components/confirmModal";
 import PublicPage from "./pages/publicPage";
 import DemoBadge from "./components/demoBadge";
-import API from "./api";
+import { API } from "./api";
 
 function App() {
   const dispatch = useDispatch();
@@ -29,7 +29,7 @@ function App() {
   const [isFirstUpdate, setFirstUpdate] = React.useState(true);
 
   const getDataAfterRefresh = React.useCallback(async () => {
-    API.get("/data/get").then((response) => {
+    API().get("/data/get").then((response) => {
       dispatch({ type: "SYNC_DATA", state: response.data });
       toast.success("Progress from the database is received.");
       setFirstUpdate(false);
@@ -38,7 +38,7 @@ function App() {
 
   const getData = React.useCallback(async () => {
     try {
-      await API.get("/data/get")
+      await API().get("/data/get")
         .then((response) => {
           dispatch({ type: "SYNC_DATA", state: response.data });
           toast.success("Progress from the database is received.");
@@ -54,7 +54,7 @@ function App() {
             console.error("getData error", error.response.data);
           }
           if (error.response.data.isExpired) {
-            API.post("/refresh", { refresh_token })
+            API().post("/refresh", { refresh_token })
               .then((response) => {
                 dispatch({
                   type: "UPDATE_TOKENS",
@@ -92,7 +92,7 @@ function App() {
     if (request) {
       request.cancel();
     }
-    await API.post("/data/sync", JSON.stringify(main), {
+    await API().post("/data/sync", JSON.stringify(main), {
       cancelToken: source.token,
     })
       .then((response) => {
