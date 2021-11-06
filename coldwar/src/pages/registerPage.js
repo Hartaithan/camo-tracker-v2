@@ -4,7 +4,6 @@ import Header from "../components/headerComponent";
 import { useSelector } from "react-redux";
 import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
-import database from "../data/db_main.json";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { EmailIcon, NickIcon, PasswordIcon } from "../components/svg";
@@ -16,14 +15,10 @@ function RegisterPage() {
   const history = useHistory();
 
   const onSubmit = async (data) => {
-    const dataWithState = {
-      ...data,
-      state: database,
-    };
     setLoading(true);
     try {
       await axios
-        .post("/api/auth/register", JSON.stringify(dataWithState), {
+        .post("/api/auth/register", JSON.stringify(data), {
           headers: {
             "Content-Type": "application/json",
           },

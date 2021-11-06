@@ -2,6 +2,7 @@ const { Router } = require("express");
 const bcrypt = require("bcryptjs");
 const { check, validationResult } = require("express-validator");
 const User = require("../models/user");
+const Data = require("../models/data");
 const { generateTokens } = require("../helpers/tokenHelper");
 const router = Router();
 
@@ -28,7 +29,7 @@ router.post(
         });
       }
 
-      const { email, nick, password, state } = req.body;
+      const { email, nick, password } = req.body;
 
       const emailIsUsed = await User.findOne({ email });
       if (emailIsUsed) {
@@ -40,13 +41,19 @@ router.post(
         return res.status(300).json({ message: "Nickname is already used." });
       }
 
+      const state = await Data.findOne({ name: "coldwar" });
+      if (!state) {
+        console.error("Initial state not found");
+        return res.status(400).json({ message: "Failed to create a user." });
+      }
+
       const hashedPass = await bcrypt.hash(password, 12);
 
       const newUser = new User({
         email,
         nick,
         password: hashedPass,
-        state,
+        state: state.main,
       });
 
       await newUser.save();

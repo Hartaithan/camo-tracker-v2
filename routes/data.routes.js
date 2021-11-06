@@ -36,7 +36,7 @@ async function resetData(req, res) {
   const state = await Data.findOne({ name: "coldwar" });
   if (!state) {
     console.error("Initial state get error");
-    return res.status(400).json({ message: "Initial state not found." });
+    return res.status(400).json({ message: "Failed to reset progress." });
   }
   User.findByIdAndUpdate(req.user.userId, { state: state.main }, { new: true })
     .then((user) =>
