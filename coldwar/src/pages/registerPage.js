@@ -4,9 +4,9 @@ import Header from "../components/headerComponent";
 import { useSelector } from "react-redux";
 import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
-import axios from "axios";
 import toast from "react-hot-toast";
 import { EmailIcon, NickIcon, PasswordIcon } from "../components/svg";
+import API from "../api";
 
 function RegisterPage() {
   const app = useSelector((state) => state.app);
@@ -17,12 +17,7 @@ function RegisterPage() {
   const onSubmit = async (data) => {
     setLoading(true);
     try {
-      await axios
-        .post("/api/auth/register", JSON.stringify(data), {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        })
+      await API.post("/auth/register", JSON.stringify(data))
         .then((response) => {
           if (!response.data.message) {
             toast.success(response.data);
