@@ -2,6 +2,7 @@ import "./styles/App.scss";
 import React from "react";
 import { Redirect, Route, Switch, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
+import { Spinner } from "react-bootstrap";
 import { toast } from "react-hot-toast";
 import axios from "axios";
 
@@ -39,7 +40,6 @@ function App() {
         .then((response) => {
           dispatch({ type: "SYNC_DATA", state: response.data });
           toast.success("Progress from the database is received.");
-          dispatch({ type: "STATE_UPDATE" });
           setFirstUpdate(false);
         });
     },
@@ -57,7 +57,6 @@ function App() {
         .then((response) => {
           dispatch({ type: "SYNC_DATA", state: response.data });
           toast.success("Progress from the database is received.");
-          dispatch({ type: "STATE_UPDATE" });
           setFirstUpdate(false);
         })
         .catch((error) => {
@@ -159,24 +158,34 @@ function App() {
   if (isAuth) {
     return (
       <div className="tracker">
-        <Sidebar />
-        <SettingsComponent />
-        <Switch>
-          <Route exact path="/">
-            <MainPage />
-          </Route>
-          <Route path="/dm">
-            <MasterPage />
-          </Route>
-          <Route path="/da">
-            <MasterPage />
-          </Route>
-          <Route path="/weapon">
-            <WeaponPage />
-          </Route>
-          <Redirect to="/" />
-        </Switch>
-        <ConfirmModal />
+        {main.length === 0 ? (
+          <div className="tracker_loader">
+            <Spinner animation="border" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </Spinner>
+          </div>
+        ) : (
+          <>
+            <Sidebar />
+            <SettingsComponent />
+            <Switch>
+              <Route exact path="/">
+                <MainPage />
+              </Route>
+              <Route path="/dm">
+                <MasterPage />
+              </Route>
+              <Route path="/da">
+                <MasterPage />
+              </Route>
+              <Route path="/weapon">
+                <WeaponPage />
+              </Route>
+              <Redirect to="/" />
+            </Switch>
+            <ConfirmModal />
+          </>
+        )}
         {isDemo && <DemoBadge />}
       </div>
     );
