@@ -7,6 +7,17 @@ const auth = require("../middleware/auth.middleware");
 router.get("/get", auth, async (req, res) => {
   try {
     const data = await User.find({ _id: req.user.userId });
+    const { main } = await Data.findOne({ name: "coldwar" });
+    // ДОБАВЛЕНИЕ НОВЫХ ОРУЖИЙ ИСХОДЯ ИЗ INITAL STATE
+    main.forEach((categ, index) => {
+      if (categ.weapons.length > data[0].state[index].weapons.length) {
+        const numOfNewWeapons =
+          categ.weapons.length - data[0].state[index].weapons.length;
+        const newWeapons = categ.weapons.slice(-numOfNewWeapons);
+        data[0].state[index].weapons = data[0].state[index].weapons.concat(newWeapons);
+        return [...data[0].state];
+      }
+    });
     return res.json(data[0].state);
   } catch (e) {
     console.error("/get error", e);
