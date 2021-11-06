@@ -1,5 +1,6 @@
 const { Router } = require("express");
 const User = require("../models/user");
+const Data = require("../models/data");
 const router = Router();
 const auth = require("../middleware/auth.middleware");
 
@@ -22,7 +23,7 @@ router.post("/sync", auth, async (req, res) => {
   }
 });
 
-router.post("/reset", auth, async (req, res) => {
+router.get("/reset", auth, async (req, res) => {
   try {
     await resetData(req, res);
   } catch (e) {
@@ -32,17 +33,19 @@ router.post("/reset", auth, async (req, res) => {
 });
 
 async function resetData(req, res) {
-  const state = req.body;
-  if (state) {
-    User.findByIdAndUpdate(req.user.userId, { state: state }, { new: true })
-      .then((user) =>
-        res.json({ state: user.state, message: "Progress is reset." })
-      )
-      .catch((e) => {
-        console.error("resetData error: ", e);
-        res.status(400).json({ message: "Reset data error... /api/get" });
-      });
+  const state = await Data.findOne({ name: "coldwar" });
+  if (!state) {
+    console.error("Initial state get error");
+    return res.status(400).json({ message: "Initial state not found." });
   }
+  User.findByIdAndUpdate(req.user.userId, { state: state.main }, { new: true })
+    .then((user) =>
+      res.json({ state: user.state, message: "Progress is reset." })
+    )
+    .catch((e) => {
+      console.error("resetData error: ", e);
+      res.status(400).json({ message: "Reset data error... /api/get" });
+    });
 }
 
 async function syncData(req, res) {

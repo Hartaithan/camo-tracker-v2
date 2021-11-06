@@ -5,7 +5,6 @@ import { useHistory } from "react-router-dom";
 import { Modal } from "react-bootstrap";
 import { toast } from "react-hot-toast";
 import axios from "axios";
-import db_main from "../data/db_main.json";
 
 function ConfirmModal() {
   const history = useHistory();
@@ -15,7 +14,7 @@ function ConfirmModal() {
 
   const resetData = React.useCallback(async () => {
     await axios
-      .post("/api/data/reset", JSON.stringify(db_main), {
+      .get("/api/data/reset", {
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
