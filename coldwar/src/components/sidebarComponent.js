@@ -31,7 +31,7 @@ function Sidebar() {
         </div>
         <div className="tracker_sidebar_header_link">
           <Link to="/" onClick={closeSidebar}>
-            CAMO TRACKER
+            COLD WAR
           </Link>
         </div>
       </div>
