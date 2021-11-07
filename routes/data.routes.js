@@ -9,11 +9,11 @@ router.get("/get", auth, async (req, res) => {
     const appName = req.headers.appname;
     const data = await User.find({ _id: req.user.userId });
     const { main } = await Data.findOne({ name: appName });
+    if (!data || !main) {
+      console.error("Failed to get from database.");
+      return res.status(400).json({ message: "Failed to get progress." });
+    }
     // ДОБАВЛЕНИЕ НОВЫХ ОРУЖИЙ ИСХОДЯ ИЗ INITAL STATE
-    console.log("appName", appName);
-    console.log("data", data);
-    console.log("data[0]", data[0]);
-    console.log("data[0][appName]", data[0][appName]);
     main.forEach((categ, index) => {
       if (categ.weapons.length > data[0][appName][index].weapons.length) {
         const numOfNewWeapons =
