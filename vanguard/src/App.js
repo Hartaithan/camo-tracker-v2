@@ -69,7 +69,7 @@ function App() {
                 );
                 console.error("refresh error", error.response.data);
                 dispatch({ type: "LOG_OUT" });
-                localStorage.removeItem("state");
+                localStorage.removeItem("vanguard");
                 history.push("/login");
               });
           }
@@ -130,7 +130,7 @@ function App() {
     ev.preventDefault();
     if (isDemo) {
       dispatch({ type: "LOG_OUT" });
-      localStorage.removeItem("state");
+      localStorage.removeItem("vanguard");
     }
   });
 

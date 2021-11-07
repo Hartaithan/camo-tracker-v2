@@ -9,7 +9,7 @@ function DemoBadge() {
 
   function logOut() {
     dispatch({ type: "LOG_OUT" });
-    localStorage.removeItem("state");
+    localStorage.removeItem("coldwar");
     history.push("/register");
   }
 

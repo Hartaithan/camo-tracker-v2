@@ -54,7 +54,7 @@ function ConfirmModal() {
               toast.error(error.response.data.message || "Authorization error");
               console.error("refresh error", error.response.data);
               dispatch({ type: "LOG_OUT" });
-              localStorage.removeItem("state");
+              localStorage.removeItem("coldwar");
               history.push("/login");
             });
         }
@@ -72,7 +72,7 @@ function ConfirmModal() {
   function onConfirm() {
     if (modals.isLogOut) {
       dispatch({ type: "LOG_OUT" });
-      localStorage.removeItem("state");
+      localStorage.removeItem("coldwar");
       history.push("/login");
     } else if (modals.isReset) {
       resetData();

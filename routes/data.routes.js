@@ -11,6 +11,7 @@ router.get("/get", auth, async (req, res) => {
     const { main } = await Data.findOne({ name: appName });
     // ДОБАВЛЕНИЕ НОВЫХ ОРУЖИЙ ИСХОДЯ ИЗ INITAL STATE
     console.log("appName", appName);
+    console.log("data", data);
     console.log("data[0]", data[0]);
     console.log("data[0][appName]", data[0][appName]);
     main.forEach((categ, index) => {
