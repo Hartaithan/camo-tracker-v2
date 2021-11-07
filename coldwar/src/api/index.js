@@ -10,10 +10,11 @@ export function API() {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${user.token}`,
+        appName: "coldwar",
       },
     });
   } else {
-    console.error("token is null");
+    console.error("Token is null");
   }
 }
 
@@ -22,6 +23,7 @@ export function Auth() {
     baseURL: `${process.env.REACT_APP_API_URL}`,
     headers: {
       "Content-Type": "application/json",
+      appName: "coldwar",
     },
   });
 }
