@@ -10,6 +10,9 @@ router.get("/get", auth, async (req, res) => {
     const data = await User.find({ _id: req.user.userId });
     const { main } = await Data.findOne({ name: appName });
     // ДОБАВЛЕНИЕ НОВЫХ ОРУЖИЙ ИСХОДЯ ИЗ INITAL STATE
+    console.log("appName", appName);
+    console.log("data[0]", data[0]);
+    console.log("data[0][appName]", data[0][appName]);
     main.forEach((categ, index) => {
       if (categ.weapons.length > data[0][appName][index].weapons.length) {
         const numOfNewWeapons =
@@ -52,7 +55,11 @@ async function resetData(req, res) {
     console.error("Initial state get error");
     return res.status(400).json({ message: "Failed to reset progress." });
   }
-  User.findByIdAndUpdate(req.user.userId, { [appName]: state.main }, { new: true })
+  User.findByIdAndUpdate(
+    req.user.userId,
+    { [appName]: state.main },
+    { new: true }
+  )
     .then((user) =>
       res.json({ state: user[appName], message: "Progress is reset." })
     )
