@@ -14,14 +14,14 @@ function PublicPage() {
     const items = [];
     const nums = [];
     while (items.length < 23) {
-      const type = getRandNum(0, 100) & 1 ? "dm" : "da";
+      const type = getRandNum(0, 100) & 1 ? "at" : "da";
       const first = getRandNum(1, 9);
       const second = getRandNum(1, 6);
       const pretendent = `${type}/${first}_${second}`;
       if (nums.includes(pretendent) === false) {
         if (
-          pretendent !== "dm/8_4" &&
-          pretendent !== "dm/8_5" &&
+          pretendent !== "at/8_4" &&
+          pretendent !== "at/8_5" &&
           pretendent !== "da/8_4" &&
           pretendent !== "da/8_5"
         ) {

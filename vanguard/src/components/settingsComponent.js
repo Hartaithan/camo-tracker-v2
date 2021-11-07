@@ -15,8 +15,8 @@ function SettingsComponent() {
     let name = "";
     if (paths[1] === "") {
       name = "MAIN";
-    } else if (paths[1] === "dm") {
-      name = "DM ULTRA";
+    } else if (paths[1] === "at") {
+      name = "ATOMIC";
     } else if (paths[1] === "da") {
       name = "DARK AETHER";
     } else if (paths[1] === "weapon") {

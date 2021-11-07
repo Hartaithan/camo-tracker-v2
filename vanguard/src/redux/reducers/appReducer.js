@@ -1,12 +1,12 @@
 const initialState = {
   isOpen: false,
-  isActive: "dm",
+  isActive: "at",
   collapsibleIsOpen: {
-    dm: [false, false, false, false, false, false, false, false, false, false],
+    at: [false, false, false, false, false, false, false, false, false, false],
     da: [false, false, false, false, false, false, false, false, false, false],
   },
   masterCollapsibleIsOpen: {
-    dm: [false, false, false, false, false, false, false, false, false, false],
+    at: [false, false, false, false, false, false, false, false, false, false],
     da: [false, false, false, false, false, false, false, false, false, false],
   },
   settings: false,

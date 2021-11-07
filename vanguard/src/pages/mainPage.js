@@ -59,7 +59,7 @@ function MainPage() {
       leftWeapons = numWeapons - completedWeapons;
 
       switch (id_mast) {
-        case "dm":
+        case "at":
           return {
             weapons: numWeapons,
             completed: completedWeapons,
@@ -83,8 +83,8 @@ function MainPage() {
     let lengthOfCamos = 0;
     main.forEach((categ) => {
       categ.weapons.forEach((weapon) => {
-        numOfCamos = numOfCamos + weapon.camos["dm"].filter(Boolean).length;
-        lengthOfCamos = lengthOfCamos + weapon.camos["dm"].length;
+        numOfCamos = numOfCamos + weapon.camos["at"].filter(Boolean).length;
+        lengthOfCamos = lengthOfCamos + weapon.camos["at"].length;
         numOfCamos = numOfCamos + weapon.camos["da"].filter(Boolean).length;
         lengthOfCamos = lengthOfCamos + weapon.camos["da"].length;
       });
@@ -139,7 +139,7 @@ function MainPage() {
         </div>
         <div className="tracker_main_right_circlecontainer_text">
           <div className="tracker_main_right_circlecontainer_text_total">
-            {calcRightStats(props.mast === "DM ULTRA" ? "dm" : "da", props.dlc)}
+            {calcRightStats(props.mast === "ATOMIC" ? "at" : "da", props.dlc)}
           </div>
           <div className="tracker_main_right_circlecontainer_text_name">
             {props.mast}
@@ -177,13 +177,13 @@ function MainPage() {
             <LargeProgressComponent
               color="#9B5DE5"
               id={1}
-              value={calcBase("dm")}
+              value={calcBase("at")}
               width={2.5}
             />
             <LargeProgressComponent
               color="#14A76C"
               id={2}
-              value={calcBaseDlc("dm")}
+              value={calcBaseDlc("at")}
               width={3}
             />
             <LargeProgressComponent
@@ -208,14 +208,14 @@ function MainPage() {
             </div>
           </div>
           <div className="tracker_main_left_textcontainer">
-            <div className="tracker_main_left_textcontainer_dm">
-              DM ULTRA
+            <div className="tracker_main_left_textcontainer_at">
+              ATOMIC
               <br />
-              WEAPONS - {calcStats("dm").weapons}
+              WEAPONS - {calcStats("at").weapons}
               <br />
-              COMPLETED - {calcStats("dm").completed}
+              COMPLETED - {calcStats("at").completed}
               <br />
-              LEFT - {calcStats("dm").left}
+              LEFT - {calcStats("at").left}
             </div>
             <div className="tracker_main_left_textcontainer_da">
               DARK AETHER
@@ -231,15 +231,15 @@ function MainPage() {
         <div className="tracker_main_right">
           <SmallProgressComponent
             color="#9B5DE5"
-            value={calcBase("dm")}
-            mast="DM ULTRA"
+            value={calcBase("at")}
+            mast="ATOMIC"
             categ="BASE"
             dlc={false}
           />
           <SmallProgressComponent
             color="#14A76C"
-            value={calcBaseDlc("dm")}
-            mast="DM ULTRA"
+            value={calcBaseDlc("at")}
+            mast="ATOMIC"
             categ="BASE + DLC"
             dlc={true}
           />

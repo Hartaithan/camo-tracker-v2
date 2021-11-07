@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/weaponPage.scss";
-import db_dm_camo from "../data/db_dm_camo.json";
+import db_at_camo from "../data/db_at_camo.json";
 import db_da_camo from "../data/db_da_camo.json";
-import db_dm_mission from "../data/db_dm_mission.json";
+import db_at_mission from "../data/db_at_mission.json";
 import db_da_mission from "../data/db_da_mission.json";
 import { useSelector, useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
@@ -15,8 +15,8 @@ function WeaponPage() {
   const [id_mast, id_cat, id_weap] = paths[2].split("_");
 
   const main = useSelector((state) => state.main);
-  const camos = id_mast === "dm" ? db_dm_camo : db_da_camo;
-  const mission = id_mast === "dm" ? db_dm_mission : db_da_mission;
+  const camos = id_mast === "at" ? db_at_camo : db_da_camo;
+  const mission = id_mast === "at" ? db_at_mission : db_da_mission;
   const app = useSelector((state) => state.app);
   const dispatch = useDispatch();
 

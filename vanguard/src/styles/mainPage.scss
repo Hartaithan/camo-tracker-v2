@@ -57,13 +57,13 @@
         align-items: flex-end;
         justify-content: center;
         flex: 20;
-        &_dm,
+        &_at,
         &_da {
           height: auto;
           width: auto;
           font-size: 26px;
         }
-        &_dm {
+        &_at {
           text-align: right;
           margin-right: 20px;
         }
@@ -160,7 +160,7 @@
         }
       }
       &_textcontainer {
-        &_dm,
+        &_at,
         &_da {
           font-size: 20px;
         }
@@ -234,7 +234,7 @@
         }
       }
       &_textcontainer {
-        &_dm,
+        &_at,
         &_da {
           font-size: 16px;
         }
@@ -275,7 +275,7 @@
         }
       }
       &_textcontainer {
-        &_dm,
+        &_at,
         &_da {
           font-size: 12px;
         }

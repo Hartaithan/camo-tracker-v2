@@ -17,8 +17,8 @@ function Header() {
     let title = "";
     if (paths[1] === "") {
       title = "MAIN";
-    } else if (paths[1] === "dm") {
-      title = "DM ULTRA";
+    } else if (paths[1] === "at") {
+      title = "ATOMIC";
     } else if (paths[1] === "da") {
       title = "DARK AETHER";
     } else if (paths[1] === "weapon") {

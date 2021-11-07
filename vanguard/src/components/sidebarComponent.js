@@ -41,10 +41,10 @@ function Sidebar() {
           id="uncontrolled-tab-example"
           onSelect={(k) => dispatch({ type: "TOGGLE_TAB", mast: k })}
         >
-          {["dm", "da"].map((mast) => {
+          {["at", "da"].map((mast) => {
             const collapsibleId =
-              mast === "dm"
-                ? app.collapsibleIsOpen.dm
+              mast === "at"
+                ? app.collapsibleIsOpen.at
                 : app.collapsibleIsOpen.da;
             return (
               <Tab

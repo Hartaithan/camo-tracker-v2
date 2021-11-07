@@ -151,7 +151,7 @@ function App() {
               <Route exact path="/">
                 <MainPage />
               </Route>
-              <Route path="/dm">
+              <Route path="/at">
                 <MasterPage />
               </Route>
               <Route path="/da">
