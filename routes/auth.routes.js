@@ -41,8 +41,9 @@ router.post(
         return res.status(300).json({ message: "Nickname is already used." });
       }
 
-      const state = await Data.findOne({ name: "coldwar" });
-      if (!state) {
+      const coldwar = await Data.findOne({ name: "coldwar" });
+      const vanguard = await Data.findOne({ name: "vanguard" });
+      if (!coldwar || !vanguard) {
         console.error("Initial state not found");
         return res.status(400).json({ message: "Failed to create a user." });
       }
@@ -53,7 +54,8 @@ router.post(
         email,
         nick,
         password: hashedPass,
-        state: state.main,
+        coldwar: coldwar.main,
+        vanguard: vanguard.main,
       });
 
       await newUser.save();

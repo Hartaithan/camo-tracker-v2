@@ -6,19 +6,21 @@ const auth = require("../middleware/auth.middleware");
 
 router.get("/get", auth, async (req, res) => {
   try {
+    const appName = req.headers.appname;
     const data = await User.find({ _id: req.user.userId });
-    const { main } = await Data.findOne({ name: "coldwar" });
+    const { main } = await Data.findOne({ name: appName });
     // ДОБАВЛЕНИЕ НОВЫХ ОРУЖИЙ ИСХОДЯ ИЗ INITAL STATE
     main.forEach((categ, index) => {
-      if (categ.weapons.length > data[0].state[index].weapons.length) {
+      if (categ.weapons.length > data[0][appName][index].weapons.length) {
         const numOfNewWeapons =
-          categ.weapons.length - data[0].state[index].weapons.length;
+          categ.weapons.length - data[0][appName][index].weapons.length;
         const newWeapons = categ.weapons.slice(-numOfNewWeapons);
-        data[0].state[index].weapons = data[0].state[index].weapons.concat(newWeapons);
-        return [...data[0].state];
+        data[0][appName][index].weapons =
+          data[0][appName][index].weapons.concat(newWeapons);
+        return [...data[0][appName]];
       }
     });
-    return res.json(data[0].state);
+    return res.json(data[0][appName]);
   } catch (e) {
     console.error("/get error", e);
     return res.status(500).json({ message: "Something wrong... /api/get" });
@@ -44,14 +46,15 @@ router.get("/reset", auth, async (req, res) => {
 });
 
 async function resetData(req, res) {
-  const state = await Data.findOne({ name: "coldwar" });
+  const appName = req.headers.appname;
+  const state = await Data.findOne({ name: req.headers.appname });
   if (!state) {
     console.error("Initial state get error");
     return res.status(400).json({ message: "Failed to reset progress." });
   }
-  User.findByIdAndUpdate(req.user.userId, { state: state.main }, { new: true })
+  User.findByIdAndUpdate(req.user.userId, { [appName]: state.main }, { new: true })
     .then((user) =>
-      res.json({ state: user.state, message: "Progress is reset." })
+      res.json({ state: user[appName], message: "Progress is reset." })
     )
     .catch((e) => {
       console.error("resetData error: ", e);
@@ -60,9 +63,10 @@ async function resetData(req, res) {
 }
 
 async function syncData(req, res) {
+  const appName = req.headers.appname;
   const state = req.body;
   if (state) {
-    User.findByIdAndUpdate(req.user.userId, { state: state })
+    User.findByIdAndUpdate(req.user.userId, { [appName]: state })
       .then(() => res.json("Progress is synchronized with the database."))
       .catch((e) => {
         console.error("syncData error: ", e);
