@@ -2,6 +2,7 @@ import "./styles/App.scss";
 import React from "react";
 import { Redirect, Route, Switch, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
+import { Spinner } from "react-bootstrap";
 import { toast } from "react-hot-toast";
 import axios from "axios";
 
@@ -16,48 +17,31 @@ import SettingsComponent from "./components/settingsComponent";
 import ConfirmModal from "./components/confirmModal";
 import PublicPage from "./pages/publicPage";
 import DemoBadge from "./components/demoBadge";
+import { API } from "./api";
 
 function App() {
   const dispatch = useDispatch();
   const history = useHistory();
   const main = useSelector((state) => state.main);
-  const { isAuth, isDemo, token, refresh_token } = useSelector(
-    (state) => state.user
-  );
+  const { isAuth, isDemo, refresh_token } = useSelector((state) => state.user);
   const [request, setRequest] = React.useState(null);
   const isFirstRun = React.useRef(true);
   const [isFirstUpdate, setFirstUpdate] = React.useState(true);
 
-  const getDataAfterRefresh = React.useCallback(
-    async (token) => {
-      axios
-        .get("/api/data/get", {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        })
-        .then((response) => {
-          dispatch({ type: "SYNC_DATA", state: response.data });
-          toast.success("Progress from the database is received.");
-          dispatch({ type: "STATE_UPDATE" });
-          setFirstUpdate(false);
-        });
-    },
-    [dispatch]
-  );
+  const getDataAfterRefresh = React.useCallback(async () => {
+    API().get("/data/get").then((response) => {
+      dispatch({ type: "SYNC_DATA", state: response.data });
+      toast.success("Progress from the database is received.");
+      setFirstUpdate(false);
+    });
+  }, [dispatch]);
 
   const getData = React.useCallback(async () => {
     try {
-      await axios
-        .get("/api/data/get", {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        })
+      await API().get("/data/get")
         .then((response) => {
           dispatch({ type: "SYNC_DATA", state: response.data });
           toast.success("Progress from the database is received.");
-          dispatch({ type: "STATE_UPDATE" });
           setFirstUpdate(false);
         })
         .catch((error) => {
@@ -70,15 +54,14 @@ function App() {
             console.error("getData error", error.response.data);
           }
           if (error.response.data.isExpired) {
-            axios
-              .post("/api/refresh", { refresh_token })
+            API().post("/refresh", { refresh_token })
               .then((response) => {
                 dispatch({
                   type: "UPDATE_TOKENS",
                   token: response.data.token,
                   refresh_token: response.data.refresh_token,
                 });
-                getDataAfterRefresh(response.data.token);
+                getDataAfterRefresh();
               })
               .catch(function (error) {
                 toast.error(
@@ -95,7 +78,7 @@ function App() {
       console.error("getData catch (error)", error);
       toast.error("Failed to retrieve progress from the database.");
     }
-  }, [token, refresh_token, dispatch, getDataAfterRefresh, history]);
+  }, [refresh_token, dispatch, getDataAfterRefresh, history]);
 
   React.useEffect(() => {
     if (isAuth && !isDemo) {
@@ -109,14 +92,9 @@ function App() {
     if (request) {
       request.cancel();
     }
-    await axios
-      .post("/api/data/sync", JSON.stringify(main), {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        cancelToken: source.token,
-      })
+    await API().post("/data/sync", JSON.stringify(main), {
+      cancelToken: source.token,
+    })
       .then((response) => {
         setRequest(null);
         toast.success(response?.data);
@@ -134,7 +112,7 @@ function App() {
           console.error("syncData error.resonse", error.response);
         }
       });
-  }, [request, token, main]);
+  }, [request, main]);
 
   React.useEffect(() => {
     if (isFirstRun.current) {
@@ -159,24 +137,34 @@ function App() {
   if (isAuth) {
     return (
       <div className="tracker">
-        <Sidebar />
-        <SettingsComponent />
-        <Switch>
-          <Route exact path="/">
-            <MainPage />
-          </Route>
-          <Route path="/dm">
-            <MasterPage />
-          </Route>
-          <Route path="/da">
-            <MasterPage />
-          </Route>
-          <Route path="/weapon">
-            <WeaponPage />
-          </Route>
-          <Redirect to="/" />
-        </Switch>
-        <ConfirmModal />
+        {main.length === 0 ? (
+          <div className="tracker_loader">
+            <Spinner animation="border" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </Spinner>
+          </div>
+        ) : (
+          <>
+            <Sidebar />
+            <SettingsComponent />
+            <Switch>
+              <Route exact path="/">
+                <MainPage />
+              </Route>
+              <Route path="/dm">
+                <MasterPage />
+              </Route>
+              <Route path="/da">
+                <MasterPage />
+              </Route>
+              <Route path="/weapon">
+                <WeaponPage />
+              </Route>
+              <Redirect to="/" />
+            </Switch>
+            <ConfirmModal />
+          </>
+        )}
         {isDemo && <DemoBadge />}
       </div>
     );

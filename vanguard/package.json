@@ -1,6 +1,6 @@
 {
   "homepage": "https://camo-tracker.herokuapp.com/vanguard",
-  "name": "camo-tracker",
+  "name": "camo-tracker-vanguard",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

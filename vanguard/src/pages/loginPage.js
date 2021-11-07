@@ -4,9 +4,9 @@ import Header from "../components/headerComponent";
 import { useSelector, useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
-import axios from "axios";
 import toast from "react-hot-toast";
 import { EmailIcon, PasswordIcon } from "../components/svg";
+import { Auth } from "../api";
 
 function LoginPage() {
   const app = useSelector((state) => state.app);
@@ -18,12 +18,7 @@ function LoginPage() {
   const onSubmit = async (data) => {
     setLoading(true);
     try {
-      await axios
-        .post("/api/auth/login", JSON.stringify(data), {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        })
+      await Auth().post("/auth/login", JSON.stringify(data))
         .then((response) => {
           dispatch({
             type: "LOG_IN",

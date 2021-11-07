@@ -4,8 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { Modal } from "react-bootstrap";
 import { toast } from "react-hot-toast";
-import axios from "axios";
-import db_main from "../data/db_main.json";
+import { API } from "../api";
 
 function ConfirmModal() {
   const history = useHistory();
@@ -14,13 +13,7 @@ function ConfirmModal() {
   const dispatch = useDispatch();
 
   const resetData = React.useCallback(async () => {
-    await axios
-      .post("/api/data/reset", JSON.stringify(db_main), {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-      })
+    await API().get("/data/reset")
       .then((response) => {
         dispatch({ type: "SYNC_DATA", state: response.data.state });
         toast.success(response?.data.message);

@@ -1,6 +1,6 @@
 {
   "homepage": "https://camo-tracker.herokuapp.com/coldwar",
-  "name": "camo-tracker",
+  "name": "camo-tracker-coldwar",
   "version": "0.0.1",
   "private": true,
   "dependencies": {

@@ -1,8 +1,4 @@
-import database from "../../data/db_main.json";
-
-const initialState = database;
-
-const mainReducer = (state = initialState, action) => {
+const mainReducer = (state = [], action) => {
   const baseNumWeapon = [5, 5, 4, 3, 3, 3, 2, 2, 1, 1];
   let selectedArray = [];
   let n = 0;
@@ -163,17 +159,6 @@ const mainReducer = (state = initialState, action) => {
       return [...state];
     case "SYNC_DATA":
       state = action.state;
-      return state;
-    case "STATE_UPDATE":
-      initialState.forEach((categ, index) => {
-        if (categ.weapons.length > state[index].weapons.length) {
-          const numOfNewWeapons =
-            categ.weapons.length - state[index].weapons.length;
-          const newWeapons = categ.weapons.slice(-numOfNewWeapons);
-          state[index].weapons = state[index].weapons.concat(newWeapons);
-          return [...state];
-        }
-      });
       return state;
     default:
       return state;

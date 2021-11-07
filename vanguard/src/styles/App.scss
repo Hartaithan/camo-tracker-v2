@@ -58,6 +58,13 @@ body,
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
+  &_loader {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1921px) {

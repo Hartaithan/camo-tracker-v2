@@ -43,8 +43,7 @@ function PublicPage() {
       <div className="tracker_public_body">
         <p className="tracker_public_body_title">CAMO TRACKER</p>
         <p className="tracker_public_body_descr">
-          Easy-to-use completionist tracker for Call of Duty: Black Ops Cold
-          War.
+          Easy-to-use completionist tracker for Call of Duty: Vanguard.
           <br />
           Track your camo progression in Multiplayer and Zombies!
         </p>
