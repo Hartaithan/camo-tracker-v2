@@ -1,284 +1,695 @@
 [
   {
     "id": 1,
-    "name": "Grunge",
+    "name": "Pack Tactics",
     "completed": false,
     "camos": [
       {
         "id": 1,
-        "name": "Stroke",
+        "name": "Cyanide",
         "img": "../img/da/1_1.png",
         "completed": false
       },
       {
         "id": 2,
-        "name": "Glacier",
+        "name": "Invertebrate",
         "img": "../img/da/1_2.png",
         "completed": false
       },
       {
         "id": 3,
-        "name": "Grudge",
+        "name": "Magma",
         "img": "../img/da/1_3.png",
         "completed": false
       },
       {
         "id": 4,
-        "name": "Bloodshed",
+        "name": "Deluge",
         "img": "../img/da/1_4.png",
         "completed": false
       },
       {
         "id": 5,
-        "name": "Rotten",
+        "name": "Macroscopic",
         "img": "../img/da/1_5.png",
+        "completed": false
+      },
+      {
+        "id": 6,
+        "name": "Eggplant",
+        "img": "../img/da/1_6.png",
+        "completed": false
+      },
+      {
+        "id": 7,
+        "name": "Coagulation",
+        "img": "../img/da/1_7.png",
+        "completed": false
+      },
+      {
+        "id": 8,
+        "name": "Contamination",
+        "img": "../img/da/1_8.png",
+        "completed": false
+      },
+      {
+        "id": 9,
+        "name": "Saffron Grime",
+        "img": "../img/da/1_9.png",
+        "completed": false
+      },
+      {
+        "id": 10,
+        "name": "Hydrosphere",
+        "img": "../img/da/1_10.png",
         "completed": false
       }
     ]
   },
   {
     "id": 2,
-    "name": "Liquid",
+    "name": "Surgical",
     "completed": false,
     "camos": [
       {
-        "id": 6,
-        "name": "Wasteland",
+        "id": 11,
+        "name": "Mildew",
         "img": "../img/da/2_1.png",
         "completed": false
       },
       {
-        "id": 7,
-        "name": "Amphibian",
+        "id": 12,
+        "name": "Substratum",
         "img": "../img/da/2_2.png",
         "completed": false
       },
       {
-        "id": 8,
-        "name": "Boundary",
+        "id": 13,
+        "name": "Oxidized",
         "img": "../img/da/2_3.png",
         "completed": false
       },
       {
-        "id": 9,
-        "name": "Threshold",
+        "id": 14,
+        "name": "Atrophy",
         "img": "../img/da/2_4.png",
         "completed": false
       },
       {
-        "id": 10,
-        "name": "Banished",
+        "id": 15,
+        "name": "Infestation",
         "img": "../img/da/2_5.png",
+        "completed": false
+      },
+      {
+        "id": 16,
+        "name": "Anaglyph",
+        "img": "../img/da/2_6.png",
+        "completed": false
+      },
+      {
+        "id": 17,
+        "name": "Erosion",
+        "img": "../img/da/2_7.png",
+        "completed": false
+      },
+      {
+        "id": 18,
+        "name": "Abrasion",
+        "img": "../img/da/2_8.png",
+        "completed": false
+      },
+      {
+        "id": 19,
+        "name": "Molecular",
+        "img": "../img/da/2_9.png",
+        "completed": false
+      },
+      {
+        "id": 20,
+        "name": "Putrescence",
+        "img": "../img/da/2_10.png",
         "completed": false
       }
     ]
   },
   {
     "id": 3,
-    "name": "Brushstroke",
+    "name": "Predatory Ambition",
     "completed": false,
     "camos": [
       {
-        "id": 11,
-        "name": "Extortion",
+        "id": 21,
+        "name": "Grayscale",
         "img": "../img/da/3_1.png",
         "completed": false
       },
       {
-        "id": 12,
-        "name": "Degeneration",
+        "id": 22,
+        "name": "Cold Front",
         "img": "../img/da/3_2.png",
         "completed": false
       },
       {
-        "id": 13,
-        "name": "Downfall",
+        "id": 23,
+        "name": "Sulfuric",
         "img": "../img/da/3_3.png",
         "completed": false
       },
       {
-        "id": 14,
-        "name": "Drench",
+        "id": 24,
+        "name": "Irresolute",
         "img": "../img/da/3_4.png",
         "completed": false
       },
       {
-        "id": 15,
-        "name": "Chemical",
+        "id": 25,
+        "name": "Inclement",
         "img": "../img/da/3_5.png",
+        "completed": false
+      },
+      {
+        "id": 26,
+        "name": "Tallow",
+        "img": "../img/da/3_6.png",
+        "completed": false
+      },
+      {
+        "id": 27,
+        "name": "Forlorn",
+        "img": "../img/da/3_7.png",
+        "completed": false
+      },
+      {
+        "id": 28,
+        "name": "Hybernation",
+        "img": "../img/da/3_8.png",
+        "completed": false
+      },
+      {
+        "id": 29,
+        "name": "Mirage",
+        "img": "../img/da/3_9.png",
+        "completed": false
+      },
+      {
+        "id": 30,
+        "name": "Ablution",
+        "img": "../img/da/3_10.png",
         "completed": false
       }
     ]
   },
   {
     "id": 4,
-    "name": "Vintage",
+    "name": "Reptilian",
     "completed": false,
     "camos": [
       {
-        "id": 16,
-        "name": "Decadence",
+        "id": 31,
+        "name": "Terrapin",
         "img": "../img/da/4_1.png",
         "completed": false
       },
       {
-        "id": 17,
-        "name": "Bravado",
+        "id": 32,
+        "name": "Kinixys",
         "img": "../img/da/4_2.png",
         "completed": false
       },
       {
-        "id": 18,
-        "name": "Funkadelic",
+        "id": 33,
+        "name": "Mutant",
         "img": "../img/da/4_3.png",
         "completed": false
       },
       {
-        "id": 19,
-        "name": "Boutique",
+        "id": 34,
+        "name": "Rubriventris",
         "img": "../img/da/4_4.png",
         "completed": false
       },
       {
-        "id": 20,
-        "name": "Maniac",
+        "id": 35,
+        "name": "Sycophantic",
         "img": "../img/da/4_5.png",
+        "completed": false
+      },
+      {
+        "id": 36,
+        "name": "Pit Viper",
+        "img": "../img/da/4_6.png",
+        "completed": false
+      },
+      {
+        "id": 37,
+        "name": "Blue Racer",
+        "img": "../img/da/4_7.png",
+        "completed": false
+      },
+      {
+        "id": 38,
+        "name": "Leucistic",
+        "img": "../img/da/4_8.png",
+        "completed": false
+      },
+      {
+        "id": 39,
+        "name": "Virulence",
+        "img": "../img/da/4_9.png",
+        "completed": false
+      },
+      {
+        "id": 40,
+        "name": "Halftone",
+        "img": "../img/da/4_10.png",
         "completed": false
       }
     ]
   },
   {
     "id": 5,
-    "name": "Fauna",
+    "name": "Deadeye",
     "completed": false,
     "camos": [
       {
-        "id": 21,
-        "name": "Growl",
+        "id": 41,
+        "name": "Disintegration",
         "img": "../img/da/5_1.png",
         "completed": false
       },
       {
-        "id": 22,
-        "name": "Scavenger",
+        "id": 42,
+        "name": "Fracture",
         "img": "../img/da/5_2.png",
         "completed": false
       },
       {
-        "id": 23,
-        "name": "Zebra",
+        "id": 43,
+        "name": "Penny",
         "img": "../img/da/5_3.png",
         "completed": false
       },
       {
-        "id": 24,
-        "name": "Blue Tiger",
+        "id": 44,
+        "name": "Armorial",
         "img": "../img/da/5_4.png",
         "completed": false
       },
       {
-        "id": 25,
-        "name": "Rising Tiger",
+        "id": 45,
+        "name": "Cathedral",
         "img": "../img/da/5_5.png",
+        "completed": false
+      },
+      {
+        "id": 46,
+        "name": "Millstone",
+        "img": "../img/da/5_6.png",
+        "completed": false
+      },
+      {
+        "id": 47,
+        "name": "Corpuscle",
+        "img": "../img/da/5_7.png",
+        "completed": false
+      },
+      {
+        "id": 48,
+        "name": "Glaucous",
+        "img": "../img/da/5_8.png",
+        "completed": false
+      },
+      {
+        "id": 49,
+        "name": "Obtruder",
+        "img": "../img/da/5_9.png",
+        "completed": false
+      },
+      {
+        "id": 50,
+        "name": "Hemoglobin",
+        "img": "../img/da/5_10.png",
         "completed": false
       }
     ]
   },
   {
     "id": 6,
-    "name": "Topography",
+    "name": "Berserker",
     "completed": false,
     "camos": [
       {
-        "id": 26,
-        "name": "Acidic",
+        "id": 51,
+        "name": "Burrow",
         "img": "../img/da/6_1.png",
         "completed": false
       },
       {
-        "id": 27,
-        "name": "Gunrunner",
+        "id": 52,
+        "name": "Arboreal",
         "img": "../img/da/6_2.png",
         "completed": false
       },
       {
-        "id": 28,
-        "name": "Forecast",
+        "id": 53,
+        "name": "Amphibian",
         "img": "../img/da/6_3.png",
         "completed": false
       },
       {
-        "id": 29,
-        "name": "Cartographer",
+        "id": 54,
+        "name": "Atramentous",
         "img": "../img/da/6_4.png",
         "completed": false
       },
       {
-        "id": 30,
-        "name": "Sunder",
+        "id": 55,
+        "name": "Aposematic",
         "img": "../img/da/6_5.png",
+        "completed": false
+      },
+      {
+        "id": 56,
+        "name": "Wenge Bog",
+        "img": "../img/da/6_6.png",
+        "completed": false
+      },
+      {
+        "id": 57,
+        "name": "Marshland",
+        "img": "../img/da/6_7.png",
+        "completed": false
+      },
+      {
+        "id": 58,
+        "name": "Malignant",
+        "img": "../img/da/6_8.png",
+        "completed": false
+      },
+      {
+        "id": 59,
+        "name": "Amethyst",
+        "img": "../img/da/6_9.png",
+        "completed": false
+      },
+      {
+        "id": 60,
+        "name": "Intestinal",
+        "img": "../img/da/6_10.png",
         "completed": false
       }
     ]
   },
   {
     "id": 7,
-    "name": "Infection",
+    "name": "Wildcat",
     "completed": false,
     "camos": [
       {
-        "id": 31,
-        "name": "Corrosion",
+        "id": 61,
+        "name": "Thicket",
         "img": "../img/da/7_1.png",
         "completed": false
       },
       {
-        "id": 32,
-        "name": "Corrosion",
+        "id": 62,
+        "name": "Rosewood",
         "img": "../img/da/7_2.png",
         "completed": false
       },
       {
-        "id": 33,
-        "name": "Entropy",
+        "id": 63,
+        "name": "Timberwolf",
         "img": "../img/da/7_3.png",
         "completed": false
       },
       {
-        "id": 34,
-        "name": "Glitch",
+        "id": 64,
+        "name": "Nocturnal",
         "img": "../img/da/7_4.png",
         "completed": false
       },
       {
-        "id": 35,
-        "name": "Conviction",
+        "id": 65,
+        "name": "Sovereign",
         "img": "../img/da/7_5.png",
+        "completed": false
+      },
+      {
+        "id": 66,
+        "name": "Lynx",
+        "img": "../img/da/7_6.png",
+        "completed": false
+      },
+      {
+        "id": 67,
+        "name": "Hunter",
+        "img": "../img/da/7_7.png",
+        "completed": false
+      },
+      {
+        "id": 68,
+        "name": "Azure",
+        "img": "../img/da/7_8.png",
+        "completed": false
+      },
+      {
+        "id": 69,
+        "name": "Chartreuse",
+        "img": "../img/da/7_9.png",
+        "completed": false
+      },
+      {
+        "id": 70,
+        "name": "Mauvelous",
+        "img": "../img/da/7_10.png",
         "completed": false
       }
     ]
   },
   {
     "id": 8,
-    "name": "Mastery",
+    "name": "Survivalist",
     "completed": false,
     "camos": [
       {
-        "id": 36,
-        "name": "Gold Viper",
+        "id": 71,
+        "name": "Rosary",
         "img": "../img/da/8_1.png",
         "completed": false
       },
       {
-        "id": 37,
-        "name": "Plague Diamond",
+        "id": 72,
+        "name": "Bracken",
         "img": "../img/da/8_2.png",
         "completed": false
       },
       {
-        "id": 38,
-        "name": "Dark Aether",
+        "id": 73,
+        "name": "Anemone",
         "img": "../img/da/8_3.png",
+        "completed": false
+      },
+      {
+        "id": 74,
+        "name": "Oleander",
+        "img": "../img/da/8_4.png",
+        "completed": false
+      },
+      {
+        "id": 75,
+        "name": "Coreopsis",
+        "img": "../img/da/8_5.png",
+        "completed": false
+      },
+      {
+        "id": 76,
+        "name": "Kallima",
+        "img": "../img/da/8_6.png",
+        "completed": false
+      },
+      {
+        "id": 77,
+        "name": "Umbrage",
+        "img": "../img/da/8_7.png",
+        "completed": false
+      },
+      {
+        "id": 78,
+        "name": "Gloom",
+        "img": "../img/da/8_8.png",
+        "completed": false
+      },
+      {
+        "id": 79,
+        "name": "Unearthly",
+        "img": "../img/da/8_9.png",
+        "completed": false
+      },
+      {
+        "id": 80,
+        "name": "Monstera",
+        "img": "../img/da/8_10.png",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mindgames",
+    "completed": false,
+    "camos": [
+      {
+        "id": 81,
+        "name": "Reckon",
+        "img": "../img/da/9_1.png",
+        "completed": false
+      },
+      {
+        "id": 82,
+        "name": "Cranial",
+        "img": "../img/da/9_2.png",
+        "completed": false
+      },
+      {
+        "id": 83,
+        "name": "Reverie",
+        "img": "../img/da/9_3.png",
+        "completed": false
+      },
+      {
+        "id": 84,
+        "name": "Think Tank",
+        "img": "../img/da/9_4.png",
+        "completed": false
+      },
+      {
+        "id": 85,
+        "name": "Torment",
+        "img": "../img/da/9_5.png",
+        "completed": false
+      },
+      {
+        "id": 86,
+        "name": "Dust Bowl",
+        "img": "../img/da/9_6.png",
+        "completed": false
+      },
+      {
+        "id": 87,
+        "name": "Nimbus",
+        "img": "../img/da/9_7.png",
+        "completed": false
+      },
+      {
+        "id": 88,
+        "name": "Smog",
+        "img": "../img/da/9_8.png",
+        "completed": false
+      },
+      {
+        "id": 89,
+        "name": "Cantankerous",
+        "img": "../img/da/9_9.png",
+        "completed": false
+      },
+      {
+        "id": 90,
+        "name": "Stratus",
+        "img": "../img/da/9_10.png",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Death Artist",
+    "completed": false,
+    "camos": [
+      {
+        "id": 91,
+        "name": "Pernicious",
+        "img": "../img/da/10_1.png",
+        "completed": false
+      },
+      {
+        "id": 92,
+        "name": "Iridescent",
+        "img": "../img/da/10_2.png",
+        "completed": false
+      },
+      {
+        "id": 93,
+        "name": "Aurum",
+        "img": "../img/da/10_3.png",
+        "completed": false
+      },
+      {
+        "id": 94,
+        "name": "Transfusion",
+        "img": "../img/da/10_4.png",
+        "completed": false
+      },
+      {
+        "id": 95,
+        "name": "Immiscible",
+        "img": "../img/da/10_5.png",
+        "completed": false
+      },
+      {
+        "id": 96,
+        "name": "Stigma",
+        "img": "../img/da/10_6.png",
+        "completed": false
+      },
+      {
+        "id": 97,
+        "name": "Blot",
+        "img": "../img/da/10_7.png",
+        "completed": false
+      },
+      {
+        "id": 98,
+        "name": "Imprint",
+        "img": "../img/da/10_8.png",
+        "completed": false
+      },
+      {
+        "id": 99,
+        "name": "Monsoon",
+        "img": "../img/da/10_9.png",
+        "completed": false
+      },
+      {
+        "id": 100,
+        "name": "Lambent",
+        "img": "../img/da/10_10.png",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Mastery",
+    "completed": false,
+    "camos": [
+      {
+        "id": 101,
+        "name": "Golden Viper",
+        "img": "../img/da/11_1.png",
+        "completed": false
+      },
+      {
+        "id": 102,
+        "name": "Plague Diamond",
+        "img": "../img/da/11_2.png",
+        "completed": false
+      },
+      {
+        "id": 103,
+        "name": "Dark Aether",
+        "img": "../img/da/11_3.png",
         "completed": false
       }
     ]
