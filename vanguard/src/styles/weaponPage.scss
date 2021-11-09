@@ -63,9 +63,8 @@
         }
         &_camocontainer {
           margin-top: 8px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
           height: auto;
           &_camo {
             position: relative;

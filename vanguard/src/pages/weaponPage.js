@@ -220,7 +220,7 @@ function WeaponPage() {
               </div>
               <div className="tracker_weapon_wrapper_container_camocontainer">
                 {item.camos.map((camo, index) => {
-                  if (camo.id === 36 || camo.id === 37 || camo.id === 38) {
+                  if (camo.id === 101 || camo.id === 102 || camo.id === 103) {
                     return (
                       <div
                         className={`tracker_weapon_wrapper_container_camocontainer_camo tracker_weapon_wrapper_container_camocontainer_master`}
