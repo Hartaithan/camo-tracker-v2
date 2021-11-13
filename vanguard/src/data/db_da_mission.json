@@ -10,70 +10,70 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "Get _goal kills with the _name in Zombies",
-            "goals": [50, 250, 750, 1500, 2500]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "Get _goal Critical Hit Kills with the _name in Zombies",
-            "goals": [50, 250, 750, 1500, 2500]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "Get _goal Kills with the _name when it's Pack-A-Punched in Zombies",
-            "goals": [50, 250, 750, 1500, 2500]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "Get _goal Special or Elite Eliminations with the _name in Zombies (Bosses count as 3 Eliminations)",
-            "goals": [3, 6, 9, 12, 15]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
-            "goals": [2, 4, 6, 8, 10]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
-            "goals": [5, 10, 15, 20, 25]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
-            "goals": [2, 4, 6, 8, 10]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "Get 10 kills rapidly _goal with the _name in Zombies",
-            "goals": [2, 4, 6, 8, 10]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "Get 3 or more Critical Hit Kills rapidly with the _name _goal times in Zombies",
-            "goals": [5, 10, 15, 20, 25]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "Get 20 or more consecutive Kills with the _name without getting hit _goal times in Zombies",
-            "goals": [2, 4, 6, 8, 10]
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
           },
           {
             "id": 11,
             "name": "Mastery",
             "mission": [
-              "Unlock 35 Zombies Camos for the _name",
-              "Unlock Gold Camo for 5 Assault Rifles in Zombies",
-              "Unlock Diamond Camo for all Weapons Classes in Zombies"
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
             ]
           }
         ]
@@ -81,32 +81,452 @@
       {
         "id": 2,
         "name": "Automaton",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "ITRA Burst",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
         "name": "BAR",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 5,
         "name": "AS44",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 6,
         "name": "NZ-41",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 7,
         "name": "Volk",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -117,32 +537,452 @@
       {
         "id": 1,
         "name": "MP-40",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "Sten",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "M1928",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
         "name": "Owen Gun",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 5,
         "name": "Type 100",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 6,
         "name": "PPSh-41",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -153,22 +993,302 @@
       {
         "id": 1,
         "name": "Einhorn Revolving",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "Combat Shotgun",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "Gracey Auto",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
         "name": "Double Barrel",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -179,22 +1299,302 @@
       {
         "id": 1,
         "name": "MG42",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "DP27",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "Type 11",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
         "name": "Bren",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -205,17 +1605,227 @@
       {
         "id": 1,
         "name": "M1 Garand",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "SVT-40",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "G-43",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -226,17 +1836,227 @@
       {
         "id": 1,
         "name": "Type 99",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "3-Line Rifle",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "Kar98k",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -247,27 +2067,377 @@
       {
         "id": 1,
         "name": "Ratt",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "Top Break",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "1911",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
         "name": "Klauser",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 5,
         "name": "Machine Pistol",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -278,22 +2448,302 @@
       {
         "id": 1,
         "name": "M1 Bazooka",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "Panzerschreck",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 3,
         "name": "Panzerfaust",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 4,
         "name": "MK11 Launcher",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -304,12 +2754,152 @@
       {
         "id": 1,
         "name": "FS Fighting Knife",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       },
       {
         "id": 2,
         "name": "Combat Shield",
-        "camos": []
+        "camos": [
+          {
+            "id": 1,
+            "name": "Pack Tactics",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 2,
+            "name": "Surgical",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 3,
+            "name": "Predatory Ambition",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 4,
+            "name": "Reptilian",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 5,
+            "name": "Deadeye",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 6,
+            "name": "Berserker",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 7,
+            "name": "Wildcat",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 8,
+            "name": "Survivalist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 9,
+            "name": "Mindgames",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 10,
+            "name": "Death Artist",
+            "mission": "#TODO",
+            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+          },
+          {
+            "id": 11,
+            "name": "Mastery",
+            "mission": [
+              "In Zombies, complete all weapon camo challenges for _name",
+              "In Zombies, unlock the Golden Viper Camo for all weapons of that class in your loadout",
+              "Unlock the Plague Diamond camo for all weapon classes"
+            ]
+          }
+        ]
       }
     ]
   }
