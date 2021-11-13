@@ -17,6 +17,9 @@ app.use("/api/refresh", require("./routes/refresh.routes"));
 if (process.env.NODE_ENV === "production") {
   app.use("/coldwar", express.static("coldwar/build"));
   app.use("/vanguard", express.static("vanguard/build"));
+  app.get("/", function (req, res) {
+    res.sendFile(path.resolve(__dirname, "select", "index.html"));
+  });
   app.get("/coldwar/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "coldwar", "build", "index.html"));
   });
