@@ -6,8 +6,6 @@ import { Provider } from "react-redux";
 import { Toaster } from "react-hot-toast";
 import store from "./redux";
 
-console.log("process.env.PUBLIC_URL", process.env.PUBLIC_URL);
-
 ReactDOM.render(
   <Provider store={store}>
     <Router basename={process.env.PUBLIC_URL}>
