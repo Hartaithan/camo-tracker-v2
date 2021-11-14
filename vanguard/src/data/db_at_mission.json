@@ -127,19 +127,19 @@
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "Get _goal ADS kills with specific attachments",
+            "mission": "Get _goal kills while moving with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "Get _goal headshots with specific attachments",
+            "mission": "Get _goal ADS kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "Get _goal kills while moving with specific attachments",
+            "mission": "Get _goal long range kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
@@ -202,19 +202,19 @@
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "Get _goal ADS kills with specific attachments",
+            "mission": "Get _goal hipfire kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "Get _goal headshots with specific attachments",
+            "mission": "Get _goal ADS kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "Get _goal kills while moving with specific attachments",
+            "mission": "Get _goal quickscope kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
@@ -277,13 +277,13 @@
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "Get _goal ADS kills with specific attachments",
+            "mission": "Get _goal long range kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "Get _goal headshots with specific attachments",
+            "mission": "Get _goal bullet penetration kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
@@ -352,19 +352,19 @@
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "Get _goal ADS kills with specific attachments",
+            "mission": "Get _goal hipfire kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "Get _goal headshots with specific attachments",
+            "mission": "Get _goal ADS kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "Get _goal kills while moving with specific attachments",
+            "mission": "Get _goal kills while chrouched or prone with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
@@ -427,19 +427,19 @@
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "Get _goal ADS kills with specific attachments",
+            "mission": "Get _goal headshots with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "Get _goal headshots with specific attachments",
+            "mission": "Get _goal ADS kills with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "Get _goal kills while moving with specific attachments",
+            "mission": "Get _goal kills without taking damage with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
@@ -455,7 +455,7 @@
       },
       {
         "id": 7,
-        "name": "Volk",
+        "name": "Volkssturmgewehr",
         "camos": [
           {
             "id": 1,
@@ -508,13 +508,13 @@
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "Get _goal headshots with specific attachments",
+            "mission": "Get _goal kills while moving with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "Get _goal kills while moving with specific attachments",
+            "mission": "Get _goal kills without taking damage with specific attachments",
             "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
@@ -541,62 +541,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal multikills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get 5 kills without dying _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal point blank kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills without taking damage with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 11,
@@ -616,62 +616,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal multikills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get 5 kills without dying _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal point blank kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal ADS kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills while moving with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 11,
@@ -691,62 +691,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal multikills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get 5 kills without dying _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal point blank kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills without taking damage with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills while chrouched or prone with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal ADS kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 11,
@@ -766,62 +766,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal multikills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get 5 kills without dying _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal point blank kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills while moving with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal ADS kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal point blank kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 11,
@@ -841,62 +841,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal multikills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get 5 kills without dying _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal point blank kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills while chrouched or prone with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills while moving with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 11,
@@ -916,62 +916,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal headshots",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal multikills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get 5 kills without dying _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal point blank kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal hipfire kills",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills without taking damage with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal ADS kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal ADS kills with specific attachments",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 11,
@@ -1303,8 +1303,8 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
@@ -1378,8 +1378,8 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
@@ -1453,8 +1453,8 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
@@ -1528,8 +1528,8 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [40, 80, 120, 160, 200, 240, 280, 320, 360, 400]
           },
           {
             "id": 2,
