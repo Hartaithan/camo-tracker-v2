@@ -15,6 +15,7 @@ app.use("/api/data", require("./routes/data.routes"));
 app.use("/api/refresh", require("./routes/refresh.routes"));
 
 if (process.env.NODE_ENV === "production") {
+  app.use("/", express.static("select"));
   app.use("/coldwar", express.static("coldwar/build"));
   app.use("/vanguard", express.static("vanguard/build"));
   app.get("/", function (req, res) {
