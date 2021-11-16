@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/publicPage.scss";
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
 function PublicPage() {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   function getRandNum(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
@@ -54,12 +54,12 @@ function PublicPage() {
               CLICK HERE TO REGISTER!
             </button>
           </Link>
-          <button
+          {/* <button
             className="tracker_public_body_button demo"
             onClick={() => dispatch({ type: "DEMO_IN" })}
           >
             DEMO
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="tracker_public_background">
