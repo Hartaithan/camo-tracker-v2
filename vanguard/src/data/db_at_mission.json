@@ -2452,62 +2452,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal enemy killstreaks, equipment or field upgrades",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal ground killstreaks or field upgrades",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal enemy aerial killstreaks times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy 3 enemy killstreaks in 1 game _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 11,
@@ -2527,62 +2497,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal enemy killstreaks, equipment or field upgrades",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal ground killstreaks or field upgrades",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal enemy aerial killstreaks times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy 3 enemy killstreaks in 1 game _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 11,
@@ -2602,62 +2542,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal enemy killstreaks, equipment or field upgrades",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal ground killstreaks or field upgrades",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal enemy aerial killstreaks times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy 3 enemy killstreaks in 1 game _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 11,
@@ -2677,62 +2587,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Destroy _goal enemy killstreaks, equipment or field upgrades",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal long range kills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal double kills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal triple kills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 11,
@@ -2758,62 +2638,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal backstabber kills",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal slide kills",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal double kills",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills while enemy is stunned or flashed",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 11,
@@ -2833,62 +2683,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal eliminations",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal backstabber kills",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal slide kills",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal double kills",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "Get _goal kills while enemy is stunned or flashed",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 11,
