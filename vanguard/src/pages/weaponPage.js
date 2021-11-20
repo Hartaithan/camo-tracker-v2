@@ -278,11 +278,11 @@ function WeaponPage() {
           {camos.map((item, i) => {
             if (id_cat === "8" || id_cat === "9") {
               if (item.id < 6 || item.id === 11) {
-                return <WeaponContainer item={item} index={i} />;
+                return <WeaponContainer key={item.id} item={item} index={i} />;
               }
               return null;
             }
-            return <WeaponContainer item={item} index={i} />;
+            return <WeaponContainer key={item.id} item={item} index={i} />;
           })}
         </div>
       </div>
