@@ -1,6 +1,8 @@
 @import "variables";
 @import "colors";
 
+$camo-size: 70px;
+
 .tracker {
   &_weapon {
     display: flex;
@@ -12,13 +14,13 @@
     overflow: auto;
     &_wrapper {
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: repeat(3, 1fr);
       width: 100%;
       box-sizing: border-box;
       &_container {
         height: fit-content;
-        width: 550px;
-        margin: 15px auto;
+        width: calc((5 * $camo-size) + (4 * 8px));
+        margin: 8px auto;
         &_text {
           height: fit-content;
           display: flex;
@@ -66,10 +68,11 @@
           display: grid;
           grid-template-columns: repeat(5, 1fr);
           height: auto;
+          gap: 8px;
           &_camo {
             position: relative;
-            height: 100px;
-            width: 100px;
+            height: $camo-size;
+            width: $camo-size;
             background: $color-el;
             border: 1px solid $color-border;
             cursor: pointer;
@@ -78,7 +81,7 @@
                 fill: grey;
               }
             }
-            &[data-title]:hover:after {
+            & &[data-title]:hover:after {
               opacity: 1;
               transition: all 0.1s ease 0.2s;
               visibility: visible;

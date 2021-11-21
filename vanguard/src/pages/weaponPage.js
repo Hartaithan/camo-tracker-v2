@@ -57,35 +57,53 @@ function WeaponPage() {
   function calcPerc(id_camocat) {
     let array = [];
     if (id_camocat === 1) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(0, 5);
+      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(0, 10);
     } else if (id_camocat === 2) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(5, 10);
-    } else if (id_camocat === 3) {
       array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
         10,
-        15
+        20
+      );
+    } else if (id_camocat === 3) {
+      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
+        20,
+        30
       );
     } else if (id_camocat === 4) {
       array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        15,
-        20
+        30,
+        40
       );
     } else if (id_camocat === 5) {
       array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        20,
-        25
+        40,
+        50
       );
     } else if (id_camocat === 6) {
       array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        25,
-        30
+        50,
+        60
       );
     } else if (id_camocat === 7) {
       array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        30,
-        35
+        60,
+        70
       );
     } else if (id_camocat === 8) {
+      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
+        70,
+        80
+      );
+    } else if (id_camocat === 9) {
+      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
+        80,
+        90
+      );
+    } else if (id_camocat === 10) {
+      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
+        90,
+        100
+      );
+    } else if (id_camocat === 11) {
       array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast];
     }
     const percentage = (array.filter(Boolean).length / array.length) * 100;
@@ -133,10 +151,13 @@ function WeaponPage() {
     false,
     false,
     false,
+    false,
+    false,
+    false,
   ]);
 
   function setShowCheck(index) {
-    if (index !== 7) {
+    if (index !== 10) {
       show[index] = !show[index];
       setShow([...show, show]);
     }
@@ -184,7 +205,7 @@ function WeaponPage() {
           <div className="tracker_weapon_wrapper_container_text_name">
             {item.name.toUpperCase()}
           </div>
-          {i !== 7 && (
+          {i !== 10 && (
             <div
               className="tracker_weapon_wrapper_container_text_check"
               onClick={() =>
