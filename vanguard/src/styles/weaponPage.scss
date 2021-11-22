@@ -1,8 +1,6 @@
 @import "variables";
 @import "colors";
 
-$camo-size: 70px;
-
 .tracker {
   &_weapon {
     display: flex;
@@ -19,7 +17,7 @@ $camo-size: 70px;
       box-sizing: border-box;
       &_container {
         height: fit-content;
-        width: calc((5 * $camo-size) + (4 * 8px));
+        width: calc(5 * 70px + 4 * 8px);
         margin: 8px auto;
         &_text {
           height: fit-content;
@@ -71,8 +69,8 @@ $camo-size: 70px;
           gap: 8px;
           &_camo {
             position: relative;
-            height: $camo-size;
-            width: $camo-size;
+            height: 70px;
+            width: 70px;
             background: $color-el;
             border: 1px solid $color-border;
             cursor: pointer;
