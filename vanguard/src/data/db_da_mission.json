@@ -10,62 +10,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -85,62 +85,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -160,62 +160,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -235,62 +235,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -310,62 +310,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -385,62 +385,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -460,62 +460,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -541,62 +541,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -616,62 +616,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -691,62 +691,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -766,62 +766,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -841,62 +841,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -916,62 +916,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -997,62 +997,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1072,62 +1072,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1147,62 +1147,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1222,62 +1222,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1303,62 +1303,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1378,62 +1378,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1453,62 +1453,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1528,62 +1528,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1609,62 +1609,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1684,62 +1684,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1759,62 +1759,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1840,62 +1840,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1915,62 +1915,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -1990,62 +1990,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2071,62 +2071,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2146,62 +2146,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2221,62 +2221,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2296,62 +2296,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2371,62 +2371,62 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal critical kills",
+            "goals": [80, 160, 240, 320, 400, 480, 560, 640, 720, 800]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [400, 800, 1200, 1600, 2000, 2400, 2800, 3200, 3600, 4000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations as a result of an equipped Covenant",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 6,
             "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Boom-Schreier eliminations",
+            "goals": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
           },
           {
             "id": 7,
             "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 8,
             "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations with 7 attachments equipped",
+            "goals": [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000]
           },
           {
             "id": 9,
             "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 3 rapid critical kills _goal times",
+            "goals": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
           },
           {
             "id": 10,
             "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2452,62 +2452,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 5 or more enemies with a single shot _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2527,62 +2497,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 5 or more enemies with a single shot _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2602,62 +2542,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 5 or more enemies with a single shot _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2677,62 +2587,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [250, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 5 or more enemies with a single shot _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2758,62 +2638,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
@@ -2833,62 +2683,32 @@
           {
             "id": 1,
             "name": "Pack Tactics",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal eliminations",
+            "goals": [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
           },
           {
             "id": 2,
             "name": "Surgical",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get 10 rapid kills _goal times",
+            "goals": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
           },
           {
             "id": 3,
             "name": "Predatory Ambition",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Pack-a-Punched eliminations",
+            "goals": [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
           },
           {
             "id": 4,
             "name": "Reptilian",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, kill 20 or more consecutive kills without getting hit _goal times",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 5,
             "name": "Deadeye",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 6,
-            "name": "Berserker",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 7,
-            "name": "Wildcat",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 8,
-            "name": "Survivalist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 9,
-            "name": "Mindgames",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-          },
-          {
-            "id": 10,
-            "name": "Death Artist",
-            "mission": "#TODO",
-            "goals": ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
+            "mission": "In Zombies, get _goal Sturmkrieger eliminations",
+            "goals": [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
           },
           {
             "id": 11,
