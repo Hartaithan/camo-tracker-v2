@@ -193,7 +193,7 @@ function WeaponPage() {
     }
   }
 
-  function WeaponContainer({ item, i }) {
+  const WeaponContainer = React.useCallback(({ item, i }) => {
     return (
       <div
         className="tracker_weapon_wrapper_container"
@@ -286,7 +286,7 @@ function WeaponPage() {
         </div>
       </div>
     );
-  }
+  }, []); // eslint-disable-line
 
   return (
     <div
@@ -299,11 +299,11 @@ function WeaponPage() {
           {camos.map((item, i) => {
             if (id_cat === "8" || id_cat === "9") {
               if (item.id < 6 || item.id === 11) {
-                return <WeaponContainer key={item.id} item={item} index={i} />;
+                return <WeaponContainer key={item.id} item={item} i={i} />;
               }
               return null;
             }
-            return <WeaponContainer key={item.id} item={item} index={i} />;
+            return <WeaponContainer key={item.id} item={item} i={i} />;
           })}
         </div>
       </div>
