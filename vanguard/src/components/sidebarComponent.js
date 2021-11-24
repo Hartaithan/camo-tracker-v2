@@ -61,16 +61,17 @@ function Sidebar() {
                     <Accordion
                       defaultActiveKey={collapsibleId[index] && "0"}
                       key={category.name + mast}
-                      onClick={() =>
-                        dispatch({
-                          type: "TOGGLE_COLLAPSIBLE",
-                          mast: mast,
-                          id: index,
-                        })
-                      }
                     >
                       <Accordion.Item eventKey="0">
-                        <Accordion.Header>
+                        <Accordion.Header
+                          onClick={() =>
+                            dispatch({
+                              type: "TOGGLE_COLLAPSIBLE",
+                              mast: mast,
+                              id: index,
+                            })
+                          }
+                        >
                           {category.name.toUpperCase()}
                         </Accordion.Header>
                         <Accordion.Body className="d-flex flex-column align-items-start">

@@ -76,16 +76,17 @@ function MasterPage() {
               app.masterCollapsibleIsOpen[id_mast][index] && "0"
             }
             key={items.name + id_mast}
-            onClick={() =>
-              dispatch({
-                type: "TOGGLE_MASTER_COLLAPSIBLE",
-                mast: id_mast,
-                id: index,
-              })
-            }
           >
             <Accordion.Item eventKey="0">
-              <Accordion.Header>
+              <Accordion.Header
+                onClick={() =>
+                  dispatch({
+                    type: "TOGGLE_MASTER_COLLAPSIBLE",
+                    mast: id_mast,
+                    id: index,
+                  })
+                }
+              >
                 <div className="tracker_master_container_progress_text">
                   <div className="tracker_master_container_progress_text_name">
                     {items.name.toUpperCase()}
