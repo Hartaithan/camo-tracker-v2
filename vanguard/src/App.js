@@ -90,7 +90,6 @@ function App() {
         .get("/data/demo")
         .then((response) => {
           dispatch({ type: "SYNC_DATA", state: response.data });
-          toast.success("Progress from the database is received.");
           setFirstUpdate(false);
         })
         .catch((error) => {
@@ -105,7 +104,7 @@ function App() {
         });
     } catch (error) {
       console.error("getDemo catch (error)", error);
-      toast.error("Failed to retrieve progress from the database.");
+      toast.error("Failed to retrieve data from the database.");
     }
   }, [dispatch]);
 
