@@ -45,6 +45,7 @@
           border: none !important;
           border-bottom: 5px solid transparent !important;
           border-color: transparent;
+          border-radius: 0 !important;
           &.active {
             border-bottom: 5px solid #575757 !important;
           }
