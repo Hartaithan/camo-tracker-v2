@@ -29,16 +29,19 @@ function App() {
   const [isFirstUpdate, setFirstUpdate] = React.useState(true);
 
   const getDataAfterRefresh = React.useCallback(async () => {
-    API().get("/data/get").then((response) => {
-      dispatch({ type: "SYNC_DATA", state: response.data });
-      toast.success("Progress from the database is received.");
-      setFirstUpdate(false);
-    });
+    API()
+      .get("/data/get")
+      .then((response) => {
+        dispatch({ type: "SYNC_DATA", state: response.data });
+        toast.success("Progress from the database is received.");
+        setFirstUpdate(false);
+      });
   }, [dispatch]);
 
   const getData = React.useCallback(async () => {
     try {
-      await API().get("/data/get")
+      await API()
+        .get("/data/get")
         .then((response) => {
           dispatch({ type: "SYNC_DATA", state: response.data });
           toast.success("Progress from the database is received.");
@@ -54,7 +57,8 @@ function App() {
             console.error("getData error", error.response.data);
           }
           if (error.response.data.isExpired) {
-            API().post("/refresh", { refresh_token })
+            API()
+              .post("/refresh", { refresh_token })
               .then((response) => {
                 dispatch({
                   type: "UPDATE_TOKENS",
@@ -80,9 +84,37 @@ function App() {
     }
   }, [refresh_token, dispatch, getDataAfterRefresh, history]);
 
+  const getDemo = React.useCallback(async () => {
+    try {
+      await API()
+        .get("/data/demo")
+        .then((response) => {
+          dispatch({ type: "SYNC_DATA", state: response.data });
+          toast.success("Progress from the database is received.");
+          setFirstUpdate(false);
+        })
+        .catch((error) => {
+          if (error.response.data.message) {
+            console.error(
+              "getDemo error with message",
+              error.response.data.message
+            );
+          } else {
+            console.error("getDemo error", error.response.data);
+          }
+        });
+    } catch (error) {
+      console.error("getDemo catch (error)", error);
+      toast.error("Failed to retrieve progress from the database.");
+    }
+  }, [dispatch]);
+
   React.useEffect(() => {
-    if (isAuth && !isDemo) {
+    if (isAuth) {
       getData();
+    }
+    if (isDemo) {
+      getDemo();
     }
   }, [isAuth]); // eslint-disable-line
 
@@ -92,9 +124,10 @@ function App() {
     if (request) {
       request.cancel();
     }
-    await API().post("/data/sync", JSON.stringify(main), {
-      cancelToken: source.token,
-    })
+    await API()
+      .post("/data/sync", JSON.stringify(main), {
+        cancelToken: source.token,
+      })
       .then((response) => {
         setRequest(null);
         toast.success(response?.data);

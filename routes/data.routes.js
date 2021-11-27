@@ -31,6 +31,21 @@ router.get("/get", auth, async (req, res) => {
   }
 });
 
+router.get("/demo", async (req, res) => {
+  try {
+    const appName = req.headers.appname;
+    const { main } = await Data.findOne({ name: appName });
+    if (!main) {
+      console.error("Failed to get from database.");
+      return res.status(400).json({ message: "Failed to get progress." });
+    }
+    return res.json(main);
+  } catch (e) {
+    console.error("/demo error", e);
+    return res.status(500).json({ message: "Something wrong... /api/demo" });
+  }
+});
+
 router.post("/sync", auth, async (req, res) => {
   try {
     await syncData(req, res);
