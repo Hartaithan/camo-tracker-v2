@@ -65,3 +65,33 @@ img {
   color: #c8001a;
   background: #afaca7;
 }
+
+@media (min-width: 1921px) {
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .item {
+    width: 50%;
+  }
+  .item:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+}
