@@ -1,5 +1,5 @@
 const mainReducer = (state = [], action) => {
-  const baseNumWeapon = [5, 5, 4, 3, 3, 3, 2, 2, 1, 1];
+  const baseNumWeapon = [7, 6, 4, 4, 3, 3, 5, 4, 2];
   let selectedArray = [];
   let n = 0;
   switch (action.type) {
@@ -39,43 +39,7 @@ const mainReducer = (state = [], action) => {
       // CHANGING EXACT WEAPON ON TRUE
       state[action.id_cat - 1].weapons[action.id_weap - 1].camos[
         action.id_mast
-      ] = [
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-        true,
-      ];
+      ] = new Array(100).fill(true);
       // CHANGING WEAPON ON COMPLETE IF ALL CAMOS TRUE
       if (selectedArray.filter(Boolean).length === selectedArray.length) {
         state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
@@ -102,38 +66,47 @@ const mainReducer = (state = [], action) => {
       }
       return [...state];
     case "TOGGLE_CAMO_CATEG":
-      const currentArray =
+      const currArray =
         state[action.id_cat - 1].weapons[action.id_weap - 1].camos[
           action.id_mast
         ];
-      const completed = [true, true, true, true, true];
+      const completed = new Array(10).fill(true);
       switch (action.id_camo_cat) {
         case 1:
-          Array.prototype.splice.apply(currentArray, [0, 5].concat(completed));
+          Array.prototype.splice.apply(currArray, [0, 10].concat(completed));
           break;
         case 2:
-          Array.prototype.splice.apply(currentArray, [5, 5].concat(completed));
+          Array.prototype.splice.apply(currArray, [10, 10].concat(completed));
           break;
         case 3:
-          Array.prototype.splice.apply(currentArray, [10, 5].concat(completed));
+          Array.prototype.splice.apply(currArray, [20, 10].concat(completed));
           break;
         case 4:
-          Array.prototype.splice.apply(currentArray, [15, 5].concat(completed));
+          Array.prototype.splice.apply(currArray, [30, 10].concat(completed));
           break;
         case 5:
-          Array.prototype.splice.apply(currentArray, [20, 5].concat(completed));
+          Array.prototype.splice.apply(currArray, [40, 10].concat(completed));
           break;
         case 6:
-          Array.prototype.splice.apply(currentArray, [25, 5].concat(completed));
+          Array.prototype.splice.apply(currArray, [50, 10].concat(completed));
           break;
         case 7:
-          Array.prototype.splice.apply(currentArray, [30, 5].concat(completed));
+          Array.prototype.splice.apply(currArray, [60, 10].concat(completed));
+          break;
+        case 8:
+          Array.prototype.splice.apply(currArray, [70, 10].concat(completed));
+          break;
+        case 9:
+          Array.prototype.splice.apply(currArray, [80, 10].concat(completed));
+          break;
+        case 10:
+          Array.prototype.splice.apply(currArray, [90, 10].concat(completed));
           break;
         default:
           console.info("TOGGLE_CAMO_CATEG default case");
       }
       // CHANGING WEAPON ON COMPLETE IF ALL CAMOS TRUE
-      if (currentArray.filter(Boolean).length === currentArray.length) {
+      if (currArray.filter(Boolean).length === currArray.length) {
         state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
           action.id_mast
         ] = true;

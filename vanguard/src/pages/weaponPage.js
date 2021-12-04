@@ -142,19 +142,7 @@ function WeaponPage() {
     }
   }
 
-  const [show, setShow] = React.useState([
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-  ]);
+  const [show, setShow] = React.useState(new Array(11).fill(false));
 
   function setShowCheck(index) {
     if (index !== 10) {
@@ -180,7 +168,7 @@ function WeaponPage() {
       const array = [...main[id_cat - 1].weapons[id_weap - 1].camos[id_mast]];
       let categories = [];
       while (array.length > 0) {
-        categories.push(array.splice(0, 5));
+        categories.push(array.splice(0, 10));
       }
       const getCategoryArray = categories[i];
       if (getCategoryArray[index - 1] || getCategoryArray[index]) {
@@ -193,100 +181,103 @@ function WeaponPage() {
     }
   }
 
-  const WeaponContainer = React.useCallback(({ item, i }) => {
-    return (
-      <div
-        className="tracker_weapon_wrapper_container"
-        onMouseEnter={() => setShowCheck(i)}
-        onMouseLeave={() => setShowCheck(i)}
-        key={item.id}
-      >
-        <div className="tracker_weapon_wrapper_container_text">
-          <div className="tracker_weapon_wrapper_container_text_name">
-            {item.name.toUpperCase()}
-          </div>
-          {i !== 10 && (
-            <div
-              className="tracker_weapon_wrapper_container_text_check"
-              onClick={() =>
-                dispatch({
-                  type: "TOGGLE_CAMO_CATEG",
-                  id_cat: id_cat,
-                  id_weap: id_weap,
-                  id_camo_cat: i + 1,
-                  id_mast: id_mast,
-                })
-              }
-              style={{ opacity: show[i] ? "1" : "0" }}
-            >
-              <CheckCamoIcon />
+  const WeaponContainer = React.useCallback(
+    ({ item, i }) => {
+      return (
+        <div
+          className="tracker_weapon_wrapper_container"
+          onMouseEnter={() => setShowCheck(i)}
+          onMouseLeave={() => setShowCheck(i)}
+          key={item.id}
+        >
+          <div className="tracker_weapon_wrapper_container_text">
+            <div className="tracker_weapon_wrapper_container_text_name">
+              {item.name.toUpperCase()}
             </div>
-          )}
-          <div className="tracker_weapon_wrapper_container_text_percentage">
-            {calcPerc(item.id)}
+            {i !== 10 && (
+              <div
+                className="tracker_weapon_wrapper_container_text_check"
+                onClick={() =>
+                  dispatch({
+                    type: "TOGGLE_CAMO_CATEG",
+                    id_cat: id_cat,
+                    id_weap: id_weap,
+                    id_camo_cat: i + 1,
+                    id_mast: id_mast,
+                  })
+                }
+                style={{ opacity: show[i] ? "1" : "0" }}
+              >
+                <CheckCamoIcon />
+              </div>
+            )}
+            <div className="tracker_weapon_wrapper_container_text_percentage">
+              {calcPerc(item.id)}
+            </div>
+          </div>
+          <div className="tracker_weapon_wrapper_container_bar">
+            <div
+              className="tracker_weapon_wrapper_container_bar_yellow"
+              style={{ width: calcPerc(item.id) }}
+            ></div>
+          </div>
+          <div className="tracker_weapon_wrapper_container_camocontainer">
+            {item.camos.map((camo, index) => {
+              if (camo.id === 101 || camo.id === 102 || camo.id === 103) {
+                return (
+                  <div
+                    className={`tracker_weapon_wrapper_container_camocontainer_camo tracker_weapon_wrapper_container_camocontainer_master`}
+                    data-title={getMasteryMission(item.id, index)}
+                    key={camo.id}
+                  >
+                    <div
+                      className="tracker_weapon_wrapper_container_camocontainer_camo_lock"
+                      style={{ opacity: checkMastery(camo.id) }}
+                    >
+                      <LockIcon />
+                    </div>
+                    <img
+                      className="tracker_weapon_wrapper_container_camocontainer_camo_img"
+                      src={camo.img}
+                      alt="camo_img"
+                    />
+                  </div>
+                );
+              } else {
+                return (
+                  <div
+                    className="tracker_weapon_wrapper_container_camocontainer_camo"
+                    onClick={() => setCamo(camo.id, index, i)}
+                    key={camo.id}
+                    data-title={getMission(item.id, index)}
+                  >
+                    <div
+                      className="tracker_weapon_wrapper_container_camocontainer_camo_lock"
+                      style={{
+                        opacity: main[id_cat - 1].weapons[id_weap - 1].camos[
+                          id_mast
+                        ][camo.id - 1]
+                          ? 0
+                          : 1,
+                      }}
+                    >
+                      <LockIcon />
+                    </div>
+                    <img
+                      className="tracker_weapon_wrapper_container_camocontainer_camo_img"
+                      src={camo.img}
+                      alt="camo_img"
+                    />
+                  </div>
+                );
+              }
+            })}
           </div>
         </div>
-        <div className="tracker_weapon_wrapper_container_bar">
-          <div
-            className="tracker_weapon_wrapper_container_bar_yellow"
-            style={{ width: calcPerc(item.id) }}
-          ></div>
-        </div>
-        <div className="tracker_weapon_wrapper_container_camocontainer">
-          {item.camos.map((camo, index) => {
-            if (camo.id === 101 || camo.id === 102 || camo.id === 103) {
-              return (
-                <div
-                  className={`tracker_weapon_wrapper_container_camocontainer_camo tracker_weapon_wrapper_container_camocontainer_master`}
-                  data-title={getMasteryMission(item.id, index)}
-                  key={camo.id}
-                >
-                  <div
-                    className="tracker_weapon_wrapper_container_camocontainer_camo_lock"
-                    style={{ opacity: checkMastery(camo.id) }}
-                  >
-                    <LockIcon />
-                  </div>
-                  <img
-                    className="tracker_weapon_wrapper_container_camocontainer_camo_img"
-                    src={camo.img}
-                    alt="camo_img"
-                  />
-                </div>
-              );
-            } else {
-              return (
-                <div
-                  className="tracker_weapon_wrapper_container_camocontainer_camo"
-                  onClick={() => setCamo(camo.id, index, i)}
-                  key={camo.id}
-                  data-title={getMission(item.id, index)}
-                >
-                  <div
-                    className="tracker_weapon_wrapper_container_camocontainer_camo_lock"
-                    style={{
-                      opacity: main[id_cat - 1].weapons[id_weap - 1].camos[
-                        id_mast
-                      ][camo.id - 1]
-                        ? 0
-                        : 1,
-                    }}
-                  >
-                    <LockIcon />
-                  </div>
-                  <img
-                    className="tracker_weapon_wrapper_container_camocontainer_camo_img"
-                    src={camo.img}
-                    alt="camo_img"
-                  />
-                </div>
-              );
-            }
-          })}
-        </div>
-      </div>
-    );
-  }, []); // eslint-disable-line
+      );
+    },
+    [main[id_cat - 1].weapons[id_weap - 1].camos[id_mast]] // eslint-disable-line
+  );
 
   return (
     <div
