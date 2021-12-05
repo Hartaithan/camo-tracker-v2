@@ -19,6 +19,12 @@
         height: fit-content;
         width: calc(5 * 70px + 4 * 8px);
         margin: 8px auto;
+        &:last-child {
+          .tracker_weapon_wrapper_container_camocontainer {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
         &_text {
           height: fit-content;
           display: flex;
