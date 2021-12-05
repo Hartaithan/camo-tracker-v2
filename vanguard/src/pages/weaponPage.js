@@ -112,10 +112,10 @@ function WeaponPage() {
 
   function checkMastery(id_camo) {
     // CHECK GOLD
-    if (id_camo === 36) {
+    if (id_camo === 101) {
       return main[id_cat - 1].weapons[id_weap - 1].completed[id_mast] ? 0 : 1;
       // CHECK DIAMOND
-    } else if (id_camo === 37) {
+    } else if (id_camo === 102) {
       if (main[id_cat - 1].weapons[id_weap - 1].dlc) {
         if (main[id_cat - 1].weapons[id_weap - 1].completed[id_mast]) {
           return main[id_cat - 1].completed[id_mast] ? 0 : 1;
@@ -124,7 +124,7 @@ function WeaponPage() {
         return main[id_cat - 1].completed[id_mast] ? 0 : 1;
       }
       // CHECK MASTERY
-    } else if (id_camo === 38) {
+    } else if (id_camo === 103) {
       let n = 0;
       main.map((weapon) => {
         if (weapon.completed[id_mast] === true) {
