@@ -1,36 +1,26 @@
 import axios from "axios";
 import store from "../redux";
 
-export function API() {
-  const { user } = store.getState();
+const conf = {
+  baseURL: `${process.env.REACT_APP_API_URL}`,
+};
 
-  if (user.token !== null) {
-    return axios.create({
-      baseURL: `${process.env.REACT_APP_API_URL}`,
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${user.token}`,
-        appName: "vanguard",
-      },
-    });
-  } else {
-    console.error("Token is null");
-    return axios.create({
-      baseURL: `${process.env.REACT_APP_API_URL}`,
-      headers: {
-        "Content-Type": "application/json",
-        appName: "vanguard",
-      },
-    });
-  }
-}
+const API = axios.create(conf);
 
-export function Auth() {
-  return axios.create({
-    baseURL: `${process.env.REACT_APP_API_URL}`,
-    headers: {
+API.interceptors.request.use(
+  function (config) {
+    const { token } = store.getState().user;
+    config.headers = {
       "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`,
       appName: "vanguard",
-    },
-  });
-}
+    };
+    return config;
+  },
+  function (error) {
+    console.error("request interceptor error", error);
+    return Promise.reject(error);
+  }
+);
+
+export default API;
