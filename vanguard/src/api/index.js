@@ -34,31 +34,25 @@ API.interceptors.response.use(
     return response;
   },
   function (error) {
-    try {
-      if (error.response.data.isExpired) {
-        const { refresh_token } = store.getState().user;
-        API.post("/refresh", { refresh_token })
-          .then((response) => {
-            store.dispatch({
-              type: "UPDATE_TOKENS",
-              token: response.data.token,
-              refresh_token: response.data.refresh_token,
-            });
-            return API.request(error.config);
-          })
-          .catch(function (err) {
-            toast.error(
-              err.response?.message || "Your session has expired. Please log in"
-            );
-            console.error("refresh error", err);
-            handleLogOut();
+    if (error.response.data.isExpired) {
+      const { refresh_token } = store.getState().user;
+      API.post("/refresh", { refresh_token })
+        .then((response) => {
+          store.dispatch({
+            type: "UPDATE_TOKENS",
+            token: response.data.token,
+            refresh_token: response.data.refresh_token,
           });
-      }
-    } catch (e) {
-      console.error("response interceptor error", e.response);
-      toast.error("Something went wrong...");
-      handleLogOut();
-      return Promise.reject(e);
+          return API.request(error.config);
+        })
+        .catch(function (err) {
+          toast.error(
+            err.response?.message || "Your session has expired. Please log in"
+          );
+          console.error("refresh error", err);
+          handleLogOut();
+          return Promise.reject(err);
+        });
     }
   }
 );

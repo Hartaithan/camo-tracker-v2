@@ -39,73 +39,63 @@ function App() {
   }, [dispatch]);
 
   const getData = React.useCallback(async () => {
-    try {
-      await API()
-        .get("/data/get")
-        .then((response) => {
-          dispatch({ type: "SYNC_DATA", state: response.data });
-          toast.success("Progress from the database is received.");
-          setFirstUpdate(false);
-        })
-        .catch((error) => {
-          if (error.response.data.message) {
-            console.error(
-              "getData error with message",
-              error.response.data.message
-            );
-          } else {
-            console.error("getData error", error.response.data);
-          }
-          if (error.response.data.isExpired) {
-            API()
-              .post("/refresh", { refresh_token })
-              .then((response) => {
-                dispatch({
-                  type: "UPDATE_TOKENS",
-                  token: response.data.token,
-                  refresh_token: response.data.refresh_token,
-                });
-                getDataAfterRefresh();
-              })
-              .catch(function (error) {
-                toast.error(
-                  error.response.data.message || "Authorization error"
-                );
-                console.error("refresh error", error.response.data);
-                dispatch({ type: "LOG_OUT" });
-                localStorage.removeItem("coldwar");
-                history.push("/login");
+    await API()
+      .get("/data/get")
+      .then((response) => {
+        dispatch({ type: "SYNC_DATA", state: response.data });
+        toast.success("Progress from the database is received.");
+        setFirstUpdate(false);
+      })
+      .catch((error) => {
+        if (error.response.data.message) {
+          console.error(
+            "getData error with message",
+            error.response.data.message
+          );
+        } else {
+          console.error("getData error", error.response.data);
+          toast.error("Failed to retrieve progress from the database.");
+        }
+        if (error.response.data.isExpired) {
+          API()
+            .post("/refresh", { refresh_token })
+            .then((response) => {
+              dispatch({
+                type: "UPDATE_TOKENS",
+                token: response.data.token,
+                refresh_token: response.data.refresh_token,
               });
-          }
-        });
-    } catch (error) {
-      console.error("getData catch (error)", error);
-      toast.error("Failed to retrieve progress from the database.");
-    }
+              getDataAfterRefresh();
+            })
+            .catch(function (error) {
+              toast.error(error.response.data.message || "Authorization error");
+              console.error("refresh error", error.response.data);
+              dispatch({ type: "LOG_OUT" });
+              localStorage.removeItem("coldwar");
+              history.push("/login");
+            });
+        }
+      });
   }, [refresh_token, dispatch, getDataAfterRefresh, history]);
 
   const getDemo = React.useCallback(async () => {
-    try {
-      await API()
-        .get("/data/demo")
-        .then((response) => {
-          dispatch({ type: "SYNC_DATA", state: response.data });
-          setFirstUpdate(false);
-        })
-        .catch((error) => {
-          if (error.response.data.message) {
-            console.error(
-              "getDemo error with message",
-              error.response.data.message
-            );
-          } else {
-            console.error("getDemo error", error.response.data);
-          }
-        });
-    } catch (error) {
-      console.error("getDemo catch (error)", error);
-      toast.error("Failed to retrieve data from the database.");
-    }
+    await API()
+      .get("/data/demo")
+      .then((response) => {
+        dispatch({ type: "SYNC_DATA", state: response.data });
+        setFirstUpdate(false);
+      })
+      .catch((error) => {
+        if (error.response.data.message) {
+          console.error(
+            "getDemo error with message",
+            error.response.data.message
+          );
+        } else {
+          console.error("getDemo error", error.response.data);
+          toast.error("Failed to retrieve data from the database.");
+        }
+      });
   }, [dispatch]);
 
   React.useEffect(() => {

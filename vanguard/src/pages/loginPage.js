@@ -17,33 +17,27 @@ function LoginPage() {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    try {
-      await API.post("/auth/login", JSON.stringify(data))
-        .then((response) => {
-          dispatch({
-            type: "LOG_IN",
-            token: response.data.token,
-            refresh_token: response.data.refresh_token,
-            userId: response.data.userId,
-            email: response.data.email,
-            nick: response.data.nick,
-          });
-          history.push("/");
-          setLoading(false);
-        })
-        .catch(function (error) {
-          if (!error.response.data.message) {
-            toast.error("Something went wrong... ");
-            console.error(error.response.data);
-          }
-          toast.error("/api/auth/login error", error.response.data.message);
-          setLoading(false);
+    await API.post("/auth/login", JSON.stringify(data))
+      .then((response) => {
+        dispatch({
+          type: "LOG_IN",
+          token: response.data.token,
+          refresh_token: response.data.refresh_token,
+          userId: response.data.userId,
+          email: response.data.email,
+          nick: response.data.nick,
         });
-    } catch (error) {
-      toast.error("Something went wrong... ");
-      console.error("/api/auth/login catch (error)", error);
-      setLoading(false);
-    }
+        history.push("/");
+        setLoading(false);
+      })
+      .catch(function (error) {
+        if (!error.response.data.message) {
+          toast.error("Something went wrong... ");
+          console.error(error.response.data);
+        }
+        toast.error("/api/auth/login error", error.response.data.message);
+        setLoading(false);
+      });
   };
 
   const onErrors = (errors) => {

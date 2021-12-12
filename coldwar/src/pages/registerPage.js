@@ -16,29 +16,24 @@ function RegisterPage() {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    try {
-      await Auth().post("/auth/register", JSON.stringify(data))
-        .then((response) => {
-          if (!response.data.message) {
-            toast.success(response.data);
-          }
-          toast.success(response.data.message);
-          setLoading(false);
-          history.push("/login");
-        })
-        .catch(function (error) {
-          if (!error.response.data.message) {
-            toast.error("Something went wrong... ");
-            console.error("/api/auth/register error", error.response.data);
-          }
-          toast.error(error.response.data.message);
-          setLoading(false);
-        });
-    } catch (error) {
-      toast.error("Something went wrong... ");
-      console.error("/api/auth/register catch (error)", error);
-      setLoading(false);
-    }
+    await Auth()
+      .post("/auth/register", JSON.stringify(data))
+      .then((response) => {
+        if (!response.data.message) {
+          toast.success(response.data);
+        }
+        toast.success(response.data.message);
+        setLoading(false);
+        history.push("/login");
+      })
+      .catch(function (error) {
+        if (!error.response.data.message) {
+          toast.error("Something went wrong... ");
+          console.error("/api/auth/register error", error.response.data);
+        }
+        toast.error(error.response.data.message);
+        setLoading(false);
+      });
   };
 
   const onErrors = (errors) => {
