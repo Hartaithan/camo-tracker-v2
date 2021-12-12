@@ -16,7 +16,7 @@ function ConfirmModal() {
     await API.get("/data/reset")
       .then((response) => {
         dispatch({ type: "SYNC_DATA", state: response.data.state });
-        toast.success(response?.data.message);
+        response && toast.success(response?.data.message);
       })
       .catch(function (error) {
         if (error.response) {

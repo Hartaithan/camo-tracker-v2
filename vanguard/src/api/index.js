@@ -36,23 +36,28 @@ API.interceptors.response.use(
   function (error) {
     if (error.response.data.isExpired) {
       const { refresh_token } = store.getState().user;
-      API.post("/refresh", { refresh_token })
+      axios
+        .post(`${process.env.REACT_APP_API_URL}/refresh`, { refresh_token })
         .then((response) => {
-          store.dispatch({
-            type: "UPDATE_TOKENS",
-            token: response.data.token,
-            refresh_token: response.data.refresh_token,
-          });
-          return API.request(error.config);
+          if (response) {
+            store.dispatch({
+              type: "UPDATE_TOKENS",
+              token: response.data.token,
+              refresh_token: response.data.refresh_token,
+            });
+            return API.request(error.config);
+          }
         })
-        .catch(function (err) {
-          toast.error(
-            err.response?.message || "Your session has expired. Please log in"
-          );
-          console.error("refresh error", err);
+        .catch(function (error) {
+          console.error("refresh error", error);
           handleLogOut();
-          return Promise.reject(err);
+          return Promise.reject(error);
         });
+    } else {
+      console.error("response interceptor error", error.response);
+      toast.error(error?.response.message || "Something went wrong...");
+      handleLogOut();
+      return Promise.reject(error);
     }
   }
 );

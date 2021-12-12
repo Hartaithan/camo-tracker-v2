@@ -35,15 +35,15 @@ function App() {
         setFirstUpdate(false);
       })
       .catch((error) => {
-        if (error.response.data.message) {
+        if (error.response) {
           console.error(
             "getData error with message",
-            error.response.data.message
+            error.response?.data.message
           );
+          toast.error("Failed to retrieve progress from the database.");
         } else {
-          console.error("getData error", error.response.data);
+          console.error("getData error", error);
         }
-        toast.error("Failed to retrieve progress from the database.");
       });
   }, []); // eslint-disable-line
 
@@ -60,7 +60,7 @@ function App() {
             error.response.data.message
           );
         } else {
-          console.error("getDemo error", error.response.data);
+          console.error("getDemo error", error);
         }
         toast.error("Failed to retrieve data from the database.");
       });
@@ -86,7 +86,7 @@ function App() {
     })
       .then((response) => {
         setRequest(null);
-        toast.success(response?.data);
+        response && toast.success(response?.data);
       })
       .catch(function (error) {
         if (error.response) {

@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
       if (error instanceof jwt.TokenExpiredError) {
         console.error("Refresh token expired");
         return res
-          .status(403)
+          .status(401)
           .json({ message: "Your session has expired. Please log in" });
       }
 
