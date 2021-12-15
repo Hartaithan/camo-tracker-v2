@@ -4,6 +4,7 @@
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
 }
 
 html,
@@ -17,6 +18,15 @@ body {
   background: #121212;
 }
 
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url("img/vanguard-bg.jpg") url("img/coldwar-bg.jpg");
+}
+
 img {
   width: 100%;
   margin-bottom: 30px;
@@ -27,6 +37,16 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: #121212;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.filler {
+  height: 100%;
+  flex-grow: 1;
+  background: black;
+  opacity: 0.7;
 }
 
 .item {
@@ -34,8 +54,26 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 400px;
+  background: black;
+  opacity: 0.7;
+  border: 2px solid transparent;
+  border-width: 0 2px 0 2px;
+  box-sizing: content-box;
+  border-image: transparent;
+}
+
+.item:hover {
   width: 500px;
-  transition: all 0.5s ease-in-out;
+  background: transparent;
+  opacity: 1;
+  border-image: linear-gradient(
+      rgba(0, 0, 0, 0) 20%,
+      rgba(255, 255, 255, 0.5) 40%,
+      rgba(255, 255, 255, 0.5) 60%,
+      rgba(0, 0, 0, 0) 80%
+    )
+    1;
 }
 
 .item-center {
