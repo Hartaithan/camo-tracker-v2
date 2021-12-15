@@ -5,7 +5,6 @@ function setBackground(src) {
   document.getElementById(
     "wrapper"
   ).style.backgroundImage = `url(./img/${src})`;
-  console.log(document.getElementById("wrapper"));
 }
 
 setBackground("vanguard-bg.jpg");
