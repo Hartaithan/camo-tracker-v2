@@ -24,7 +24,7 @@ body::after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url("img/vanguard-bg.jpg") url("img/coldwar-bg.jpg");
+  content: url("./img/vanguard-bg.jpg") url("./img/coldwar-bg.jpg");
 }
 
 img {

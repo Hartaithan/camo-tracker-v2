@@ -1,8 +1,8 @@
-new Image().src = "img/vanguard-bg.jpg";
-new Image().src = "img/coldwar-bg.jpg";
+new Image().src = "./img/vanguard-bg.jpg";
+new Image().src = "./img/coldwar-bg.jpg";
 
 function setBackground(src) {
-  document.getElementById("wrapper").style.backgroundImage = `url(img/${src})`;
+  document.getElementById("wrapper").style.backgroundImage = `url(./img/${src})`;
 }
 
 setBackground("vanguard-bg.jpg");
