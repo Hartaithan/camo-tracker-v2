@@ -63,7 +63,8 @@ img {
   border-image: transparent;
 }
 
-.item:hover {
+.item:hover,
+.item.active {
   width: 500px;
   background: transparent;
   opacity: 1;
@@ -122,12 +123,6 @@ img {
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column;
-  }
-  .item {
-    width: 50%;
-  }
-  .item:first-child {
-    margin-bottom: 20px;
   }
 }
 
