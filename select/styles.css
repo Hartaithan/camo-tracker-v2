@@ -27,6 +27,10 @@ body::after {
   content: url("./img/vanguard-bg.jpg") url("./img/coldwar-bg.jpg");
 }
 
+div#preload {
+  display: none;
+}
+
 img {
   width: 100%;
   margin-bottom: 30px;
@@ -93,7 +97,6 @@ img {
   padding: 5px;
   color: #ffffff;
   font-weight: 500;
-  transition: all 0.2s ease-in-out;
 }
 
 .link:not(:last-child) {
