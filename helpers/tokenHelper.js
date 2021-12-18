@@ -4,7 +4,7 @@ const Token = require("../models/token");
 
 function generateAccessToken(userId) {
   return jwt.sign({ userId, type: "access" }, process.env.JWT_TOKEN, {
-    expiresIn: "15s",
+    expiresIn: "15m",
   });
 }
 
@@ -13,7 +13,7 @@ function generateRefreshToken(userId) {
   return {
     id,
     token: jwt.sign({ id, userId, type: "refresh" }, process.env.JWT_TOKEN, {
-      expiresIn: "1m",
+      expiresIn: "30d",
     }),
   };
 }
