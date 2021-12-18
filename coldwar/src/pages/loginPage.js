@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
 import toast from "react-hot-toast";
 import { EmailIcon, PasswordIcon } from "../components/svg";
-import { Auth } from "../api";
+import API from "../api";
 
 function LoginPage() {
   const app = useSelector((state) => state.app);
@@ -17,8 +17,7 @@ function LoginPage() {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    await Auth()
-      .post("/auth/login", JSON.stringify(data))
+    await API.post("/auth/login", JSON.stringify(data))
       .then((response) => {
         dispatch({
           type: "LOG_IN",

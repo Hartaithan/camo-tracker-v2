@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { Link, useHistory } from "react-router-dom";
 import toast from "react-hot-toast";
 import { EmailIcon, NickIcon, PasswordIcon } from "../components/svg";
-import { Auth } from "../api";
+import API from "../api";
 
 function RegisterPage() {
   const app = useSelector((state) => state.app);
@@ -16,8 +16,7 @@ function RegisterPage() {
 
   const onSubmit = async (data) => {
     setLoading(true);
-    await Auth()
-      .post("/auth/register", JSON.stringify(data))
+    await API.post("/auth/register", JSON.stringify(data))
       .then((response) => {
         if (!response.data.message) {
           toast.success(response.data);

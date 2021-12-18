@@ -4,29 +4,19 @@ import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { Modal } from "react-bootstrap";
 import { toast } from "react-hot-toast";
-import { API } from "../api";
+import API from "../api";
 
 function ConfirmModal() {
   const history = useHistory();
-  const { token, refresh_token } = useSelector((state) => state.user);
+  const { token } = useSelector((state) => state.user);
   const { modals } = useSelector((state) => state.app);
   const dispatch = useDispatch();
 
-  const getResetAfterRefresh = React.useCallback(async () => {
-    API()
-      .get("/data/reset")
-      .then((response) => {
-        dispatch({ type: "SYNC_DATA", state: response.data.state });
-        toast.success(response?.data.message);
-      });
-  }, [dispatch]);
-
   const resetData = React.useCallback(async () => {
-    await API()
-      .get("/data/reset")
+    await API.get("/data/reset")
       .then((response) => {
         dispatch({ type: "SYNC_DATA", state: response.data.state });
-        toast.success(response?.data.message);
+        response && toast.success(response?.data.message);
       })
       .catch(function (error) {
         if (error.response) {
@@ -38,25 +28,6 @@ function ConfirmModal() {
           }
           toast.error("Unable resetting progress... ");
           console.error("resetData error.resonse", error.response);
-        }
-        if (error.response.data.isExpired) {
-          API()
-            .post("/refresh", { refresh_token })
-            .then((response) => {
-              dispatch({
-                type: "UPDATE_TOKENS",
-                token: response.data.token,
-                refresh_token: response.data.refresh_token,
-              });
-              getResetAfterRefresh();
-            })
-            .catch(function (error) {
-              toast.error(error.response.data.message || "Authorization error");
-              console.error("refresh error", error.response.data);
-              dispatch({ type: "LOG_OUT" });
-              localStorage.removeItem("coldwar");
-              history.push("/login");
-            });
         }
       });
   }, [token]); // eslint-disable-line

@@ -1,6 +1,6 @@
 import "./styles/App.scss";
 import React from "react";
-import { Redirect, Route, Switch, useHistory } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Spinner } from "react-bootstrap";
 import { toast } from "react-hot-toast";
@@ -17,30 +17,18 @@ import SettingsComponent from "./components/settingsComponent";
 import ConfirmModal from "./components/confirmModal";
 import PublicPage from "./pages/publicPage";
 import DemoBadge from "./components/demoBadge";
-import { API } from "./api";
+import API from "./api";
 
 function App() {
   const dispatch = useDispatch();
-  const history = useHistory();
   const main = useSelector((state) => state.main);
-  const { isAuth, isDemo, refresh_token } = useSelector((state) => state.user);
+  const { isAuth, isDemo } = useSelector((state) => state.user);
   const [request, setRequest] = React.useState(null);
   const isFirstRun = React.useRef(true);
   const [isFirstUpdate, setFirstUpdate] = React.useState(true);
 
-  const getDataAfterRefresh = React.useCallback(async () => {
-    API()
-      .get("/data/get")
-      .then((response) => {
-        dispatch({ type: "SYNC_DATA", state: response.data });
-        toast.success("Progress from the database is received.");
-        setFirstUpdate(false);
-      });
-  }, [dispatch]);
-
   const getData = React.useCallback(async () => {
-    await API()
-      .get("/data/get")
+    await API.get("/data/get")
       .then((response) => {
         dispatch({ type: "SYNC_DATA", state: response.data });
         toast.success("Progress from the database is received.");
@@ -56,31 +44,11 @@ function App() {
           console.error("getData error", error.response.data);
           toast.error("Failed to retrieve progress from the database.");
         }
-        if (error.response.data.isExpired) {
-          API()
-            .post("/refresh", { refresh_token })
-            .then((response) => {
-              dispatch({
-                type: "UPDATE_TOKENS",
-                token: response.data.token,
-                refresh_token: response.data.refresh_token,
-              });
-              getDataAfterRefresh();
-            })
-            .catch(function (error) {
-              toast.error(error.response.data.message || "Authorization error");
-              console.error("refresh error", error.response.data);
-              dispatch({ type: "LOG_OUT" });
-              localStorage.removeItem("coldwar");
-              history.push("/login");
-            });
-        }
       });
-  }, [refresh_token, dispatch, getDataAfterRefresh, history]);
+  }, []); // eslint-disable-line
 
   const getDemo = React.useCallback(async () => {
-    await API()
-      .get("/data/demo")
+    await API.get("/data/demo")
       .then((response) => {
         dispatch({ type: "SYNC_DATA", state: response.data });
         setFirstUpdate(false);
@@ -96,7 +64,7 @@ function App() {
           toast.error("Failed to retrieve data from the database.");
         }
       });
-  }, [dispatch]);
+  }, []); // eslint-disable-line
 
   React.useEffect(() => {
     if (isAuth) {
@@ -113,10 +81,9 @@ function App() {
     if (request) {
       request.cancel();
     }
-    await API()
-      .post("/data/sync", JSON.stringify(main), {
-        cancelToken: source.token,
-      })
+    await API.post("/data/sync", JSON.stringify(main), {
+      cancelToken: source.token,
+    })
       .then((response) => {
         setRequest(null);
         toast.success(response?.data);
