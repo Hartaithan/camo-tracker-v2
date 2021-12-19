@@ -56,55 +56,43 @@ function WeaponPage() {
 
   function calcPerc(id_camocat) {
     let array = [];
-    if (id_camocat === 1) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(0, 10);
-    } else if (id_camocat === 2) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        10,
-        20
-      );
-    } else if (id_camocat === 3) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        20,
-        30
-      );
-    } else if (id_camocat === 4) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        30,
-        40
-      );
-    } else if (id_camocat === 5) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        40,
-        50
-      );
-    } else if (id_camocat === 6) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        50,
-        60
-      );
-    } else if (id_camocat === 7) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        60,
-        70
-      );
-    } else if (id_camocat === 8) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        70,
-        80
-      );
-    } else if (id_camocat === 9) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        80,
-        90
-      );
-    } else if (id_camocat === 10) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        90,
-        100
-      );
-    } else if (id_camocat === 11) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast];
+    const selectedArray = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast];
+    switch (id_camocat) {
+      case 1:
+        array = selectedArray.slice(0, 10);
+        break;
+      case 2:
+        array = selectedArray.slice(10, 20);
+        break;
+      case 3:
+        array = selectedArray.slice(20, 30);
+        break;
+      case 4:
+        array = selectedArray.slice(30, 40);
+        break;
+      case 5:
+        array = selectedArray.slice(40, 50);
+        break;
+      case 6:
+        array = selectedArray.slice(50, 60);
+        break;
+      case 7:
+        array = selectedArray.slice(60, 70);
+        break;
+      case 8:
+        array = selectedArray.slice(70, 80);
+        break;
+      case 9:
+        array = selectedArray.slice(80, 90);
+        break;
+      case 10:
+        array = selectedArray.slice(90, 100);
+        break;
+      case 11:
+        array = selectedArray;
+        break;
+      default:
+        break;
     }
     const percentage = (array.filter(Boolean).length / array.length) * 100;
     return Math.round(percentage) + "%";

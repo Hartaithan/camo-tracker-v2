@@ -56,37 +56,34 @@ function WeaponPage() {
 
   function calcPerc(id_camocat) {
     let array = [];
-    if (id_camocat === 1) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(0, 5);
-    } else if (id_camocat === 2) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(5, 10);
-    } else if (id_camocat === 3) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        10,
-        15
-      );
-    } else if (id_camocat === 4) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        15,
-        20
-      );
-    } else if (id_camocat === 5) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        20,
-        25
-      );
-    } else if (id_camocat === 6) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        25,
-        30
-      );
-    } else if (id_camocat === 7) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast].slice(
-        30,
-        35
-      );
-    } else if (id_camocat === 8) {
-      array = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast];
+    const selectedArray = main[id_cat - 1].weapons[id_weap - 1].camos[id_mast];
+    switch (id_camocat) {
+      case 1:
+        array = selectedArray.slice(0, 5);
+        break;
+      case 2:
+        array = selectedArray.slice(5, 10);
+        break;
+      case 3:
+        array = selectedArray.slice(10, 15);
+        break;
+      case 4:
+        array = selectedArray.slice(15, 20);
+        break;
+      case 5:
+        array = selectedArray.slice(20, 25);
+        break;
+      case 6:
+        array = selectedArray.slice(25, 30);
+        break;
+      case 7:
+        array = selectedArray.slice(30, 35);
+        break;
+      case 8:
+        array = selectedArray;
+        break;
+      default:
+        break;
     }
     const percentage = (array.filter(Boolean).length / array.length) * 100;
     return Math.round(percentage) + "%";
