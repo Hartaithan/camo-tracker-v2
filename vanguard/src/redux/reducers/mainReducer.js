@@ -1,27 +1,23 @@
 const mainReducer = (state = [], action) => {
   const baseNumWeapon = [7, 6, 4, 4, 3, 3, 5, 4, 2];
-  let selectedArray = [];
+  const selWeapon =
+    action.id_cat && state[action.id_cat - 1].weapons[action.id_weap - 1];
+  const selCategory = action.id_cat && state[action.id_cat - 1].weapons;
+  let selArray = [];
   let n = 0;
   switch (action.type) {
     case "TOGGLE_CAMO":
       // CHANGING EXACT CAMO ON TRUE
-      selectedArray =
-        state[action.id_cat - 1].weapons[action.id_weap - 1].camos[
-          action.id_mast
-        ];
-      selectedArray[action.id_camo - 1] = !selectedArray[action.id_camo - 1];
+      selArray = selWeapon.camos[action.id_mast];
+      selArray[action.id_camo - 1] = !selArray[action.id_camo - 1];
       // CHANGING WEAPON ON COMPLETE IF ALL CAMOS TRUE
-      if (selectedArray.filter(Boolean).length === selectedArray.length) {
-        state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
-          action.id_mast
-        ] = true;
+      if (selArray.filter(Boolean).length === selArray.length) {
+        selWeapon.completed[action.id_mast] = true;
       } else {
-        state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
-          action.id_mast
-        ] = false;
+        selWeapon.completed[action.id_mast] = false;
       }
       // CHANGING CATEGORY ON COMPLETE IF ALL WEAPONS TRUE
-      state[action.id_cat - 1].weapons.map((weapon) => {
+      selCategory.map((weapon) => {
         if (weapon.dlc === false) {
           if (weapon.completed[action.id_mast] === true) {
             n++;
@@ -37,24 +33,18 @@ const mainReducer = (state = [], action) => {
       return [...state];
     case "TOGGLE_WEAPON":
       // CHANGING EXACT WEAPON ON TRUE
-      state[action.id_cat - 1].weapons[action.id_weap - 1].camos[
-        action.id_mast
-      ] =
+      selWeapon.camos[action.id_mast] =
         action.id_cat === "8" || action.id_cat === "9"
           ? new Array(50).fill(true)
           : new Array(100).fill(true);
       // CHANGING WEAPON ON COMPLETE IF ALL CAMOS TRUE
-      if (selectedArray.filter(Boolean).length === selectedArray.length) {
-        state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
-          action.id_mast
-        ] = true;
+      if (selArray.filter(Boolean).length === selArray.length) {
+        selWeapon.completed[action.id_mast] = true;
       } else {
-        state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
-          action.id_mast
-        ] = false;
+        selWeapon.completed[action.id_mast] = false;
       }
       // CHANGING CATEGORY ON COMPLETE IF ALL WEAPONS TRUE
-      state[action.id_cat - 1].weapons.map((weapon) => {
+      selCategory.map((weapon) => {
         if (weapon.dlc === false) {
           if (weapon.completed[action.id_mast] === true) {
             n++;
@@ -69,10 +59,7 @@ const mainReducer = (state = [], action) => {
       }
       return [...state];
     case "TOGGLE_CAMO_CATEG":
-      const currArray =
-        state[action.id_cat - 1].weapons[action.id_weap - 1].camos[
-          action.id_mast
-        ];
+      const currArray = selWeapon.camos[action.id_mast];
       const completed = new Array(10).fill(true);
       switch (action.id_camo_cat) {
         case 1:
@@ -110,16 +97,12 @@ const mainReducer = (state = [], action) => {
       }
       // CHANGING WEAPON ON COMPLETE IF ALL CAMOS TRUE
       if (currArray.filter(Boolean).length === currArray.length) {
-        state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
-          action.id_mast
-        ] = true;
+        selWeapon.completed[action.id_mast] = true;
       } else {
-        state[action.id_cat - 1].weapons[action.id_weap - 1].completed[
-          action.id_mast
-        ] = false;
+        selWeapon.completed[action.id_mast] = false;
       }
       // CHANGING CATEGORY ON COMPLETE IF ALL WEAPONS TRUE
-      state[action.id_cat - 1].weapons.map((weapon) => {
+      selCategory.map((weapon) => {
         if (weapon.dlc === false) {
           if (weapon.completed[action.id_mast] === true) {
             n++;
