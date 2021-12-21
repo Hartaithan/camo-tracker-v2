@@ -126,6 +126,24 @@ img {
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column;
+    background-position: center;
+    background-image: url("./img/vanguard-bg.jpg") !important;
+    background-position-x: 65%;
+  }
+  .item {
+    height: 400px;
+    min-height: 400px;
+    width: 100% !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    opacity: 1;
+    border: none !important;
+    box-sizing: content-box;
+    border-image: transparent;
+  }
+  .filler {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6) !important;
+    opacity: 1;
   }
 }
 
