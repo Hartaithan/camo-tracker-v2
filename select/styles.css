@@ -148,4 +148,21 @@ img {
 }
 
 @media (max-width: 576px) {
+  .item {
+    height: 300px;
+    min-height: 300px;
+  }
+  .item-center {
+    width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .item {
+    height: 40%;
+    min-height: 40%;
+  }
+  img {
+    margin-bottom: 20px;
+  }
 }
