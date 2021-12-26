@@ -1,7 +1,10 @@
 module.exports = (req, res, next) => {
+  if (req.method === "OPTIONS") {
+    return next();
+  }
+
   try {
-    const appName = req.headers.appname;
-    if (appName) {
+    if (req.headers.appname) {
       return next();
     } else {
       console.error("appName header not found.");

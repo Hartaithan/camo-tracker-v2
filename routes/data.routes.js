@@ -3,8 +3,9 @@ const User = require("../models/user");
 const Data = require("../models/data");
 const router = Router();
 const auth = require("../middleware/auth.middleware");
+const appName = require("../middleware/appName.middleware");
 
-router.get("/get", auth, async (req, res) => {
+router.get("/get", auth, appName, async (req, res) => {
   try {
     const appName = req.headers.appname;
     const data = await User.find({ _id: req.user.userId });
@@ -31,7 +32,7 @@ router.get("/get", auth, async (req, res) => {
   }
 });
 
-router.get("/demo", async (req, res) => {
+router.get("/demo", appName, async (req, res) => {
   try {
     const appName = req.headers.appname;
     const { main } = await Data.findOne({ name: appName });
@@ -46,7 +47,7 @@ router.get("/demo", async (req, res) => {
   }
 });
 
-router.post("/sync", auth, async (req, res) => {
+router.post("/sync", auth, appName, async (req, res) => {
   try {
     await syncData(req, res);
   } catch (e) {
@@ -55,7 +56,7 @@ router.post("/sync", auth, async (req, res) => {
   }
 });
 
-router.get("/reset", auth, async (req, res) => {
+router.get("/reset", auth, appName, async (req, res) => {
   try {
     await resetData(req, res);
   } catch (e) {
