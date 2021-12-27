@@ -77,8 +77,8 @@ API.interceptors.response.use(
           return Promise.reject(error);
         });
     } else {
-      console.error("response interceptor error", error.response);
-      toast.error(error?.response.message || "Something went wrong...");
+      console.error("response interceptor error", error.response.data);
+      toast.error(error?.response.data.message || "Something went wrong...");
       handleLogOut();
       return Promise.reject(error);
     }
