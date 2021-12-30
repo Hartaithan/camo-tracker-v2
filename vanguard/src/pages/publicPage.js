@@ -16,27 +16,25 @@ function PublicPage() {
     const nums = [];
     while (nums.length < 23) {
       const type = getRandNum(100) & 1 ? "at" : "da";
-      const first = getRandNum(8);
-      const second = getRandNum(5);
+      const first = getRandNum(10);
+      const second = getRandNum(10);
       const pretendent = `${type}/${first}_${second}`;
       if (!nums.includes(pretendent)) {
-        if (!["at/8_4", "at/8_5", "da/8_4", "da/8_5"].includes(pretendent)) {
-          nums.push(`${type}/${first}_${second}`);
-          itemsStart.push(
-            <img
-              src={`img/${pretendent}.png`}
-              key={`line-${lineNum}-start/${pretendent}`}
-              alt="random img"
-            />
-          );
-          itemsEnd.push(
-            <img
-              src={`img/${pretendent}.png`}
-              key={`line-${lineNum}-end/${pretendent}`}
-              alt="random img"
-            />
-          );
-        }
+        nums.push(`${type}/${first}_${second}`);
+        itemsStart.push(
+          <img
+            src={`img/${pretendent}.png`}
+            key={`line-${lineNum}-start/${pretendent}`}
+            alt="random img"
+          />
+        );
+        itemsEnd.push(
+          <img
+            src={`img/${pretendent}.png`}
+            key={`line-${lineNum}-end/${pretendent}`}
+            alt="random img"
+          />
+        );
       }
     }
     return itemsStart.concat(itemsEnd);
