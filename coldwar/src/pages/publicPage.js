@@ -6,25 +6,20 @@ import { Link } from "react-router-dom";
 function PublicPage() {
   const dispatch = useDispatch();
 
-  function getRandNum(min, max) {
-    return Math.floor(Math.random() * (max - min) + min);
+  function getRandNum(max) {
+    return Math.floor(Math.random() * max) + 1;
   }
 
   function randomImages() {
     const items = [];
     const nums = [];
     while (items.length < 23) {
-      const type = getRandNum(0, 100) & 1 ? "dm" : "da";
-      const first = getRandNum(1, 9);
-      const second = getRandNum(1, 6);
+      const type = getRandNum(100) & 1 ? "dm" : "da";
+      const first = getRandNum(8);
+      const second = getRandNum(5);
       const pretendent = `${type}/${first}_${second}`;
       if (nums.includes(pretendent) === false) {
-        if (
-          pretendent !== "dm/8_4" &&
-          pretendent !== "dm/8_5" &&
-          pretendent !== "da/8_4" &&
-          pretendent !== "da/8_5"
-        ) {
+        if (!pretendent.includes[("dm/8_4", "dm/8_5", "da/8_4", "da/8_5")]) {
           nums.push(`${type}/${first}_${second}`);
           items.push(<img src={`img/${pretendent}.png`} alt="random img" />);
         }
