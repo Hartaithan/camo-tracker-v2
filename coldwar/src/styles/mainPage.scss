@@ -8,8 +8,12 @@
     align-items: center;
     height: calc(100% - 50px);
     overflow: auto;
-    &_left {
+    &_left,
+    &_right {
       height: 100%;
+      min-width: 1px;
+    }
+    &_left {
       display: flex;
       flex-direction: column;
       flex: 65;
@@ -73,7 +77,6 @@
       }
     }
     &_right {
-      height: 100%;
       display: grid;
       grid-template-rows: repeat(4, 25%);
       flex: 35;
@@ -82,7 +85,12 @@
       &_circlecontainer {
         height: 100%;
         display: flex;
+        min-width: 1px;
         flex: 25;
+        &_wrapper,
+        &_text {
+          min-width: 1px;
+        }
         &_wrapper {
           position: relative;
           display: flex;
