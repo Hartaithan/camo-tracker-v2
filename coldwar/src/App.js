@@ -67,11 +67,11 @@ function App() {
   }, []); // eslint-disable-line
 
   React.useEffect(() => {
-    if (isAuth) {
-      getData();
-    }
-    if (isDemo) {
+    if (isAuth && isDemo) {
       getDemo();
+    }
+    if (isAuth && !isDemo) {
+      getData();
     }
   }, [isAuth]); // eslint-disable-line
 
