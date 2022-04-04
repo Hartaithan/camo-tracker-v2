@@ -106,13 +106,15 @@ function App() {
   React.useEffect(() => {
     if (isFirstRun.current) {
       isFirstRun.current = false;
-    } else {
-      if (isAuth && !isDemo) {
-        if (!isFirstUpdate) {
-          syncData();
-        }
-      }
+      return;
     }
+    if (!isAuth && isDemo) {
+      return;
+    }
+    if (isFirstUpdate) {
+      return;
+    }
+    syncData();
   }, [main]); // eslint-disable-line
 
   // window.addEventListener("beforeunload", (ev) => {
