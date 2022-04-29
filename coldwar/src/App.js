@@ -76,6 +76,9 @@ function App() {
   }, [isAuth]); // eslint-disable-line
 
   const syncData = React.useCallback(async () => {
+    if (!isAuth) {
+      return;
+    }
     const source = axios.CancelToken.source();
     setRequest(source);
     if (request) {
@@ -101,14 +104,14 @@ function App() {
           console.error("syncData error.resonse", error.response);
         }
       });
-  }, [request, main]);
+  }, [main]); // eslint-disable-line
 
   React.useEffect(() => {
     if (isFirstRun.current) {
       isFirstRun.current = false;
       return;
     }
-    if (!isAuth && isDemo) {
+    if (isDemo) {
       return;
     }
     if (isFirstUpdate) {

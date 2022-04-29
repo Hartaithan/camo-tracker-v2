@@ -19,6 +19,7 @@ const userReducer = (state = initialState, action) => {
         email: action.email,
         nick: action.nick,
         isAuth: true,
+        isDemo: false,
       };
     case "DEMO_IN":
       return {
