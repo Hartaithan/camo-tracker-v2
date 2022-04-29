@@ -76,9 +76,6 @@ function App() {
   }, [isAuth]); // eslint-disable-line
 
   const syncData = React.useCallback(async () => {
-    if (!isAuth) {
-      return;
-    }
     const source = axios.CancelToken.source();
     setRequest(source);
     if (request) {
@@ -111,10 +108,7 @@ function App() {
       isFirstRun.current = false;
       return;
     }
-    if (isDemo) {
-      return;
-    }
-    if (isFirstUpdate) {
+    if (isDemo || isFirstUpdate || !isAuth) {
       return;
     }
     syncData();
