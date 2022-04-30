@@ -49,6 +49,7 @@ API.interceptors.response.use(
               switch (error.config.url) {
                 case "/data/get":
                   store.dispatch({ type: "SYNC_DATA", state: response.data });
+                  store.dispatch({ type: "SET_FIRST_UPDATE" });
                   toast.success("Progress from the database is received.");
                   break;
                 case "/data/sync":

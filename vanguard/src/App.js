@@ -22,17 +22,17 @@ import API from "./api";
 function App() {
   const dispatch = useDispatch();
   const main = useSelector((state) => state.main);
+  const { isFirstUpdate } = useSelector((state) => state.app);
   const { isAuth, isDemo } = useSelector((state) => state.user);
   const [request, setRequest] = React.useState(null);
   const isFirstRun = React.useRef(true);
-  const [isFirstUpdate, setFirstUpdate] = React.useState(true);
 
   const getData = React.useCallback(async () => {
     await API.get("/data/get")
       .then((response) => {
         dispatch({ type: "SYNC_DATA", state: response.data });
+        dispatch({ type: "SET_FIRST_UPDATE" });
         toast.success("Progress from the database is received.");
-        setFirstUpdate(false);
       })
       .catch((error) => {
         if (error.response) {
@@ -51,13 +51,13 @@ function App() {
     await API.get("/data/demo")
       .then((response) => {
         dispatch({ type: "SYNC_DATA", state: response.data });
-        setFirstUpdate(false);
+        dispatch({ type: "SET_FIRST_UPDATE" });
       })
       .catch((error) => {
-        if (error.response.data.message) {
+        if (error.response?.data.message) {
           console.error(
             "getDemo error with message",
-            error.response.data.message
+            error.response?.data.message
           );
         } else {
           console.error("getDemo error", error);

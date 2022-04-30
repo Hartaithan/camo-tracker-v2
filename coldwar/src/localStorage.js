@@ -4,7 +4,8 @@ export const loadState = () => {
     if (serializedState === null) {
       return undefined;
     }
-    return JSON.parse(serializedState);
+    const parsedState = JSON.parse(serializedState);
+    return { ...parsedState, app: { ...parsedState.app, isFirstUpdate: true } };
   } catch (err) {
     return undefined;
   }

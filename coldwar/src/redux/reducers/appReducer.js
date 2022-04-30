@@ -1,6 +1,7 @@
 const initialState = {
   isOpen: false,
   isActive: "dm",
+  isFirstUpdate: true,
   collapsibleIsOpen: {
     dm: [false, false, false, false, false, false, false, false, false, false],
     da: [false, false, false, false, false, false, false, false, false, false],
@@ -68,6 +69,8 @@ const appReducer = (state = initialState, action) => {
           isReset: false,
         },
       };
+    case "SET_FIRST_UPDATE":
+      return { ...state, isFirstUpdate: false };
     default:
       return state;
   }
