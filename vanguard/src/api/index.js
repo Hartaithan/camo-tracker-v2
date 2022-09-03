@@ -2,8 +2,12 @@ import axios from "axios";
 import store from "../redux";
 import { toast } from "react-hot-toast";
 
+const isDev = !process.env.NODE_ENV || process.env.NODE_ENV === "development";
+
 const conf = {
-  baseURL: "https://camo-tracker-hartaithan.vercel.app/api",
+  baseURL: isDev
+    ? process.env.REACT_APP_API_URL
+    : "https://camo-tracker-hartaithan.vercel.app/api",
 };
 
 const API = axios.create(conf);
