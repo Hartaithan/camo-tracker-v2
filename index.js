@@ -15,7 +15,7 @@ app.use("/api/data", require("./routes/data.routes"));
 app.use("/api/refresh", require("./routes/refresh.routes"));
 
 if (process.env.NODE_ENV === "production") {
-  app.use("/", express.static(path.join(__dirname, "select", "index.html")));
+  app.use("/", express.static(path.join(__dirname, "./select")));
   app.use("/coldwar", express.static(path.join(__dirname, "coldwar", "build")));
   app.use(
     "/vanguard",

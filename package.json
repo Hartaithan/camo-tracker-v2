@@ -15,7 +15,8 @@
     "vanguard": "npm start --prefix vanguard",
     "dev": "concurrently \"npm run server\" \"npm run coldwar\" \"npm run vanguard\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix coldwar && npm run build --prefix coldwar && npm install --prefix vanguard && npm run build --prefix vanguard",
-    "build": "npm run build --prefix coldwar && npm run build --prefix vanguard"
+    "build-c": "npm run build --prefix coldwar",
+    "build-v": "npm run build --prefix vanguard"
   },
   "author": "Hartaithan.",
   "license": "ISC",
