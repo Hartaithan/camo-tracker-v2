@@ -15,11 +15,11 @@ app.use("/api/data", require("./routes/data.routes"));
 app.use("/api/refresh", require("./routes/refresh.routes"));
 
 if (process.env.NODE_ENV === "production") {
-  app.use("/", express.static(path.join(__dirname, "./select")));
-  app.use("/coldwar", express.static(path.join(__dirname, "./coldwar/build")));
+  app.use("/", express.static(path.join(__dirname, "select", "index.html")));
+  app.use("/coldwar", express.static(path.join(__dirname, "coldwar", "build")));
   app.use(
     "/vanguard",
-    express.static(path.join(__dirname, "./vanguard/build"))
+    express.static(path.join(__dirname, "vanguard", "build"))
   );
   app.get("/", function (req, res) {
     res.sendFile(path.resolve(__dirname, "select", "index.html"));
