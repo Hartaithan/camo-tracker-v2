@@ -8,7 +8,7 @@ import store from "./redux";
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
       <React.StrictMode>
         <Toaster
           position="bottom-right"
